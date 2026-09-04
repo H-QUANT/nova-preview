@@ -1,8 +1,26 @@
 {
   "product": "ExplosionOps",
   "publisher": "H.QUANT",
+  "preview_version": "2.0",
   "surface": "colleague-preview",
+  "assistant_brand": {
+    "name": "NOVA AI",
+    "descriptor": "Market Intelligence Copilot"
+  },
   "data_mode": "demo-replay-not-live",
+  "authentication_mode": "client-side-review-gate-not-a-security-boundary",
+  "demo_credentials": {
+    "email": "reviewer@h-quant.ai",
+    "access_code": "NOVA-2026"
+  },
+  "features": [
+    "full-mvp-screen-set",
+    "responsive-login-screen",
+    "collapsible-sidebar",
+    "candidate-to-instrument-navigation",
+    "github-brand-icon",
+    "feedback-issue-link"
+  ],
   "feedback_issue": "https://github.com/H-QUANT/explosion-ops-preview/issues/1",
   "search_indexing": false,
   "source_repository_visibility": "private",
