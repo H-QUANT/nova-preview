@@ -49,7 +49,24 @@
         const binary = atob(chunks.join(''));
         const bytes = Uint8Array.from(binary, char => char.charCodeAt(0));
         const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
-        const html = await new Response(stream).text();
+        let html = await new Response(stream).text();
+        html = html
+          .replaceAll('ExplosionOps · H.QUANT Preview', 'H-QUANT NOVA · Research Preview')
+          .replaceAll('ExplosionOps — NOVA AI', 'H-QUANT NOVA — NOVA AI')
+          .replaceAll('ExplosionOps 소개', 'H-QUANT NOVA 소개')
+          .replaceAll('ExplosionOps 홈', 'H-QUANT NOVA 홈')
+          .replaceAll('ExplosionOps 리뷰', 'H-QUANT NOVA 리뷰')
+          .replaceAll('ExplosionOps 동료 리뷰', 'H-QUANT NOVA 동료 리뷰')
+          .replaceAll('H-QUANT/explosion-ops-preview', 'H-QUANT/nova-preview')
+          .replaceAll('/explosion-ops-preview/', '/nova-preview/')
+          .replaceAll('explosion-ops-preview', 'nova-preview')
+          .replaceAll("product:'ExplosionOps'", "product:'H-QUANT NOVA'")
+          .replaceAll("'explosionops.previewProfile.v1'", "'hquant.nova.previewProfile.v1'")
+          .replaceAll("'explosionops.previewSession.v1'", "'hquant.nova.previewSession.v1'")
+          .replaceAll("'explosionops.sidebarCollapsed'", "'hquant.nova.sidebarCollapsed'")
+          .replace('<span><strong>Explosion<b>Ops</b></strong><small>H.QUANT</small></span>', '<span><strong>H-QUANT <b>NOVA</b></strong><small>MARKET INTELLIGENCE</small></span>')
+          .replace('<span><strong>Explosion</strong><b>Ops</b><small>H.QUANT</small></span>', '<span><strong>H-QUANT</strong><b>NOVA</b><small>MARKET INTELLIGENCE</small></span>')
+          .replaceAll('<span>GitHub</span>', '<span>GitHub 로그</span>');
         document.open();
         document.write(html);
         document.close();
