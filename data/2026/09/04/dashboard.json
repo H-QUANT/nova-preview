@@ -5,33 +5,32 @@
   "tradingDate": "2026-09-04",
   "marketTimezone": "Asia/Seoul",
   "publication": {
-    "publishedAt": "2026-09-04T16:50:00+09:00",
+    "publishedAt": "2026-09-04T09:58:22.781Z",
     "mode": "PUBLIC_AFTER_CLOSE",
-    "sourceRepository": "H-QUANT/explosion-ops",
-    "sourceCommit": "9553bcc09d842305783ef48e5c9fcc4939ae8593",
-    "recordHash": "c435859cec85247ce635dceb624f4a151bb5a965e9fc28a40cd75445578b24b6"
+    "sourceCommit": "6a878e714c0d6bc6b61665350b571297422f96ba",
+    "recordHash": "d9a143950ea672140aee771b5159135ffe15b14fbb84f0b43bdea3138012b404"
   },
   "dataQuality": {
-    "state": "PARTIAL",
-    "percent": 75,
+    "state": "INSUFFICIENT",
+    "percent": 0,
     "trainingEligible": false,
     "notes": [
       "DEMO_REPLAY",
+      "PUBLIC_SAMPLE",
       "INCOMPLETE_PUBLIC_MINUTE_DATA",
       "LESS_THAN_20_VALID_TRADING_DAYS",
-      "PUBLIC_SAMPLE"
+      "ONLY_DEMO_REPLAY_PUBLIC_SAMPLE_AVAILABLE",
+      "NO_ELIGIBLE_WEEKLY_FEEDBACK_RECORDS"
     ]
   },
   "model": {
     "championVersion": "ExplosionScore-v0.1",
-    "challengerVersion": "ExplosionScore-v0.2",
-    "promotionStatus": "INSUFFICIENT_DATA",
+    "challengerVersion": "ExplosionScore-v0.2-shadow",
     "scoringConfigHash": "explosion-score-v0.1-demo"
   },
   "prediction": {
     "snapshotAt": "2026-09-04T08:50:00+09:00",
     "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c",
-    "status": "FROZEN_R1",
     "recommended": [
       {
         "symbol": "108490",
@@ -84,11 +83,7 @@
         ]
       }
     ],
-    "proposedFeatureChanges": [
-      "FreshCatalystAge",
-      "ThemeLeaderScore",
-      "SmallCapElasticity"
-    ]
+    "proposedFeatureChanges": []
   },
   "stages": [
     {
@@ -112,6 +107,14 @@
       "asOf": "2026-09-04T16:40:00+09:00",
       "revision": 1,
       "dataQuality": "PARTIAL",
+      "trainingEligible": false,
+      "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
+    },
+    {
+      "recordType": "WEEKLY_MODEL_REVIEW",
+      "asOf": "2026-09-04T16:40:00+09:00",
+      "revision": 2,
+      "dataQuality": "INSUFFICIENT",
       "trainingEligible": false,
       "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
     }
