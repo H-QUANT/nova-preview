@@ -1,0 +1,10 @@
+{
+  "product": "ExplosionOps",
+  "publisher": "H.QUANT",
+  "surface": "colleague-preview",
+  "data_mode": "demo-replay-not-live",
+  "feedback_issue": "https://github.com/H-QUANT/explosion-ops-preview/issues/1",
+  "search_indexing": false,
+  "source_repository_visibility": "private",
+  "preview_repository_visibility": "public"
+}
