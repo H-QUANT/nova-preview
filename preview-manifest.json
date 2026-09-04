@@ -1,28 +1,31 @@
 {
-  "product": "ExplosionOps",
-  "publisher": "H.QUANT",
-  "preview_version": "2.0",
-  "surface": "colleague-preview",
+  "product": "H-QUANT NOVA",
+  "publisher": "H-QUANT",
+  "preview_version": "3.0-ledger",
+  "surface": "public-research-preview",
   "assistant_brand": {
     "name": "NOVA AI",
-    "descriptor": "Market Intelligence Copilot"
+    "descriptor": "Market Copilot",
+    "operating_loop": "Navigate · Observe · Validate · Adapt"
   },
-  "data_mode": "demo-replay-not-live",
+  "model_family": "ExplosionScore",
+  "data_mode": "public-after-close-research-ledger",
   "authentication_mode": "client-side-review-gate-not-a-security-boundary",
-  "demo_credentials": {
-    "email": "reviewer@h-quant.ai",
-    "access_code": "NOVA-2026"
-  },
   "features": [
     "full-mvp-screen-set",
     "responsive-login-screen",
     "collapsible-sidebar",
     "candidate-to-instrument-navigation",
     "github-brand-icon",
-    "feedback-issue-link"
+    "feedback-issue-link",
+    "date-addressable-research-ledger"
   ],
-  "feedback_issue": "https://github.com/H-QUANT/explosion-ops-preview/issues/1",
+  "data_index": "data/index.json",
+  "feedback_issue": "https://github.com/H-QUANT/nova-preview/issues/1",
+  "pages_url": "https://h-quant.github.io/nova-preview/",
   "search_indexing": false,
+  "source_repository": "H-QUANT/explosion-ops",
   "source_repository_visibility": "private",
-  "preview_repository_visibility": "public"
+  "preview_repository_visibility": "public",
+  "live_trading": false
 }
