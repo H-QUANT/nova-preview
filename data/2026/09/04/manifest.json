@@ -1,20 +1,21 @@
 {
   "schemaVersion": "nova-public-day-manifest-v1",
   "tradingDate": "2026-09-04",
-  "marketTimezone": "Asia/Seoul",
-  "publishedAt": "2026-09-04T11:07:51.528Z",
-  "dataQuality": "INSUFFICIENT",
+  "dashboardPath": "data/2026/09/04/dashboard.json",
+  "manifestPath": "data/2026/09/04/manifest.json",
+  "dataQuality": "FAILED",
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
-  "sourceCommit": "db44ca652d36ea076a8e64fd5987d162902d3b2b",
-  "recordHash": "1c64bf90e1d2cebc5a6ff71a337377eea7e6535481495dbe912d3d6373d775e2",
-  "dashboardPath": "data/2026/09/04/dashboard.json",
+  "publishedAt": "2026-09-05T11:07:00.832Z",
+  "recordHash": "20874096bbea8278dcaf00f151fc981877932a93799bfbbd35231a43df269772",
+  "dataOrigin": "DEMO_REPLAY",
+  "sourceIntegrity": "FAILED",
   "stages": [
     {
       "recordType": "PREOPEN_PREDICTION",
       "asOf": "2026-09-04T08:50:00+09:00",
       "revision": 1,
-      "dataQuality": "PARTIAL",
+      "dataQuality": "FAILED",
       "trainingEligible": false,
       "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
     },
@@ -22,7 +23,7 @@
       "recordType": "FIRST_HOUR_FEEDBACK",
       "asOf": "2026-09-04T10:10:00+09:00",
       "revision": 1,
-      "dataQuality": "PARTIAL",
+      "dataQuality": "FAILED",
       "trainingEligible": false,
       "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
     },
@@ -30,11 +31,12 @@
       "recordType": "WEEKLY_MODEL_REVIEW",
       "asOf": "2026-09-04T16:40:00+09:00",
       "revision": 2,
-      "dataQuality": "INSUFFICIENT",
+      "dataQuality": "FAILED",
       "trainingEligible": false,
       "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
     }
   ],
+  "sourceCommit": "2a7f27f8e58f02b5f8af6166ec502a60c358a7db",
   "missingStages": [
     "END_OF_DAY"
   ]

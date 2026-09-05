@@ -1,56 +1,51 @@
 {
   "schemaVersion": "nova-public-dashboard-v1",
+  "projectionVersion": "2.0.0",
   "workspace": "H-QUANT",
   "product": "H-QUANT NOVA",
   "tradingDate": "2026-09-04",
   "marketTimezone": "Asia/Seoul",
   "publication": {
-    "publishedAt": "2026-09-04T11:07:51.528Z",
+    "publishedAt": "2026-09-05T11:07:00.832Z",
     "mode": "PUBLIC_AFTER_CLOSE",
-    "sourceCommit": "db44ca652d36ea076a8e64fd5987d162902d3b2b",
-    "recordHash": "1c64bf90e1d2cebc5a6ff71a337377eea7e6535481495dbe912d3d6373d775e2"
+    "sourceCommit": "2a7f27f8e58f02b5f8af6166ec502a60c358a7db",
+    "recordHash": "20874096bbea8278dcaf00f151fc981877932a93799bfbbd35231a43df269772",
+    "dataOrigin": "DEMO_REPLAY",
+    "sourceIntegrity": "FAILED"
   },
   "dataQuality": {
-    "state": "INSUFFICIENT",
-    "percent": 40,
+    "state": "FAILED",
+    "percent": null,
+    "stageCompletionPercent": 66.66666666666666,
     "trainingEligible": false,
     "notes": [
+      "MANIFEST_HASH_MISMATCH:0850-preopen-prediction.json",
+      "MANIFEST_HASH_MISMATCH:1010-first-hour-feedback.json",
+      "MANIFEST_HASH_MISMATCH:1640-model-review.json",
+      "SOURCE_INTEGRITY_FAILURE",
+      "WHOLE_MARKET_METRICS_UNAVAILABLE",
       "DEMO_REPLAY",
       "PUBLIC_SAMPLE",
-      "INCOMPLETE_PUBLIC_MINUTE_DATA"
+      "INCOMPLETE_PUBLIC_MINUTE_DATA",
+      "LESS_THAN_20_VALID_TRADING_DAYS",
+      "ONLY_DEMO_REPLAY_PUBLIC_SAMPLE_AVAILABLE",
+      "NO_ELIGIBLE_WEEKLY_FEEDBACK_RECORDS"
     ]
   },
   "model": {
     "championVersion": "ExplosionScore-v0.1",
     "challengerVersion": "ExplosionScore-v0.2-shadow",
     "promotionStatus": "INSUFFICIENT_DATA",
-    "scoringConfigHash": "explosion-score-v0.1-demo"
+    "scoringConfigHash": "explosion-score-v0.1-demo",
+    "scoreSemantics": "UNCALIBRATED_RANKING_SCORE"
   },
   "prediction": {
     "snapshotAt": "2026-09-04T08:50:00+09:00",
     "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c",
-    "status": "FROZEN_R1",
-    "recommended": [
-      {
-        "symbol": "108490",
-        "name": "로보티즈",
-        "rank": 1,
-        "explosionProbability": 84.1,
-        "tradeability": 79.3,
-        "dataConfidence": 95.2,
-        "riskPenalty": 5.2,
-        "finalRankScore": 82.4,
-        "primaryCatalyst": "로봇·피지컬 AI 섹터 동반 수급",
-        "primaryRisk": "시초가 차익실현과 대형 유통시총"
-      }
-    ],
-    "riskRejected": [
-      {
-        "symbol": "294570",
-        "name": "쿠콘",
-        "reason": "EXCESSIVE_GAP"
-      }
-    ],
+    "status": "QUARANTINED",
+    "candidatePolicyVersion": null,
+    "recommended": [],
+    "riskRejected": [],
     "watchlist": []
   },
   "firstHour": {
@@ -58,30 +53,32 @@
     "metrics": {
       "hitRateAt5": null,
       "precisionAt5": null,
-      "ndcgAt5": null
+      "ndcgAt5": null,
+      "observedSubsetHitRateAt5": null,
+      "observedSubsetNdcgAt5": null,
+      "actionablePrecisionAt5": null,
+      "meanMfeRecommended": null,
+      "medianMaeRecommended": null,
+      "gapTrapRate": null
     },
-    "actualTopFive": [
-      {
-        "symbol": "048770",
-        "name": "TPC로보틱스",
-        "actualRank": 1,
-        "outcomeScore": 92.4
-      }
-    ]
+    "evaluation": {
+      "metricVersion": "LEGACY_UNVERIFIED",
+      "referenceScope": "OBSERVED_SUBSET",
+      "venue": null,
+      "wholeMarketCertified": false,
+      "referenceInstrumentCount": null,
+      "requestedSymbolCount": null,
+      "measuredOutcomeCount": null,
+      "issuedRecommendationCount": null,
+      "evaluatedRecommendationCount": null,
+      "recommendationCoverage": null
+    },
+    "actualTopFive": [],
+    "outcomes": []
   },
   "endOfDay": null,
   "feedback": {
-    "records": [
-      {
-        "symbol": "048770",
-        "type": "FALSE_NEGATIVE",
-        "rootCauses": [
-          "FRESH_CATALYST_UNDERSCORED",
-          "THEME_LEADER_SELECTION_MISSED",
-          "SMALL_CAP_ELASTICITY_UNDERSCORED"
-        ]
-      }
-    ],
+    "records": [],
     "proposedFeatureChanges": []
   },
   "stages": [
@@ -89,7 +86,7 @@
       "recordType": "PREOPEN_PREDICTION",
       "asOf": "2026-09-04T08:50:00+09:00",
       "revision": 1,
-      "dataQuality": "PARTIAL",
+      "dataQuality": "FAILED",
       "trainingEligible": false,
       "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
     },
@@ -97,7 +94,7 @@
       "recordType": "FIRST_HOUR_FEEDBACK",
       "asOf": "2026-09-04T10:10:00+09:00",
       "revision": 1,
-      "dataQuality": "PARTIAL",
+      "dataQuality": "FAILED",
       "trainingEligible": false,
       "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
     },
@@ -105,7 +102,7 @@
       "recordType": "WEEKLY_MODEL_REVIEW",
       "asOf": "2026-09-04T16:40:00+09:00",
       "revision": 2,
-      "dataQuality": "INSUFFICIENT",
+      "dataQuality": "FAILED",
       "trainingEligible": false,
       "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
     }
@@ -114,6 +111,7 @@
     "complete": false,
     "missingStages": [
       "END_OF_DAY"
-    ]
+    ],
+    "integrity": "FAILED"
   }
 }
