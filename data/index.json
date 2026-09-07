@@ -4,8 +4,8 @@
   "visibility": "PUBLIC_AFTER_CLOSE",
   "marketTimezone": "Asia/Seoul",
   "sourceRepository": "H-QUANT/explosion-ops",
-  "sourceCommit": "6d6a916988a9eb38265ed1b5e658ea81ec99fa58",
-  "generatedAt": "2026-09-07T09:40:05.148Z",
+  "sourceCommit": "2192bff8f9257ef16e4fbdc1dec5c0e393474c99",
+  "generatedAt": "2026-09-07T09:57:43.122Z",
   "latest": "2026-09-04",
   "days": [
     {
@@ -15,8 +15,8 @@
       "dataQuality": "FAILED",
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
-      "publishedAt": "2026-09-07T09:40:05.148Z",
-      "recordHash": "67f879ab8b20a43b08e317945b5639ae6957509863c2a8261692c9060d58c046",
+      "publishedAt": "2026-09-07T09:57:43.122Z",
+      "recordHash": "476c9c72669f4dfdddb3b3ccebaec8d2b686d5ccf659301fa291d7fcbc2a6b0c",
       "dataOrigin": "DEMO_REPLAY",
       "sourceIntegrity": "FAILED",
       "stages": [
