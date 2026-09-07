@@ -6,8 +6,8 @@
   "dataQuality": "FAILED",
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
-  "publishedAt": "2026-09-07T09:20:35.561Z",
-  "recordHash": "b4350d58d40d0fa9288bb6973d1fd748a7882c72a59094e4b9ee71ee8f1e670c",
+  "publishedAt": "2026-09-07T09:40:05.148Z",
+  "recordHash": "67f879ab8b20a43b08e317945b5639ae6957509863c2a8261692c9060d58c046",
   "dataOrigin": "DEMO_REPLAY",
   "sourceIntegrity": "FAILED",
   "stages": [
@@ -36,7 +36,7 @@
       "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
     }
   ],
-  "sourceCommit": "463b4fcae110fa74e753b5630f0c6da0b3da379b",
+  "sourceCommit": "6d6a916988a9eb38265ed1b5e658ea81ec99fa58",
   "missingStages": [
     "END_OF_DAY"
   ]
