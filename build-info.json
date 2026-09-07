@@ -2,7 +2,7 @@
   "product": "H-QUANT NOVA",
   "mode": "PUBLIC_RESEARCH_PREVIEW",
   "sourceRepository": "H-QUANT/explosion-ops",
-  "sourceCommit": "8ad8602eee4dfe505a3ba17b5b9d5282a9b55dd5",
-  "generatedAt": "2026-09-07T13:42:35Z",
+  "sourceCommit": "44ae4b5d4259d5c2a25c657f6e1427585713f870",
+  "generatedAt": "2026-09-07T14:51:17Z",
   "liveTrading": false
 }
