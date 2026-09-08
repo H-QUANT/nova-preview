@@ -1,8 +1,9 @@
 {
   "product": "H-QUANT NOVA",
   "mode": "PUBLIC_RESEARCH_PREVIEW",
+  "publicationPolicy": "STAGE_GATED_0850_1010_1540",
   "sourceRepository": "H-QUANT/explosion-ops",
-  "sourceCommit": "44ae4b5d4259d5c2a25c657f6e1427585713f870",
-  "generatedAt": "2026-09-07T15:08:50Z",
+  "sourceCommit": "7e6b1fe6c2dc938fcd22195e28d21008a3f0b533",
+  "generatedAt": "2026-09-08T03:42:49Z",
   "liveTrading": false
 }

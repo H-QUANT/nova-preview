@@ -4,5 +4,6 @@ Generated from the private canonical source repository. Do not edit generated da
 
 - Product: H-QUANT NOVA
 - AI: NOVA AI
-- Mode: Research preview; not live trading
+- Mode: Stage-gated research preview; not live trading
+- Preopen publication: 08:50 Asia/Seoul after frozen snapshot only
 - Pages: https://h-quant.github.io/nova-preview/
