@@ -4,8 +4,8 @@
   "visibility": "STAGE_GATED_PUBLIC_RESEARCH",
   "marketTimezone": "Asia/Seoul",
   "sourceRepository": "H-QUANT/explosion-ops",
-  "sourceCommit": "889862f7ef8354f0a9724fab504972bfbc5b5500",
-  "generatedAt": "2026-09-08T07:00:40.913Z",
+  "sourceCommit": "b1cbbc4460139e10464caabb75780eaeb6b17da5",
+  "generatedAt": "2026-09-08T08:21:52.387Z",
   "latest": "2026-09-08",
   "days": [
     {
@@ -15,8 +15,8 @@
       "dataQuality": "FAILED",
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
-      "publishedAt": "2026-09-08T07:00:40.913Z",
-      "recordHash": "e531a89ebbb1a35a044ce61d2a1243a7e31223453f5790cbecb16a0f803b015a",
+      "publishedAt": "2026-09-08T08:21:52.387Z",
+      "recordHash": "ecb39b9f7458e77eb4a5f617263886c1322c7d182b960dde0e53c490089d7005",
       "dataOrigin": "DEMO_REPLAY",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -55,11 +55,11 @@
       "dataQuality": "INSUFFICIENT",
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
-      "publishedAt": "2026-09-08T07:00:40.913Z",
-      "recordHash": "b7f4ec77dfc73db978c13925c314d275e4d273f7fb83831a08998a9932ca36a6",
+      "publishedAt": "2026-09-08T08:21:52.387Z",
+      "recordHash": "a201c23daeea700a7a43721e5103e207f6335c86034432da9cbc9bbd92b94f4e",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
-      "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
+      "publicationMode": "PUBLIC_AFTER_CLOSE",
       "stages": [
         {
           "recordType": "PREOPEN_PREDICTION",
