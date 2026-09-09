@@ -3,46 +3,41 @@
   "projectionVersion": "3.1.0",
   "workspace": "H-QUANT",
   "product": "H-QUANT NOVA",
-  "tradingDate": "2026-09-04",
+  "tradingDate": "2026-09-09",
   "marketTimezone": "Asia/Seoul",
   "publication": {
     "publishedAt": "2026-09-09T01:13:45.797Z",
-    "mode": "PUBLIC_AFTER_CLOSE",
+    "mode": "PUBLIC_INTRADAY_RESEARCH",
     "sourceCommit": "08eca052063575626f59b9c5155e0c63f8931aa9",
-    "recordHash": "b5eaa986781723ed4e41965652f9d50c9addf5c2a1e0966c1de59bb75a0a706f",
-    "dataOrigin": "DEMO_REPLAY",
+    "recordHash": "a98d93c396b094f336c7c78a737fb6b300d29448ea43e6cf41d8a5d24c217497",
+    "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "FAILED"
   },
   "dataQuality": {
     "state": "FAILED",
     "percent": null,
-    "stageCompletionPercent": 66.66666666666666,
+    "stageCompletionPercent": 33.33333333333333,
     "trainingEligible": false,
     "notes": [
-      "MANIFEST_HASH_MISMATCH:0850-preopen-prediction.json",
-      "MANIFEST_HASH_MISMATCH:1010-first-hour-feedback.json",
-      "MANIFEST_HASH_MISMATCH:1640-model-review.json",
-      "PREDICTION_NOT_FROZEN",
+      "SNAPSHOT_PAYLOAD_HASH_MISMATCH",
       "SOURCE_INTEGRITY_FAILURE",
       "WHOLE_MARKET_METRICS_UNAVAILABLE",
-      "DEMO_REPLAY",
-      "PUBLIC_SAMPLE",
-      "INCOMPLETE_PUBLIC_MINUTE_DATA",
-      "LESS_THAN_20_VALID_TRADING_DAYS",
-      "ONLY_DEMO_REPLAY_PUBLIC_SAMPLE_AVAILABLE",
-      "NO_ELIGIBLE_WEEKLY_FEEDBACK_RECORDS"
+      "PREMARKET_SAME_TIME_BASELINE_UNAVAILABLE",
+      "PREMARKET_ACCELERATION_SERIES_UNAVAILABLE",
+      "WHOLE_MARKET_CROSS_SECTION_INCOMPLETE",
+      "MARKET_BRIEF_INTRADAY_SERIES_PARTIAL"
     ]
   },
   "model": {
     "championVersion": "ExplosionScore-v0.1",
-    "challengerVersion": "ExplosionScore-v0.2-shadow",
-    "promotionStatus": "INSUFFICIENT_DATA",
-    "scoringConfigHash": "explosion-score-v0.1-demo",
+    "challengerVersion": null,
+    "promotionStatus": null,
+    "scoringConfigHash": "dca4021103be8a91f30602f6dcd26ced0fff5894",
     "scoreSemantics": "UNCALIBRATED_RANKING_SCORE"
   },
   "prediction": {
-    "snapshotAt": "2026-09-04T08:50:00+09:00",
-    "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c",
+    "snapshotAt": "2026-09-09T08:36:11+09:00",
+    "snapshotHash": "68b0133998acf2547d390de68043291987405776f6d1f7363ef3da792ba29532",
     "status": "QUARANTINED",
     "candidatePolicyVersion": null,
     "recommended": [],
@@ -50,7 +45,7 @@
     "watchlist": []
   },
   "firstHour": {
-    "evaluatedAt": "2026-09-04T10:10:00+09:00",
+    "evaluatedAt": null,
     "metrics": {
       "hitRateAt5": null,
       "precisionAt5": null,
@@ -85,32 +80,17 @@
   "stages": [
     {
       "recordType": "PREOPEN_PREDICTION",
-      "asOf": "2026-09-04T08:50:00+09:00",
+      "asOf": "2026-09-09T08:36:11+09:00",
       "revision": 1,
       "dataQuality": "FAILED",
       "trainingEligible": false,
-      "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
-    },
-    {
-      "recordType": "FIRST_HOUR_FEEDBACK",
-      "asOf": "2026-09-04T10:10:00+09:00",
-      "revision": 1,
-      "dataQuality": "FAILED",
-      "trainingEligible": false,
-      "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
-    },
-    {
-      "recordType": "WEEKLY_MODEL_REVIEW",
-      "asOf": "2026-09-04T16:40:00+09:00",
-      "revision": 2,
-      "dataQuality": "FAILED",
-      "trainingEligible": false,
-      "snapshotHash": "a325bebd4f82b5c1eccc1bbe84e154d711f08cdd947eaba61546ff7aa479c33c"
+      "snapshotHash": "68b0133998acf2547d390de68043291987405776f6d1f7363ef3da792ba29532"
     }
   ],
   "sourceManifest": {
     "complete": false,
     "missingStages": [
+      "FIRST_HOUR_FEEDBACK",
       "END_OF_DAY"
     ],
     "integrity": "FAILED"

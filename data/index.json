@@ -5,8 +5,8 @@
   "marketTimezone": "Asia/Seoul",
   "sourceRepository": "H-QUANT/explosion-ops",
   "sourceCommit": "08eca052063575626f59b9c5155e0c63f8931aa9",
-  "generatedAt": "2026-09-08T23:44:54.191Z",
-  "latest": "2026-09-08",
+  "generatedAt": "2026-09-09T01:13:45.797Z",
+  "latest": "2026-09-09",
   "days": [
     {
       "tradingDate": "2026-09-04",
@@ -15,8 +15,8 @@
       "dataQuality": "FAILED",
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
-      "publishedAt": "2026-09-08T23:44:54.191Z",
-      "recordHash": "2a6107e3c23c93e8fc369a817ba10a13d7c9bf838ef512e905b5b4395375bbd8",
+      "publishedAt": "2026-09-09T01:13:45.797Z",
+      "recordHash": "b5eaa986781723ed4e41965652f9d50c9addf5c2a1e0966c1de59bb75a0a706f",
       "dataOrigin": "DEMO_REPLAY",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -55,8 +55,8 @@
       "dataQuality": "INSUFFICIENT",
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
-      "publishedAt": "2026-09-08T23:44:54.191Z",
-      "recordHash": "f0b81a0b01c6a206b89894039e72da4ae1e1472c2cc688fcd16840694d945038",
+      "publishedAt": "2026-09-09T01:13:45.797Z",
+      "recordHash": "d29a652d3c2e398ce4d54e307e69c4a9bb3212998d328e06f3a0fa3397102810",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -97,6 +97,30 @@
         "rendererVersion": "nova-morning-markdown-v1",
         "predictionRevision": 1
       }
+    },
+    {
+      "tradingDate": "2026-09-09",
+      "dashboardPath": "data/2026/09/09/dashboard.json",
+      "manifestPath": "data/2026/09/09/manifest.json",
+      "dataQuality": "FAILED",
+      "trainingEligible": false,
+      "modelVersion": "ExplosionScore-v0.1",
+      "publishedAt": "2026-09-09T01:13:45.797Z",
+      "recordHash": "a98d93c396b094f336c7c78a737fb6b300d29448ea43e6cf41d8a5d24c217497",
+      "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
+      "sourceIntegrity": "FAILED",
+      "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
+      "stages": [
+        {
+          "recordType": "PREOPEN_PREDICTION",
+          "asOf": "2026-09-09T08:36:11+09:00",
+          "revision": 1,
+          "dataQuality": "FAILED",
+          "trainingEligible": false,
+          "snapshotHash": "68b0133998acf2547d390de68043291987405776f6d1f7363ef3da792ba29532"
+        }
+      ],
+      "preopenReport": null
     }
   ]
 }
