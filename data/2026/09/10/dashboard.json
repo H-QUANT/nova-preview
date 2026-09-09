@@ -1,0 +1,737 @@
+{
+  "schemaVersion": "nova-public-dashboard-v1",
+  "projectionVersion": "3.3.0",
+  "workspace": "H-QUANT",
+  "product": "H-QUANT NOVA",
+  "tradingDate": "2026-09-10",
+  "marketTimezone": "Asia/Seoul",
+  "publication": {
+    "publishedAt": "2026-09-09T23:41:17.865Z",
+    "mode": "PUBLIC_INTRADAY_RESEARCH",
+    "sourceCommit": "4e591a196c6f1c671b300a3cfb1277767772a5e1",
+    "recordHash": "d9c02e34c2ddc33c88bc79d71fd12d0481dd16a72a429b33a650c89e33561da6",
+    "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
+    "sourceIntegrity": "VERIFIED"
+  },
+  "dataQuality": {
+    "state": "INSUFFICIENT",
+    "percent": null,
+    "stageCompletionPercent": 33.33333333333333,
+    "trainingEligible": false,
+    "notes": [
+      "WHOLE_MARKET_METRICS_UNAVAILABLE",
+      "PREMARKET_PER_SYMBOL_20M_DELAY_AT_FREEZE",
+      "WHOLE_MARKET_20D_CROSS_SECTION_INCOMPLETE",
+      "FREE_FLOAT_CROSS_SECTION_INCOMPLETE"
+    ]
+  },
+  "model": {
+    "championVersion": "ExplosionScore-v0.1",
+    "challengerVersion": null,
+    "promotionStatus": null,
+    "scoringConfigHash": "dca4021103be8a91f30602f6dcd26ced0fff5894",
+    "scoreSemantics": "UNCALIBRATED_RANKING_SCORE"
+  },
+  "prediction": {
+    "snapshotAt": "2026-09-09T23:37:26.854Z",
+    "snapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42",
+    "status": "FROZEN",
+    "candidatePolicyVersion": "ExplosionScore-v0.1",
+    "recommended": [
+      {
+        "symbol": "010950",
+        "name": "S-Oil",
+        "market": "KOSPI",
+        "sector": null,
+        "primaryCatalyst": "Brent settled above $100/bbl at $101.21 after renewed U.S.-Iran tanker",
+        "primaryRisk": "Oil-shock inflation and a sharp prior-session move can create gap-and-",
+        "reason": null,
+        "validCondition": "Opening gap remains controlled, price holds the initial VWAP, and refi",
+        "invalidCondition": "A large opening gap immediately loses VWAP/previous close, or oil-link",
+        "rank": 1,
+        "explosionProbability": 93,
+        "tradeability": 92,
+        "dataConfidence": 84,
+        "riskPenalty": 4,
+        "finalRankScore": 67.87,
+        "gap": null,
+        "reasonCodes": [],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": null,
+          "FreshCatalystAge": null,
+          "PremarketRelativeTurnover": null,
+          "TurnoverAcceleration": null,
+          "SectorLeadership": null,
+          "FloatElasticity": null,
+          "GapRisk": null,
+          "OtherRisk": null
+        }
+      },
+      {
+        "symbol": "000660",
+        "name": "SK하이닉스",
+        "market": "KOSPI",
+        "sector": null,
+        "primaryCatalyst": "SK hynix closed +3.51% on 9/9 with strong foreign and institutional ne",
+        "primaryRisk": "Mega-cap elasticity is lower than small caps and higher U.S. oil/rates",
+        "reason": null,
+        "validCondition": "Previous close and initial VWAP hold while at least several semiconduc",
+        "invalidCondition": "Loses previous close and initial VWAP with semiconductor breadth turni",
+        "rank": 2,
+        "explosionProbability": 85,
+        "tradeability": 99,
+        "dataConfidence": 82,
+        "riskPenalty": 2,
+        "finalRankScore": 67,
+        "gap": null,
+        "reasonCodes": [],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": null,
+          "FreshCatalystAge": null,
+          "PremarketRelativeTurnover": null,
+          "TurnoverAcceleration": null,
+          "SectorLeadership": null,
+          "FloatElasticity": null,
+          "GapRisk": null,
+          "OtherRisk": null
+        }
+      },
+      {
+        "symbol": "009150",
+        "name": "삼성전기",
+        "market": "KOSPI",
+        "sector": null,
+        "primaryCatalyst": "Foreigners bought roughly KRW 136.6bn and institutions KRW 35.7bn net ",
+        "primaryRisk": "Large-cap price elasticity is moderate, recent volatility is elevated,",
+        "reason": null,
+        "validCondition": "Initial VWAP and prior close hold while electronic-component/semicondu",
+        "invalidCondition": "Foreign-led strength fails at the open and price loses VWAP/previous c",
+        "rank": 3,
+        "explosionProbability": 88,
+        "tradeability": 96,
+        "dataConfidence": 80,
+        "riskPenalty": 3,
+        "finalRankScore": 64.58,
+        "gap": null,
+        "reasonCodes": [],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": null,
+          "FreshCatalystAge": null,
+          "PremarketRelativeTurnover": null,
+          "TurnoverAcceleration": null,
+          "SectorLeadership": null,
+          "FloatElasticity": null,
+          "GapRisk": null,
+          "OtherRisk": null
+        }
+      },
+      {
+        "symbol": "042700",
+        "name": "한미반도체",
+        "market": "KOSPI",
+        "sector": null,
+        "primaryCatalyst": "Chairman Kwak Dong-shin announced an additional KRW 700m open-market s",
+        "primaryRisk": "Foreigners were net sellers on 9/9 and the name has already accumulate",
+        "reason": null,
+        "validCondition": "Holds prior close and initial VWAP with SK hynix and multiple equipmen",
+        "invalidCondition": "Fails VWAP/previous close while HBM equipment breadth weakens or forei",
+        "rank": 4,
+        "explosionProbability": 89,
+        "tradeability": 94,
+        "dataConfidence": 78,
+        "riskPenalty": 3,
+        "finalRankScore": 62.25,
+        "gap": null,
+        "reasonCodes": [],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": null,
+          "FreshCatalystAge": null,
+          "PremarketRelativeTurnover": null,
+          "TurnoverAcceleration": null,
+          "SectorLeadership": null,
+          "FloatElasticity": null,
+          "GapRisk": null,
+          "OtherRisk": null
+        }
+      },
+      {
+        "symbol": "010120",
+        "name": "LS ELECTRIC",
+        "market": "KOSPI",
+        "sector": null,
+        "primaryCatalyst": "LS ELECTRIC closed +5.24% on 9/9 with KRW 112.9bn turnover and ranked ",
+        "primaryRisk": "The prior-session move raises profit-taking risk, and rising global yi",
+        "reason": null,
+        "validCondition": "Holds prior close/initial VWAP and power-equipment peers confirm bread",
+        "invalidCondition": "Early gap loses VWAP and prior close while power-equipment peers fail ",
+        "rank": 5,
+        "explosionProbability": 86,
+        "tradeability": 92,
+        "dataConfidence": 80,
+        "riskPenalty": 3,
+        "finalRankScore": 60.3,
+        "gap": null,
+        "reasonCodes": [],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": null,
+          "FreshCatalystAge": null,
+          "PremarketRelativeTurnover": null,
+          "TurnoverAcceleration": null,
+          "SectorLeadership": null,
+          "FloatElasticity": null,
+          "GapRisk": null,
+          "OtherRisk": null
+        }
+      }
+    ],
+    "riskRejected": [
+      {
+        "symbol": "046970",
+        "name": "우리로",
+        "market": "KOSDAQ",
+        "sector": null,
+        "primaryCatalyst": "Prior-session telecom/optical theme surge.",
+        "primaryRisk": "The stock was already up about 29.84% in the prior session and the cur",
+        "reason": null,
+        "validCondition": "Remain rejected until a separate, current liquidity/gap check is avail",
+        "invalidCondition": "Current rejection remains in force while stock-specific premarket evid",
+        "rank": 1,
+        "explosionProbability": 78,
+        "tradeability": 48,
+        "dataConfidence": 66,
+        "riskPenalty": 18,
+        "finalRankScore": 6.71,
+        "gap": null,
+        "reasonCodes": [],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": null,
+          "FreshCatalystAge": null,
+          "PremarketRelativeTurnover": null,
+          "TurnoverAcceleration": null,
+          "SectorLeadership": null,
+          "FloatElasticity": null,
+          "GapRisk": null,
+          "OtherRisk": null
+        }
+      },
+      {
+        "symbol": "382900",
+        "name": "범한퓨얼셀",
+        "market": "KOSDAQ",
+        "sector": null,
+        "primaryCatalyst": "Prior-session fuel-cell/power theme surge.",
+        "primaryRisk": "The stock was already up about 29.79% in the prior session and current",
+        "reason": null,
+        "validCondition": "Remain rejected until a separate current liquidity/gap check is availa",
+        "invalidCondition": "Current rejection remains in force while stock-specific premarket evid",
+        "rank": 2,
+        "explosionProbability": 76,
+        "tradeability": 52,
+        "dataConfidence": 66,
+        "riskPenalty": 17,
+        "finalRankScore": 9.08,
+        "gap": null,
+        "reasonCodes": [],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": null,
+          "FreshCatalystAge": null,
+          "PremarketRelativeTurnover": null,
+          "TurnoverAcceleration": null,
+          "SectorLeadership": null,
+          "FloatElasticity": null,
+          "GapRisk": null,
+          "OtherRisk": null
+        }
+      }
+    ],
+    "watchlist": [
+      {
+        "symbol": "034020",
+        "name": "두산에너빌리티",
+        "market": "KOSPI",
+        "sector": null,
+        "primaryCatalyst": "9/9 foreign and institutional net buying with continued nuclear/power ",
+        "primaryRisk": "No equally fresh company-specific overnight catalyst and stock-specifi",
+        "reason": null,
+        "validCondition": "Prior close/VWAP hold with nuclear-power breadth.",
+        "invalidCondition": "Fails prior close and sector breadth.",
+        "rank": 1,
+        "explosionProbability": 82,
+        "tradeability": 94,
+        "dataConfidence": 78,
+        "riskPenalty": 3,
+        "finalRankScore": 57.12,
+        "gap": null,
+        "reasonCodes": [],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": null,
+          "FreshCatalystAge": null,
+          "PremarketRelativeTurnover": null,
+          "TurnoverAcceleration": null,
+          "SectorLeadership": null,
+          "FloatElasticity": null,
+          "GapRisk": null,
+          "OtherRisk": null
+        }
+      },
+      {
+        "symbol": "403870",
+        "name": "HPSP",
+        "market": "KOSDAQ",
+        "sector": null,
+        "primaryCatalyst": "Closed +5.07% on 9/9 and appeared among KOSDAQ institutional net-buy l",
+        "primaryRisk": "Sector-dependent catalyst and missing stock-specific premarket microst",
+        "reason": null,
+        "validCondition": "Initial VWAP hold with KOSDAQ semiconductor breadth.",
+        "invalidCondition": "Semiconductor breadth weakens and prior close fails.",
+        "rank": 2,
+        "explosionProbability": 83,
+        "tradeability": 86,
+        "dataConfidence": 76,
+        "riskPenalty": 4,
+        "finalRankScore": 50.25,
+        "gap": null,
+        "reasonCodes": [],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": null,
+          "FreshCatalystAge": null,
+          "PremarketRelativeTurnover": null,
+          "TurnoverAcceleration": null,
+          "SectorLeadership": null,
+          "FloatElasticity": null,
+          "GapRisk": null,
+          "OtherRisk": null
+        }
+      }
+    ]
+  },
+  "firstHour": {
+    "evaluatedAt": null,
+    "metrics": {
+      "hitRateAt5": null,
+      "precisionAt5": null,
+      "ndcgAt5": null,
+      "observedSubsetHitRateAt5": null,
+      "observedSubsetNdcgAt5": null,
+      "actionablePrecisionAt5": null,
+      "meanMfeRecommended": null,
+      "medianMaeRecommended": null,
+      "gapTrapRate": null
+    },
+    "evaluation": {
+      "metricVersion": "LEGACY_UNVERIFIED",
+      "referenceScope": "OBSERVED_SUBSET",
+      "venue": null,
+      "wholeMarketCertified": false,
+      "referenceInstrumentCount": null,
+      "requestedSymbolCount": null,
+      "measuredOutcomeCount": null,
+      "issuedRecommendationCount": null,
+      "evaluatedRecommendationCount": null,
+      "recommendationCoverage": null
+    },
+    "actualTopFive": [],
+    "outcomes": []
+  },
+  "endOfDay": null,
+  "feedback": {
+    "records": [],
+    "proposedFeatureChanges": []
+  },
+  "stages": [
+    {
+      "recordType": "PREOPEN_PREDICTION",
+      "asOf": "2026-09-09T23:37:26.854Z",
+      "revision": 1,
+      "dataQuality": "PARTIAL",
+      "trainingEligible": false,
+      "snapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42"
+    }
+  ],
+  "sourceManifest": {
+    "complete": false,
+    "missingStages": [
+      "FIRST_HOUR_FEEDBACK",
+      "END_OF_DAY"
+    ],
+    "integrity": "VERIFIED"
+  },
+  "marketPulse": {
+    "asOf": "2026-09-09T23:37:26.854Z",
+    "summary": "한국 증시는 전일 KOSPI·KOSDAQ이 동반 상승한 가운데 NXT 프리마켓 시가총액이 08:10 기준 +0.51%를 나타냈다. 다만 미국 주요 지수는 유가 100달러 돌파와 금리 상승 부담으로 하락해, 에너지와 반도체·AI 인프라 중심의 선택적 강세와 높은 변동성을 함께 경계할 구간이다.",
+    "regime": "SELECTIVE_RISK_ON_HIGH_VOLATILITY",
+    "global": [
+      {
+        "key": "NASDAQ",
+        "label": "NASDAQ Composite",
+        "value": 26253.34,
+        "displayValue": null,
+        "changePercent": -0.64,
+        "previousClose": null,
+        "sessionLabel": "US regular session 2026-09-09",
+        "sessionStart": "2026-09-09T09:30:00-04:00",
+        "sessionEnd": "2026-09-09T16:00:00-04:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "SOX",
+        "label": "PHLX Semiconductor Index",
+        "value": 11931.3,
+        "displayValue": null,
+        "changePercent": 0.37,
+        "previousClose": null,
+        "sessionLabel": "US regular session 2026-09-09",
+        "sessionStart": "2026-09-09T09:30:00-04:00",
+        "sessionEnd": "2026-09-09T16:00:00-04:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      }
+    ],
+    "korea": [
+      {
+        "key": "KOSPI",
+        "label": "KOSPI",
+        "value": 7051.64,
+        "displayValue": null,
+        "changePercent": 1.4,
+        "previousClose": null,
+        "sessionLabel": "KRX regular session 2026-09-09",
+        "sessionStart": "2026-09-09T09:00:00+09:00",
+        "sessionEnd": "2026-09-09T15:30:00+09:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "KOSDAQ",
+        "label": "KOSDAQ",
+        "value": 830.37,
+        "displayValue": null,
+        "changePercent": 2.28,
+        "previousClose": null,
+        "sessionLabel": "KRX regular session 2026-09-09",
+        "sessionStart": "2026-09-09T09:00:00+09:00",
+        "sessionEnd": "2026-09-09T15:30:00+09:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      }
+    ],
+    "compact": [
+      {
+        "key": "SP500",
+        "label": "S&P 500",
+        "value": 7636.46,
+        "displayValue": null,
+        "changePercent": -0.48,
+        "previousClose": null,
+        "sessionLabel": "US regular session 2026-09-09",
+        "sessionStart": "2026-09-09T09:30:00-04:00",
+        "sessionEnd": "2026-09-09T16:00:00-04:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "BRENT",
+        "label": "Brent crude",
+        "value": 101.21,
+        "displayValue": null,
+        "changePercent": 3.4,
+        "previousClose": null,
+        "sessionLabel": "Reuters settlement 2026-09-09",
+        "sessionStart": "2026-09-09T00:00:00+00:00",
+        "sessionEnd": "2026-09-09T23:59:59+00:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "US10Y",
+        "label": "US 10Y Treasury yield",
+        "value": 4.841,
+        "displayValue": null,
+        "changePercent": null,
+        "previousClose": null,
+        "sessionLabel": "US market observation 2026-09-09",
+        "sessionStart": "2026-09-09T09:30:00-04:00",
+        "sessionEnd": "2026-09-09T16:00:00-04:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "USDKRW",
+        "label": "USD/KRW",
+        "value": 1336.1,
+        "displayValue": null,
+        "changePercent": null,
+        "previousClose": null,
+        "sessionLabel": "Seoul FX 15:30 fixing 2026-09-09",
+        "sessionStart": "2026-09-09T09:00:00+09:00",
+        "sessionEnd": "2026-09-09T15:30:00+09:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "NXT_PREMARKET",
+        "label": "NXT premarket market-cap change",
+        "value": 0.51,
+        "displayValue": null,
+        "changePercent": 0.51,
+        "previousClose": null,
+        "sessionLabel": "NXT premarket 08:00-08:50; observed 08:10",
+        "sessionStart": "2026-09-10T08:00:00+09:00",
+        "sessionEnd": "2026-09-10T08:50:00+09:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      }
+    ],
+    "themes": [
+      "Energy/refining from Brent > $100",
+      "HBM/AI semiconductors with SOX relative strength",
+      "AI data-center power infrastructure"
+    ],
+    "avoidConditions": [
+      "Do not chase uncontrolled opening gaps without VWAP hold and executable turnover confirmation.",
+      "Treat broad U.S. oil/rate pressure as a risk-off override if Korean breadth collapses.",
+      "Do not infer per-stock NXT turnover or acceleration from aggregate premarket statistics."
+    ]
+  },
+  "morningBrief": {
+    "asOf": "2026-09-09T23:37:26.854Z",
+    "modelVersion": "ExplosionScore-v0.1",
+    "dataQuality": "PARTIAL",
+    "limitations": [
+      "Per-stock NXT premarket tape was 20-minute delayed at freeze; turnover acceleration unavailable.",
+      "Whole-market 20D and free-float cross-sections were incomplete; no missing values estimated.",
+      "No synthetic chart points were created."
+    ],
+    "market": {
+      "asOf": "2026-09-09T23:37:26.854Z",
+      "summary": "한국 증시는 전일 KOSPI·KOSDAQ이 동반 상승한 가운데 NXT 프리마켓 시가총액이 08:10 기준 +0.51%를 나타냈다. 다만 미국 주요 지수는 유가 100달러 돌파와 금리 상승 부담으로 하락해, 에너지와 반도체·AI 인프라 중심의 선택적 강세와 높은 변동성을 함께 경계할 구간이다.",
+      "regime": "SELECTIVE_RISK_ON_HIGH_VOLATILITY",
+      "global": [
+        {
+          "key": "NASDAQ",
+          "label": "NASDAQ Composite",
+          "value": 26253.34,
+          "displayValue": null,
+          "changePercent": -0.64,
+          "previousClose": null,
+          "sessionLabel": "US regular session 2026-09-09",
+          "sessionStart": "2026-09-09T09:30:00-04:00",
+          "sessionEnd": "2026-09-09T16:00:00-04:00",
+          "observedAt": "2026-09-09T23:37:26.854Z",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "SOX",
+          "label": "PHLX Semiconductor Index",
+          "value": 11931.3,
+          "displayValue": null,
+          "changePercent": 0.37,
+          "previousClose": null,
+          "sessionLabel": "US regular session 2026-09-09",
+          "sessionStart": "2026-09-09T09:30:00-04:00",
+          "sessionEnd": "2026-09-09T16:00:00-04:00",
+          "observedAt": "2026-09-09T23:37:26.854Z",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        }
+      ],
+      "korea": [
+        {
+          "key": "KOSPI",
+          "label": "KOSPI",
+          "value": 7051.64,
+          "displayValue": null,
+          "changePercent": 1.4,
+          "previousClose": null,
+          "sessionLabel": "KRX regular session 2026-09-09",
+          "sessionStart": "2026-09-09T09:00:00+09:00",
+          "sessionEnd": "2026-09-09T15:30:00+09:00",
+          "observedAt": "2026-09-09T23:37:26.854Z",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "KOSDAQ",
+          "label": "KOSDAQ",
+          "value": 830.37,
+          "displayValue": null,
+          "changePercent": 2.28,
+          "previousClose": null,
+          "sessionLabel": "KRX regular session 2026-09-09",
+          "sessionStart": "2026-09-09T09:00:00+09:00",
+          "sessionEnd": "2026-09-09T15:30:00+09:00",
+          "observedAt": "2026-09-09T23:37:26.854Z",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        }
+      ],
+      "compact": [
+        {
+          "key": "SP500",
+          "label": "S&P 500",
+          "value": 7636.46,
+          "displayValue": null,
+          "changePercent": -0.48,
+          "previousClose": null,
+          "sessionLabel": "US regular session 2026-09-09",
+          "sessionStart": "2026-09-09T09:30:00-04:00",
+          "sessionEnd": "2026-09-09T16:00:00-04:00",
+          "observedAt": "2026-09-09T23:37:26.854Z",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "BRENT",
+          "label": "Brent crude",
+          "value": 101.21,
+          "displayValue": null,
+          "changePercent": 3.4,
+          "previousClose": null,
+          "sessionLabel": "Reuters settlement 2026-09-09",
+          "sessionStart": "2026-09-09T00:00:00+00:00",
+          "sessionEnd": "2026-09-09T23:59:59+00:00",
+          "observedAt": "2026-09-09T23:37:26.854Z",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "US10Y",
+          "label": "US 10Y Treasury yield",
+          "value": 4.841,
+          "displayValue": null,
+          "changePercent": null,
+          "previousClose": null,
+          "sessionLabel": "US market observation 2026-09-09",
+          "sessionStart": "2026-09-09T09:30:00-04:00",
+          "sessionEnd": "2026-09-09T16:00:00-04:00",
+          "observedAt": "2026-09-09T23:37:26.854Z",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "USDKRW",
+          "label": "USD/KRW",
+          "value": 1336.1,
+          "displayValue": null,
+          "changePercent": null,
+          "previousClose": null,
+          "sessionLabel": "Seoul FX 15:30 fixing 2026-09-09",
+          "sessionStart": "2026-09-09T09:00:00+09:00",
+          "sessionEnd": "2026-09-09T15:30:00+09:00",
+          "observedAt": "2026-09-09T23:37:26.854Z",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "NXT_PREMARKET",
+          "label": "NXT premarket market-cap change",
+          "value": 0.51,
+          "displayValue": null,
+          "changePercent": 0.51,
+          "previousClose": null,
+          "sessionLabel": "NXT premarket 08:00-08:50; observed 08:10",
+          "sessionStart": "2026-09-10T08:00:00+09:00",
+          "sessionEnd": "2026-09-10T08:50:00+09:00",
+          "observedAt": "2026-09-09T23:37:26.854Z",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        }
+      ],
+      "themes": [
+        "Energy/refining from Brent > $100",
+        "HBM/AI semiconductors with SOX relative strength",
+        "AI data-center power infrastructure"
+      ],
+      "avoidConditions": [
+        "Do not chase uncontrolled opening gaps without VWAP hold and executable turnover confirmation.",
+        "Treat broad U.S. oil/rate pressure as a risk-off override if Korean breadth collapses.",
+        "Do not infer per-stock NXT turnover or acceleration from aggregate premarket statistics."
+      ]
+    }
+  },
+  "preopenReport": {
+    "title": "오늘 장전 급등 후보",
+    "tradingDate": "2026-09-10",
+    "fileName": "nova-preopen-2026-09-10-ea140838cd6b.md",
+    "path": "data/2026/09/10/reports/nova-preopen-2026-09-10-ea140838cd6b.md",
+    "sha256": "ea140838cd6b4e3be9e1e3401e3ce2af0ad040a532f0d329ac4df898ead5c61e",
+    "generatedFromSnapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42",
+    "mediaType": "text/markdown",
+    "rendererVersion": "nova-morning-markdown-v1",
+    "predictionRevision": 1
+  }
+}
