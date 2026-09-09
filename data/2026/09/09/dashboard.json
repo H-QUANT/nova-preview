@@ -6,10 +6,10 @@
   "tradingDate": "2026-09-09",
   "marketTimezone": "Asia/Seoul",
   "publication": {
-    "publishedAt": "2026-09-09T02:51:27.455Z",
+    "publishedAt": "2026-09-09T03:18:01.901Z",
     "mode": "PUBLIC_INTRADAY_RESEARCH",
     "sourceCommit": "7f7fa2e100a0c6e8c0a5da8c6a4d74f27b3ac2d9",
-    "recordHash": "95a72a435e1fe55dcda23a75a081c7b0bb5cddc0ace94b54cd26bdb41d28e130",
+    "recordHash": "1a8a3928aad06f84007641a7114eea9b4f5d20fb99e5de74ef0b4032d80eaa6a",
     "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "FAILED"
   },
