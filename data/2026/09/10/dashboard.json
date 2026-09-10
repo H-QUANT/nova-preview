@@ -7,9 +7,9 @@
   "marketTimezone": "Asia/Seoul",
   "publication": {
     "publishedAt": "2026-09-10T06:40:26.000Z",
-    "mode": "PUBLIC_INTRADAY_RESEARCH",
-    "sourceCommit": "250a186aea0c1f899b9b1b48eb2b999c4445bcaf",
-    "recordHash": "3f0ade7e74968f1289d564d37ffafbbd78b785bd1d755c1ebcf1af2207b556c8",
+    "mode": "PUBLIC_AFTER_CLOSE",
+    "sourceCommit": "20680beaf37d7d14f40b4f42bb0e581aa6369d5f",
+    "recordHash": "dc03046e00105408e8866c7f4c50980b6325a0d88e49541a9ea7f310367a5e3e",
     "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "VERIFIED"
   },
