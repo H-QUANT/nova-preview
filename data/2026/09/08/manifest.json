@@ -7,7 +7,7 @@
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
   "publishedAt": "2026-09-08T06:56:19.000Z",
-  "recordHash": "67b27257d17c4af3eceeb4ecb22b702e1038dc86978083b5e045c352202ca2ad",
+  "recordHash": "68459b4c6bb3be6360a9540db8ca4e84bb960c00ec1df0cd9b0262b37eb26234",
   "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
   "sourceIntegrity": "VERIFIED",
   "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -48,7 +48,7 @@
     "rendererVersion": "nova-morning-markdown-v2",
     "predictionRevision": 1
   },
-  "sourceCommit": "8794f034dd40fb3b9e8dbe8e36bfe318625ff79a",
+  "sourceCommit": "284d58b32d0d6fb489b0868c56793c9ba0bd7f81",
   "missingStages": [],
   "reports": [
     {
