@@ -7,7 +7,7 @@
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
   "publishedAt": "2026-09-10T01:12:57.000Z",
-  "recordHash": "0886ba417f11d672c373dfd7413b102851f2b4d8008b66f068b57e63f94c35ca",
+  "recordHash": "31fed7c1d96f98e5aee0d3e33c2c33f933ecbcdfb342f234607fb9e1c059fac4",
   "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
   "sourceIntegrity": "VERIFIED",
   "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
@@ -32,15 +32,15 @@
   "preopenReport": {
     "title": "오늘 장전 급등 후보",
     "tradingDate": "2026-09-10",
-    "fileName": "nova-preopen-2026-09-10-ea140838cd6b.md",
-    "path": "data/2026/09/10/reports/nova-preopen-2026-09-10-ea140838cd6b.md",
-    "sha256": "ea140838cd6b4e3be9e1e3401e3ce2af0ad040a532f0d329ac4df898ead5c61e",
+    "fileName": "nova-preopen-2026-09-10-602cd5e35de4.md",
+    "path": "data/2026/09/10/reports/nova-preopen-2026-09-10-602cd5e35de4.md",
+    "sha256": "602cd5e35de407e985b366f472edf813ef877bf1b54b391a83b3a5b6a3364aa2",
     "generatedFromSnapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42",
     "mediaType": "text/markdown",
-    "rendererVersion": "nova-morning-markdown-v1",
+    "rendererVersion": "nova-morning-markdown-v2",
     "predictionRevision": 1
   },
-  "sourceCommit": "7eb99c0244a4e8a96a9cfd5040441080d15e2573",
+  "sourceCommit": "90ce96d69d708bc1ca0bf5000fc2ffd01cc62be8",
   "missingStages": [
     "END_OF_DAY"
   ],
@@ -48,12 +48,12 @@
     {
       "title": "오늘 장전 급등 후보",
       "tradingDate": "2026-09-10",
-      "fileName": "nova-preopen-2026-09-10-ea140838cd6b.md",
-      "path": "data/2026/09/10/reports/nova-preopen-2026-09-10-ea140838cd6b.md",
-      "sha256": "ea140838cd6b4e3be9e1e3401e3ce2af0ad040a532f0d329ac4df898ead5c61e",
+      "fileName": "nova-preopen-2026-09-10-602cd5e35de4.md",
+      "path": "data/2026/09/10/reports/nova-preopen-2026-09-10-602cd5e35de4.md",
+      "sha256": "602cd5e35de407e985b366f472edf813ef877bf1b54b391a83b3a5b6a3364aa2",
       "generatedFromSnapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42",
       "mediaType": "text/markdown",
-      "rendererVersion": "nova-morning-markdown-v1",
+      "rendererVersion": "nova-morning-markdown-v2",
       "predictionRevision": 1
     }
   ]

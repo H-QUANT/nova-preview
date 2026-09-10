@@ -8,8 +8,8 @@
   "publication": {
     "publishedAt": "2026-09-08T06:56:19.000Z",
     "mode": "PUBLIC_AFTER_CLOSE",
-    "sourceCommit": "7eb99c0244a4e8a96a9cfd5040441080d15e2573",
-    "recordHash": "f7eb4fc19b8ad88b82fab6f6c50f3773869cd789d48225541aac02b78e6c9f7c",
+    "sourceCommit": "90ce96d69d708bc1ca0bf5000fc2ffd01cc62be8",
+    "recordHash": "966b13b44d67f19bac768b1381316c972f5aeb30ef8599f883e555aa8614aaf3",
     "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "VERIFIED"
   },
@@ -1081,12 +1081,12 @@
   "preopenReport": {
     "title": "오늘 장전 급등 후보",
     "tradingDate": "2026-09-08",
-    "fileName": "nova-preopen-2026-09-08-83c6162911f7.md",
-    "path": "data/2026/09/08/reports/nova-preopen-2026-09-08-83c6162911f7.md",
-    "sha256": "83c6162911f78d12bed35742fbf8f06aa7478fba744d9ab6692a1324b768bf69",
+    "fileName": "nova-preopen-2026-09-08-ce6612740d22.md",
+    "path": "data/2026/09/08/reports/nova-preopen-2026-09-08-ce6612740d22.md",
+    "sha256": "ce6612740d22d55edc6fe3f3d4a2357e875632f9b468875b299d14d247178666",
     "generatedFromSnapshotHash": "4e425d31dd07bfa9b0de143d12d20c1cf341de6708c668bcac4313faf47aba5d",
     "mediaType": "text/markdown",
-    "rendererVersion": "nova-morning-markdown-v1",
+    "rendererVersion": "nova-morning-markdown-v2",
     "predictionRevision": 1
   }
 }

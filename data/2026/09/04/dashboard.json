@@ -8,8 +8,8 @@
   "publication": {
     "publishedAt": "2026-09-04T07:40:00.000Z",
     "mode": "PUBLIC_AFTER_CLOSE",
-    "sourceCommit": "7eb99c0244a4e8a96a9cfd5040441080d15e2573",
-    "recordHash": "300512de8efe4e4bd9645c565611a490a3adff54683fbe730e041ea2e5da48fe",
+    "sourceCommit": "90ce96d69d708bc1ca0bf5000fc2ffd01cc62be8",
+    "recordHash": "d8246d63760503397695eb6ba7ebda7da7ed58c0974f0734dea059955ff9b56a",
     "dataOrigin": "DEMO_REPLAY",
     "sourceIntegrity": "FAILED"
   },

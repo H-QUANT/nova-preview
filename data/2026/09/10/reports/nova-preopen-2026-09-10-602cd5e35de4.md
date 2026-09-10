@@ -1,32 +1,32 @@
-# H-QUANT NOVA Morning Investment Brief
+# H-QUANT NOVA 장전 투자 브리핑
 
-**Trading Date:** 2026-09-10
-**Snapshot:** 2026-09-09T23:37:26.854Z
-**Model:** ExplosionScore\-v0\.1
-**Snapshot Hash:** `b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42`
-**Renderer:** nova-morning-markdown-v1
+**거래일:** 2026-09-10
+**장전 동결 시각:** 2026-09-09T23:37:26.854Z
+**모델:** ExplosionScore\-v0\.1
+**스냅샷 해시:** `b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42`
+**리포트 버전:** nova-morning-markdown-v2
 
 ## 오늘의 시장 판단
 
 한국 증시는 전일 KOSPI·KOSDAQ이 동반 상승한 가운데 NXT 프리마켓 시가총액이 08:10 기준 \+0\.51%를 나타냈다\. 다만 미국 주요 지수는 유가 100달러 돌파와 금리 상승 부담으로 하락해, 에너지와 반도체·AI 인프라 중심의 선택적 강세와 높은 변동성을 함께 경계할 구간이다\.
 
-**시장 환경:** SELECTIVE\_RISK\_ON\_HIGH\_VOLATILITY
+**시장 환경:** 선택적 위험선호 · 고변동성
 
-## Global Market Pulse
+## 해외 시장
 
 | 지표 | 값 | 등락 | 관측 세션 |
 |---|---:|---:|---|
 | NASDAQ Composite | 26253\.34 | -0.64% | US regular session 2026\-09\-09 |
 | PHLX Semiconductor Index | 11931\.3 | +0.37% | US regular session 2026\-09\-09 |
 
-## Korea Market Pulse
+## 국내 시장
 
 | 지표 | 값 | 등락 | 관측 세션 |
 |---|---:|---:|---|
 | KOSPI | 7051\.64 | +1.40% | KRX regular session 2026\-09\-09 |
 | KOSDAQ | 830\.37 | +2.28% | KRX regular session 2026\-09\-09 |
 
-## 기타 시장 지표
+## 거시·주요 시장 지표
 
 | 지표 | 값 | 등락 | 관측 세션 |
 |---|---:|---:|---|
@@ -128,6 +128,16 @@ Early gap loses VWAP and prior close while power\-equipment peers fail
 - 거래 적합도: 92.0 / 100
 - 데이터 신뢰도: 80.0 / 100
 
+## 위험으로 제외한 후보
+
+- **우리로 (046970)** — The stock was already up about 29\.84% in the prior session and the cur
+- **범한퓨얼셀 (382900)** — The stock was already up about 29\.79% in the prior session and current
+
+## 관찰 후보
+
+- **두산에너빌리티 (034020)** — 9/9 foreign and institutional net buying with continued nuclear/power
+- **HPSP (403870)** — Closed \+5\.07% on 9/9 and appeared among KOSDAQ institutional net\-buy l
+
 ## 오늘의 핵심 테마
 
 - Energy/refining from Brent &gt; $100
@@ -140,7 +150,7 @@ Early gap loses VWAP and prior close while power\-equipment peers fail
 - Treat broad U\.S\. oil/rate pressure as a risk\-off override if Korean breadth collapses\.
 - Do not infer per\-stock NXT turnover or acceleration from aggregate premarket statistics\.
 
-## Evidence & Limitations
+## 데이터 근거와 한계
 
 - 장전 데이터 상태: PARTIAL
 - Per\-stock NXT premarket tape was 20\-minute delayed at freeze; turnover acceleration unavailable\.
