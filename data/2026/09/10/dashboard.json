@@ -6,10 +6,10 @@
   "tradingDate": "2026-09-10",
   "marketTimezone": "Asia/Seoul",
   "publication": {
-    "publishedAt": "2026-09-10T01:12:57.000Z",
+    "publishedAt": "2026-09-10T03:36:10.000Z",
     "mode": "PUBLIC_INTRADAY_RESEARCH",
-    "sourceCommit": "90ce96d69d708bc1ca0bf5000fc2ffd01cc62be8",
-    "recordHash": "31fed7c1d96f98e5aee0d3e33c2c33f933ecbcdfb342f234607fb9e1c059fac4",
+    "sourceCommit": "d621fe9684a9ad5b4e47b8bda71ae3f5edcec13e",
+    "recordHash": "ec4613b86914a3c59a0b7641c93c84c229b4f1d6d21fd6a1b6840eb94c9662e6",
     "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "VERIFIED"
   },
@@ -23,9 +23,11 @@
       "PREMARKET_PER_SYMBOL_20M_DELAY_AT_FREEZE",
       "WHOLE_MARKET_20D_CROSS_SECTION_INCOMPLETE",
       "FREE_FLOAT_CROSS_SECTION_INCOMPLETE",
+      "DEBUG_RECONSTRUCTED_POST_OPEN_NOT_FOR_TRAINING",
       "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
       "INTRADAY_MINUTE_BARS_UNAVAILABLE",
-      "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED"
+      "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED",
+      "DEBUG_REBOUND_TO_RECONSTRUCTED_PREOPEN_NOT_FOR_TRAINING"
     ]
   },
   "model": {
@@ -37,7 +39,7 @@
   },
   "prediction": {
     "snapshotAt": "2026-09-09T23:37:26.854Z",
-    "snapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42",
+    "snapshotHash": "5d29c130e75052f94f0f19b1576f085565fb4e1d0f95377ca62cdf2cc5f6ad65",
     "status": "FROZEN",
     "candidatePolicyVersion": "ExplosionScore-v0.1",
     "recommended": [
@@ -46,11 +48,11 @@
         "name": "S-Oil",
         "market": "KOSPI",
         "sector": null,
-        "primaryCatalyst": "Brent settled above $100/bbl at $101.21 after renewed U.S.-Iran tanker",
-        "primaryRisk": "Oil-shock inflation and a sharp prior-session move can create gap-and-",
-        "reason": null,
-        "validCondition": "Opening gap remains controlled, price holds the initial VWAP, and refi",
-        "invalidCondition": "A large opening gap immediately loses VWAP/previous close, or oil-link",
+        "primaryCatalyst": "브렌트유가 배럴당 101.21달러로 100달러를 넘어 마감해 정유 마진 개선 기대가 부각됐으며, 에너지 섹터의 상대 강세가 이어질 가능성을 확인할 필요가 있습니다.",
+        "primaryRisk": "유가 급등은 인플레이션과 금리 부담을 키울 수 있고 전일 상승 뒤 시초가 갭이 과도하면 추격 매수의 손익비가 빠르게 악화될 수 있습니다.",
+        "reason": "브렌트유 100달러 돌파라는 명확한 외부 촉매와 높은 거래 적합도를 동시에 갖춰 에너지 섹터로의 단기 수급 집중 가능성을 우선 관찰합니다.",
+        "validCondition": "시초가 갭이 과도하지 않고 전일 종가와 초기 VWAP 위를 유지하면서 정유·에너지 동종주의 거래대금이 함께 확대될 때만 유효합니다.",
+        "invalidCondition": "큰 갭으로 출발한 뒤 초기 VWAP과 전일 종가를 연속 이탈하거나 유가 연동 종목의 동반 강세가 사라지면 장전 가설을 무효로 봅니다.",
         "rank": 1,
         "explosionProbability": 93,
         "tradeability": 92,
@@ -76,11 +78,11 @@
         "name": "SK하이닉스",
         "market": "KOSPI",
         "sector": null,
-        "primaryCatalyst": "SK hynix closed +3.51% on 9/9 with strong foreign and institutional ne",
-        "primaryRisk": "Mega-cap elasticity is lower than small caps and higher U.S. oil/rates",
-        "reason": null,
-        "validCondition": "Previous close and initial VWAP hold while at least several semiconduc",
-        "invalidCondition": "Loses previous close and initial VWAP with semiconductor breadth turni",
+        "primaryCatalyst": "SK하이닉스는 9월 9일 3.51% 상승했고 외국인과 기관의 순매수가 확인돼, SOX 강세와 함께 HBM·AI 반도체 수급이 이어질 가능성이 있습니다.",
+        "primaryRisk": "초대형주 특성상 소형주보다 탄성이 낮고 유가·미국 금리 상승이 성장주 밸류에이션에 부담을 줄 수 있어 지수 약세 시 상승 폭이 제한될 수 있습니다.",
+        "reason": "전일 강한 주가 상승과 외국인·기관 순매수, SOX의 상대 강세가 겹쳐 대형 반도체 수급의 연속성을 확인할 대표 종목으로 선정합니다.",
+        "validCondition": "전일 종가와 초기 VWAP을 지키면서 SK하이닉스뿐 아니라 한미반도체·HPSP 등 복수의 반도체 종목에서 거래대금과 상승 폭이 함께 확산될 때 유효합니다.",
+        "invalidCondition": "전일 종가와 초기 VWAP을 동시에 이탈하고 반도체 섹터 breadth가 약세로 전환되면 장전 가설을 무효로 봅니다.",
         "rank": 2,
         "explosionProbability": 85,
         "tradeability": 99,
@@ -106,11 +108,11 @@
         "name": "삼성전기",
         "market": "KOSPI",
         "sector": null,
-        "primaryCatalyst": "Foreigners bought roughly KRW 136.6bn and institutions KRW 35.7bn net ",
-        "primaryRisk": "Large-cap price elasticity is moderate, recent volatility is elevated,",
-        "reason": null,
-        "validCondition": "Initial VWAP and prior close hold while electronic-component/semicondu",
-        "invalidCondition": "Foreign-led strength fails at the open and price loses VWAP/previous c",
+        "primaryCatalyst": "9월 9일 외국인 약 1,366억원, 기관 약 357억원의 순매수가 확인돼 수급 강도가 높았으며 반도체·전자부품 섹터의 동반 강세가 이어질 경우 추가 수급 유입을 기대할 수 있습니다.",
+        "primaryRisk": "대형주라 가격 탄성이 제한적이고 최근 변동성이 높아진 상태에서 외국인 수급이 시초가 이후 빠르게 반전되면 상승 지속성이 약해질 수 있습니다.",
+        "reason": "전일 외국인과 기관의 동반 순매수가 강하게 유입된 대형 전자부품주로, 반도체·AI 하드웨어 강세가 부품주로 확산되는지 확인하기 좋은 후보입니다.",
+        "validCondition": "초기 VWAP과 전일 종가를 유지하고 전자부품·반도체 동종주의 거래대금이 함께 증가하면서 외국인 주도 수급이 유지될 때 유효합니다.",
+        "invalidCondition": "외국인 주도 강세가 장 초반에 꺾이고 초기 VWAP과 전일 종가를 함께 이탈하면 장전 가설을 무효로 봅니다.",
         "rank": 3,
         "explosionProbability": 88,
         "tradeability": 96,
@@ -136,11 +138,11 @@
         "name": "한미반도체",
         "market": "KOSPI",
         "sector": null,
-        "primaryCatalyst": "Chairman Kwak Dong-shin announced an additional KRW 700m open-market s",
-        "primaryRisk": "Foreigners were net sellers on 9/9 and the name has already accumulate",
-        "reason": null,
-        "validCondition": "Holds prior close and initial VWAP with SK hynix and multiple equipmen",
-        "invalidCondition": "Fails VWAP/previous close while HBM equipment breadth weakens or forei",
+        "primaryCatalyst": "곽동신 회장의 추가 장내매수 발표가 경영진 신뢰 신호로 작용할 수 있고, HBM·AI 반도체 투자 사이클과 맞물려 장비주 관심이 이어질 가능성이 있습니다.",
+        "primaryRisk": "9월 9일 외국인 순매도가 있었고 최근 상승이 누적돼 있어, 장 초반 수급이 따라오지 않으면 재료 소진과 차익실현 압력이 빠르게 나타날 수 있습니다.",
+        "reason": "HBM 장비 대표주라는 섹터 위치와 최대주주의 추가 장내매수 뉴스가 결합돼, SK하이닉스와 함께 장비주 수급 확산 여부를 확인할 후보입니다.",
+        "validCondition": "전일 종가와 초기 VWAP을 유지하면서 SK하이닉스와 복수의 반도체 장비주가 동반 강세를 보이고 거래대금이 확대될 때 유효합니다.",
+        "invalidCondition": "초기 VWAP과 전일 종가를 이탈하면서 HBM 장비주 breadth가 약해지거나 외국인 매도가 확대되면 장전 가설을 무효로 봅니다.",
         "rank": 4,
         "explosionProbability": 89,
         "tradeability": 94,
@@ -166,11 +168,11 @@
         "name": "LS ELECTRIC",
         "market": "KOSPI",
         "sector": null,
-        "primaryCatalyst": "LS ELECTRIC closed +5.24% on 9/9 with KRW 112.9bn turnover and ranked ",
-        "primaryRisk": "The prior-session move raises profit-taking risk, and rising global yi",
-        "reason": null,
-        "validCondition": "Holds prior close/initial VWAP and power-equipment peers confirm bread",
-        "invalidCondition": "Early gap loses VWAP and prior close while power-equipment peers fail ",
+        "primaryCatalyst": "LS ELECTRIC은 9월 9일 5.24% 상승하고 약 1,129억원의 거래대금이 형성돼 전력 인프라 테마의 수급 집중이 확인됐습니다.",
+        "primaryRisk": "전일 상승 폭이 커 차익실현 위험이 높고 글로벌 장기금리 상승이 성장·설비투자 관련 종목의 밸류에이션 부담으로 작용할 수 있습니다.",
+        "reason": "AI 데이터센터 전력 인프라 테마의 대표 종목 가운데 전일 거래대금과 상승률이 동시에 강해, 전력기기 섹터의 연속 모멘텀을 확인할 후보입니다.",
+        "validCondition": "전일 종가와 초기 VWAP을 지키고 전력기기 동종주의 거래대금이 동반 확대되며 섹터 breadth가 유지될 때 유효합니다.",
+        "invalidCondition": "장 초반 갭 상승 후 초기 VWAP과 전일 종가를 이탈하고 전력기기 동종주가 동반 약세로 전환되면 장전 가설을 무효로 봅니다.",
         "rank": 5,
         "explosionProbability": 86,
         "tradeability": 92,
@@ -198,11 +200,11 @@
         "name": "우리로",
         "market": "KOSDAQ",
         "sector": null,
-        "primaryCatalyst": "Prior-session telecom/optical theme surge.",
-        "primaryRisk": "The stock was already up about 29.84% in the prior session and the cur",
-        "reason": null,
-        "validCondition": "Remain rejected until a separate, current liquidity/gap check is avail",
-        "invalidCondition": "Current rejection remains in force while stock-specific premarket evid",
+        "primaryCatalyst": "전일 통신·광학 테마 강세로 약 29.84% 급등해 단기 모멘텀 자체는 매우 강했습니다.",
+        "primaryRisk": "이미 상한가에 근접한 상승이 발생했고 종목별 장전 체결·스프레드·거래대금을 검증하지 못해 추격 시 슬리피지와 급반락 위험이 큽니다.",
+        "reason": "전일 통신·광학 테마 급등으로 모멘텀은 강하지만 과열과 유동성 위험이 커 장전 추천군에서는 제외합니다.",
+        "validCondition": "정규장 유동성, 스프레드, 초기 VWAP 유지와 실제 거래대금 지속성을 별도로 확인하기 전까지는 위험 제외 상태를 유지합니다.",
+        "invalidCondition": "종목별 장전 증거가 부족하거나 초기 VWAP을 지키지 못하면 위험 제외 판단을 계속 유지합니다.",
         "rank": 1,
         "explosionProbability": 78,
         "tradeability": 48,
@@ -228,11 +230,11 @@
         "name": "범한퓨얼셀",
         "market": "KOSDAQ",
         "sector": null,
-        "primaryCatalyst": "Prior-session fuel-cell/power theme surge.",
-        "primaryRisk": "The stock was already up about 29.79% in the prior session and current",
-        "reason": null,
-        "validCondition": "Remain rejected until a separate current liquidity/gap check is availa",
-        "invalidCondition": "Current rejection remains in force while stock-specific premarket evid",
+        "primaryCatalyst": "전일 연료전지·전력 테마 강세로 약 29.79% 급등해 단기 관심과 가격 모멘텀이 확인됐습니다.",
+        "primaryRisk": "급등 직후 종목별 장전 거래대금과 스프레드, 신규 직접 촉매를 충분히 검증하지 못해 갭앤페이드와 급락 위험이 큽니다.",
+        "reason": "전일 연료전지·전력 테마 급등으로 모멘텀은 존재하지만 과열 이후의 유동성·갭 위험을 검증할 자료가 부족해 추천에서 제외합니다.",
+        "validCondition": "정규장 유동성과 초기 VWAP 유지, 신규 촉매의 지속성을 별도로 확인하기 전까지는 위험 제외 상태를 유지합니다.",
+        "invalidCondition": "실제 유동성 검증이 되지 않거나 초기 VWAP을 이탈하면 위험 제외 판단을 계속 유지합니다.",
         "rank": 2,
         "explosionProbability": 76,
         "tradeability": 52,
@@ -260,11 +262,11 @@
         "name": "두산에너빌리티",
         "market": "KOSPI",
         "sector": null,
-        "primaryCatalyst": "9/9 foreign and institutional net buying with continued nuclear/power ",
-        "primaryRisk": "No equally fresh company-specific overnight catalyst and stock-specifi",
-        "reason": null,
-        "validCondition": "Prior close/VWAP hold with nuclear-power breadth.",
-        "invalidCondition": "Fails prior close and sector breadth.",
+        "primaryCatalyst": "9월 9일 외국인과 기관의 순매수가 이어졌고 원전·전력 테마의 중기 모멘텀이 유지돼 수급 연속성을 확인할 가치가 있습니다.",
+        "primaryRisk": "장전 시점에 새로 확인된 기업 고유 촉매가 약하고 종목별 미시구조 데이터가 부족해 단독 추격 근거는 충분하지 않습니다.",
+        "reason": "원전·전력 테마와 전일 외국인·기관 순매수는 긍정적이지만 같은 강도의 신규 야간 촉매가 부족해 우선 관찰군으로 둡니다.",
+        "validCondition": "전일 종가와 초기 VWAP을 유지하고 원전·전력 동종주의 breadth와 거래대금이 함께 확대되면 추천 후보로 재평가할 수 있습니다.",
+        "invalidCondition": "전일 종가를 이탈하고 원전 섹터 breadth가 약해지면 관찰 우선순위를 낮춥니다.",
         "rank": 1,
         "explosionProbability": 82,
         "tradeability": 94,
@@ -290,11 +292,11 @@
         "name": "HPSP",
         "market": "KOSDAQ",
         "sector": null,
-        "primaryCatalyst": "Closed +5.07% on 9/9 and appeared among KOSDAQ institutional net-buy l",
-        "primaryRisk": "Sector-dependent catalyst and missing stock-specific premarket microst",
-        "reason": null,
-        "validCondition": "Initial VWAP hold with KOSDAQ semiconductor breadth.",
-        "invalidCondition": "Semiconductor breadth weakens and prior close fails.",
+        "primaryCatalyst": "HPSP는 9월 9일 5.07% 상승했고 KOSDAQ 기관 순매수 상위권에 포함돼 반도체 장비 수급이 이어질 가능성이 있습니다.",
+        "primaryRisk": "개별 기업 촉매보다 섹터 의존도가 높고 장전 종목별 거래대금·스프레드를 확인하지 못해 시장 약세 시 모멘텀이 쉽게 약화될 수 있습니다.",
+        "reason": "전일 상승과 기관 순매수로 반도체 장비 수급이 확인됐지만 종목별 장전 미시구조가 부족해 관찰군으로 유지합니다.",
+        "validCondition": "초기 VWAP을 유지하면서 KOSDAQ 반도체 종목의 breadth와 거래대금이 동반 확대되면 추천 후보로 재평가할 수 있습니다.",
+        "invalidCondition": "반도체 breadth가 약해지고 전일 종가와 초기 VWAP을 이탈하면 관찰 우선순위를 낮춥니다.",
         "rank": 2,
         "explosionProbability": 83,
         "tradeability": 86,
@@ -527,7 +529,7 @@
           "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
           "MINUTE_BAR_SOURCE_UNAVAILABLE"
         ],
-        "explanation": "RECOMMENDED: 09:00~10:00 whole-market Top 5 and candidate minute bars were not sufficiently verified; no outcome label was inferred.",
+        "explanation": "추천 후보이지만 09:00~10:00 전체 시장 급등 상위군과 후보별 09:01~09:03 분봉 원천을 충분히 검증하지 못해 성과 라벨과 VWAP·MFE·MAE를 추정하지 않았습니다.",
         "eligibleForTraining": false
       },
       {
@@ -537,7 +539,7 @@
           "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
           "MINUTE_BAR_SOURCE_UNAVAILABLE"
         ],
-        "explanation": "RECOMMENDED: 09:00~10:00 whole-market Top 5 and candidate minute bars were not sufficiently verified; no outcome label was inferred.",
+        "explanation": "추천 후보이지만 09:00~10:00 전체 시장 급등 상위군과 후보별 09:01~09:03 분봉 원천을 충분히 검증하지 못해 성과 라벨과 VWAP·MFE·MAE를 추정하지 않았습니다.",
         "eligibleForTraining": false
       },
       {
@@ -547,7 +549,7 @@
           "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
           "MINUTE_BAR_SOURCE_UNAVAILABLE"
         ],
-        "explanation": "RECOMMENDED: 09:00~10:00 whole-market Top 5 and candidate minute bars were not sufficiently verified; no outcome label was inferred.",
+        "explanation": "추천 후보이지만 09:00~10:00 전체 시장 급등 상위군과 후보별 09:01~09:03 분봉 원천을 충분히 검증하지 못해 성과 라벨과 VWAP·MFE·MAE를 추정하지 않았습니다.",
         "eligibleForTraining": false
       },
       {
@@ -557,7 +559,7 @@
           "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
           "MINUTE_BAR_SOURCE_UNAVAILABLE"
         ],
-        "explanation": "RECOMMENDED: 09:00~10:00 whole-market Top 5 and candidate minute bars were not sufficiently verified; no outcome label was inferred.",
+        "explanation": "추천 후보이지만 09:00~10:00 전체 시장 급등 상위군과 후보별 09:01~09:03 분봉 원천을 충분히 검증하지 못해 성과 라벨과 VWAP·MFE·MAE를 추정하지 않았습니다.",
         "eligibleForTraining": false
       },
       {
@@ -567,7 +569,7 @@
           "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
           "MINUTE_BAR_SOURCE_UNAVAILABLE"
         ],
-        "explanation": "RECOMMENDED: 09:00~10:00 whole-market Top 5 and candidate minute bars were not sufficiently verified; no outcome label was inferred.",
+        "explanation": "추천 후보이지만 09:00~10:00 전체 시장 급등 상위군과 후보별 09:01~09:03 분봉 원천을 충분히 검증하지 못해 성과 라벨과 VWAP·MFE·MAE를 추정하지 않았습니다.",
         "eligibleForTraining": false
       },
       {
@@ -577,7 +579,7 @@
           "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
           "MINUTE_BAR_SOURCE_UNAVAILABLE"
         ],
-        "explanation": "RISK_REJECTED: 09:00~10:00 whole-market Top 5 and candidate minute bars were not sufficiently verified; no outcome label was inferred.",
+        "explanation": "위험 제외 후보이지만 09:00~10:00 전체 시장 급등 상위군과 후보별 09:01~09:03 분봉 원천을 충분히 검증하지 못해 성과 라벨과 VWAP·MFE·MAE를 추정하지 않았습니다.",
         "eligibleForTraining": false
       },
       {
@@ -587,7 +589,7 @@
           "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
           "MINUTE_BAR_SOURCE_UNAVAILABLE"
         ],
-        "explanation": "RISK_REJECTED: 09:00~10:00 whole-market Top 5 and candidate minute bars were not sufficiently verified; no outcome label was inferred.",
+        "explanation": "위험 제외 후보이지만 09:00~10:00 전체 시장 급등 상위군과 후보별 09:01~09:03 분봉 원천을 충분히 검증하지 못해 성과 라벨과 VWAP·MFE·MAE를 추정하지 않았습니다.",
         "eligibleForTraining": false
       },
       {
@@ -597,7 +599,7 @@
           "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
           "MINUTE_BAR_SOURCE_UNAVAILABLE"
         ],
-        "explanation": "WATCHLIST: 09:00~10:00 whole-market Top 5 and candidate minute bars were not sufficiently verified; no outcome label was inferred.",
+        "explanation": "관찰 후보이지만 09:00~10:00 전체 시장 급등 상위군과 후보별 09:01~09:03 분봉 원천을 충분히 검증하지 못해 성과 라벨과 VWAP·MFE·MAE를 추정하지 않았습니다.",
         "eligibleForTraining": false
       },
       {
@@ -607,7 +609,7 @@
           "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
           "MINUTE_BAR_SOURCE_UNAVAILABLE"
         ],
-        "explanation": "WATCHLIST: 09:00~10:00 whole-market Top 5 and candidate minute bars were not sufficiently verified; no outcome label was inferred.",
+        "explanation": "관찰 후보이지만 09:00~10:00 전체 시장 급등 상위군과 후보별 09:01~09:03 분봉 원천을 충분히 검증하지 못해 성과 라벨과 VWAP·MFE·MAE를 추정하지 않았습니다.",
         "eligibleForTraining": false
       }
     ],
@@ -617,18 +619,18 @@
     {
       "recordType": "PREOPEN_PREDICTION",
       "asOf": "2026-09-09T23:37:26.854Z",
-      "revision": 1,
+      "revision": 2,
       "dataQuality": "PARTIAL",
       "trainingEligible": false,
-      "snapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42"
+      "snapshotHash": "5d29c130e75052f94f0f19b1576f085565fb4e1d0f95377ca62cdf2cc5f6ad65"
     },
     {
       "recordType": "FIRST_HOUR_FEEDBACK",
       "asOf": "2026-09-10T10:12:57+09:00",
-      "revision": 1,
+      "revision": 2,
       "dataQuality": "INSUFFICIENT",
       "trainingEligible": false,
-      "snapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42"
+      "snapshotHash": "5d29c130e75052f94f0f19b1576f085565fb4e1d0f95377ca62cdf2cc5f6ad65"
     }
   ],
   "sourceManifest": {
@@ -640,7 +642,7 @@
   },
   "marketPulse": {
     "asOf": "2026-09-10T10:12:57+09:00",
-    "summary": "09:10 기준 코스피는 전일 대비 0.10% 하락한 7,044.82로 보합권을 탐색했고 코스닥은 1.15% 하락한 820.83으로 약세였다. 유가 100달러 돌파와 미국 장기금리 상승 부담이 하방 요인이었지만 필라델피아 반도체 강세가 일부 상쇄했다.",
+    "summary": "09:10 기준 KOSPI는 전일 대비 0.10% 하락한 7,044.82로 보합권을 탐색했고 KOSDAQ은 1.15% 하락한 820.83으로 약세였습니다. 유가 100달러 돌파와 미국 장기금리 상승 부담이 국내 성장주와 중소형주에 하방 압력을 주었고, 반도체 상대 강세가 일부 방어 역할을 했습니다. 장전 추천 가설은 종목별 분봉을 검증하지 못해 성과 판정을 유보하며, 지수 breadth와 초기 VWAP 확인 전에는 추격 판단을 강화하지 않습니다.",
     "regime": "MIXED_RISK_OFF_HIGH_VOLATILITY",
     "global": [],
     "korea": [
@@ -651,7 +653,7 @@
         "displayValue": null,
         "changePercent": -0.1,
         "previousClose": 7051.64,
-        "sessionLabel": "KRX regular session 2026-09-10; point observation 09:10",
+        "sessionLabel": "KRX 정규장 2026-09-10, 09:10 단일 시점 관측",
         "sessionStart": "2026-09-10T09:00:00+09:00",
         "sessionEnd": "2026-09-10T15:30:00+09:00",
         "observedAt": "2026-09-10T09:10:00+09:00",
@@ -669,7 +671,7 @@
         "displayValue": null,
         "changePercent": -1.15,
         "previousClose": 830.37,
-        "sessionLabel": "KRX regular session 2026-09-10; point observation 09:10",
+        "sessionLabel": "KRX 정규장 2026-09-10, 09:10 단일 시점 관측",
         "sessionStart": "2026-09-10T09:00:00+09:00",
         "sessionEnd": "2026-09-10T15:30:00+09:00",
         "observedAt": "2026-09-10T09:10:00+09:00",
@@ -689,7 +691,7 @@
         "displayValue": null,
         "changePercent": null,
         "previousClose": null,
-        "sessionLabel": "Overnight U.S. market context reported 2026-09-10 09:29 KST",
+        "sessionLabel": "미국 야간 시장 맥락, 2026-09-10 09:29 KST 관측",
         "sessionStart": "2026-09-09T09:30:00-04:00",
         "sessionEnd": "2026-09-09T16:00:00-04:00",
         "observedAt": "2026-09-10T09:29:00+09:00",
@@ -702,12 +704,12 @@
       }
     ],
     "themes": [
-      "Semiconductor relative strength amid broad market pressure",
-      "Oil and long-rate headwinds"
+      "시장 전반 압력 속 반도체 상대 강세",
+      "유가와 장기금리 상승에 따른 위험선호 둔화"
     ],
     "avoidConditions": [
-      "Do not infer first-hour winners from point-in-time index observations.",
-      "Do not compute VWAP/MFE/MAE without verified minute bars and timestamp semantics."
+      "단일 시점 지수 관측만으로 첫 한 시간 급등 종목을 추정하지 않습니다.",
+      "검증된 분봉과 타임스탬프 의미가 없으면 VWAP·MFE·MAE를 계산하지 않습니다."
     ]
   },
   "morningBrief": {
@@ -715,13 +717,14 @@
     "modelVersion": "ExplosionScore-v0.1",
     "dataQuality": "PARTIAL",
     "limitations": [
-      "Per-stock NXT premarket tape was 20-minute delayed at freeze; turnover acceleration unavailable.",
-      "Whole-market 20D and free-float cross-sections were incomplete; no missing values estimated.",
-      "No synthetic chart points were created."
+      "종목별 NXT 장전 체결 정보는 동결 시점에 20분 지연 자료만 확인돼 장전 거래대금 증가속도를 검증하지 못했습니다.",
+      "전체 시장의 20거래일 교차단면과 유통주식수 기반 비교가 불완전해 누락값을 추정하지 않았습니다.",
+      "검증 가능한 장중 시계열이 없어 임의의 차트 포인트를 생성하지 않았습니다.",
+      "이 revision은 2026-09-10 서비스 디버깅을 위해 장 개시 후 재구성한 교정본이며 모델 학습에는 사용하지 않습니다."
     ],
     "market": {
       "asOf": "2026-09-09T23:37:26.854Z",
-      "summary": "한국 증시는 전일 KOSPI·KOSDAQ이 동반 상승한 가운데 NXT 프리마켓 시가총액이 08:10 기준 +0.51%를 나타냈다. 다만 미국 주요 지수는 유가 100달러 돌파와 금리 상승 부담으로 하락해, 에너지와 반도체·AI 인프라 중심의 선택적 강세와 높은 변동성을 함께 경계할 구간이다.",
+      "summary": "전일 KOSPI와 KOSDAQ은 각각 1.40%, 2.28% 상승해 국내 위험선호가 개선됐고, 08:10 NXT 프리마켓 시가총액도 0.51% 상승했습니다. 반면 미국은 브렌트유가 101.21달러로 100달러를 돌파하고 장기금리가 높은 수준을 유지하면서 주요 지수가 약세를 보였습니다. 따라서 오늘은 에너지·정유, HBM·AI 반도체, AI 데이터센터 전력 인프라처럼 촉매와 수급이 동시에 확인되는 종목의 선택적 강세를 우선 보되, 지수 breadth가 무너지거나 초기 VWAP 이탈이 확산되면 추격을 줄이는 전략이 적절합니다. 특히 종목별 NXT 장전 거래대금은 20분 지연 자료만 확보돼 있어 실제 정규장 거래대금과 VWAP 확인을 진입 조건으로 둡니다.",
       "regime": "SELECTIVE_RISK_ON_HIGH_VOLATILITY",
       "global": [
         {
@@ -731,7 +734,7 @@
           "displayValue": null,
           "changePercent": -0.64,
           "previousClose": null,
-          "sessionLabel": "US regular session 2026-09-09",
+          "sessionLabel": "미국 정규장 2026-09-09",
           "sessionStart": "2026-09-09T09:30:00-04:00",
           "sessionEnd": "2026-09-09T16:00:00-04:00",
           "observedAt": "2026-09-09T23:37:26.854Z",
@@ -748,7 +751,7 @@
           "displayValue": null,
           "changePercent": 0.37,
           "previousClose": null,
-          "sessionLabel": "US regular session 2026-09-09",
+          "sessionLabel": "미국 정규장 2026-09-09",
           "sessionStart": "2026-09-09T09:30:00-04:00",
           "sessionEnd": "2026-09-09T16:00:00-04:00",
           "observedAt": "2026-09-09T23:37:26.854Z",
@@ -767,7 +770,7 @@
           "displayValue": null,
           "changePercent": 1.4,
           "previousClose": null,
-          "sessionLabel": "KRX regular session 2026-09-09",
+          "sessionLabel": "KRX 정규장 2026-09-09",
           "sessionStart": "2026-09-09T09:00:00+09:00",
           "sessionEnd": "2026-09-09T15:30:00+09:00",
           "observedAt": "2026-09-09T23:37:26.854Z",
@@ -784,7 +787,7 @@
           "displayValue": null,
           "changePercent": 2.28,
           "previousClose": null,
-          "sessionLabel": "KRX regular session 2026-09-09",
+          "sessionLabel": "KRX 정규장 2026-09-09",
           "sessionStart": "2026-09-09T09:00:00+09:00",
           "sessionEnd": "2026-09-09T15:30:00+09:00",
           "observedAt": "2026-09-09T23:37:26.854Z",
@@ -803,7 +806,7 @@
           "displayValue": null,
           "changePercent": -0.48,
           "previousClose": null,
-          "sessionLabel": "US regular session 2026-09-09",
+          "sessionLabel": "미국 정규장 2026-09-09",
           "sessionStart": "2026-09-09T09:30:00-04:00",
           "sessionEnd": "2026-09-09T16:00:00-04:00",
           "observedAt": "2026-09-09T23:37:26.854Z",
@@ -820,7 +823,7 @@
           "displayValue": null,
           "changePercent": 3.4,
           "previousClose": null,
-          "sessionLabel": "Reuters settlement 2026-09-09",
+          "sessionLabel": "Reuters 2026-09-09 정산가",
           "sessionStart": "2026-09-09T00:00:00+00:00",
           "sessionEnd": "2026-09-09T23:59:59+00:00",
           "observedAt": "2026-09-09T23:37:26.854Z",
@@ -837,7 +840,7 @@
           "displayValue": null,
           "changePercent": null,
           "previousClose": null,
-          "sessionLabel": "US market observation 2026-09-09",
+          "sessionLabel": "미국 시장 2026-09-09 관측",
           "sessionStart": "2026-09-09T09:30:00-04:00",
           "sessionEnd": "2026-09-09T16:00:00-04:00",
           "observedAt": "2026-09-09T23:37:26.854Z",
@@ -848,30 +851,13 @@
           ]
         },
         {
-          "key": "USDKRW",
-          "label": "USD/KRW",
-          "value": 1336.1,
-          "displayValue": null,
-          "changePercent": null,
-          "previousClose": null,
-          "sessionLabel": "Seoul FX 15:30 fixing 2026-09-09",
-          "sessionStart": "2026-09-09T09:00:00+09:00",
-          "sessionEnd": "2026-09-09T15:30:00+09:00",
-          "observedAt": "2026-09-09T23:37:26.854Z",
-          "intervalMinutes": null,
-          "points": [],
-          "dataQualityReasons": [
-            "INTRADAY_SERIES_UNAVAILABLE"
-          ]
-        },
-        {
           "key": "NXT_PREMARKET",
-          "label": "NXT premarket market-cap change",
+          "label": "NXT 프리마켓 시가총액 변화",
           "value": 0.51,
           "displayValue": null,
           "changePercent": 0.51,
           "previousClose": null,
-          "sessionLabel": "NXT premarket 08:00-08:50; observed 08:10",
+          "sessionLabel": "NXT 프리마켓 08:00~08:50, 08:10 관측",
           "sessionStart": "2026-09-10T08:00:00+09:00",
           "sessionEnd": "2026-09-10T08:50:00+09:00",
           "observedAt": "2026-09-09T23:37:26.854Z",
@@ -883,26 +869,26 @@
         }
       ],
       "themes": [
-        "Energy/refining from Brent > $100",
-        "HBM/AI semiconductors with SOX relative strength",
-        "AI data-center power infrastructure"
+        "브렌트유 100달러 돌파에 따른 에너지·정유 업종의 상대 강세",
+        "SOX 상대 강세와 국내 수급이 겹친 HBM·AI 반도체",
+        "AI 데이터센터 투자 확대와 연결된 전력 인프라·전력기기"
       ],
       "avoidConditions": [
-        "Do not chase uncontrolled opening gaps without VWAP hold and executable turnover confirmation.",
-        "Treat broad U.S. oil/rate pressure as a risk-off override if Korean breadth collapses.",
-        "Do not infer per-stock NXT turnover or acceleration from aggregate premarket statistics."
+        "시초가 갭이 과도한데 초기 VWAP을 지키지 못하고 실제 거래대금 증가도 확인되지 않는 종목은 추격하지 않습니다.",
+        "유가와 금리 상승 부담으로 국내 지수 breadth가 빠르게 약화되면 고베타 성장주 비중을 낮춥니다.",
+        "NXT 전체 프리마켓 통계만으로 개별 종목의 장전 거래대금이나 증가속도를 추정하지 않습니다."
       ]
     }
   },
   "preopenReport": {
     "title": "오늘 장전 급등 후보",
     "tradingDate": "2026-09-10",
-    "fileName": "nova-preopen-2026-09-10-602cd5e35de4.md",
-    "path": "data/2026/09/10/reports/nova-preopen-2026-09-10-602cd5e35de4.md",
-    "sha256": "602cd5e35de407e985b366f472edf813ef877bf1b54b391a83b3a5b6a3364aa2",
-    "generatedFromSnapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42",
+    "fileName": "nova-preopen-2026-09-10-87f612c6810a.md",
+    "path": "data/2026/09/10/reports/nova-preopen-2026-09-10-87f612c6810a.md",
+    "sha256": "87f612c6810ab0d2fde32193307bdca3e5b88790de6943bb76f62ce80aab88be",
+    "generatedFromSnapshotHash": "5d29c130e75052f94f0f19b1576f085565fb4e1d0f95377ca62cdf2cc5f6ad65",
     "mediaType": "text/markdown",
     "rendererVersion": "nova-morning-markdown-v2",
-    "predictionRevision": 1
+    "predictionRevision": 2
   }
 }

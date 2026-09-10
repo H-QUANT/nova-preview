@@ -4,8 +4,8 @@
   "visibility": "STAGE_GATED_PUBLIC_RESEARCH",
   "marketTimezone": "Asia/Seoul",
   "sourceRepository": "H-QUANT/explosion-ops",
-  "sourceCommit": "90ce96d69d708bc1ca0bf5000fc2ffd01cc62be8",
-  "generatedAt": "2026-09-10T01:12:57.000Z",
+  "sourceCommit": "d621fe9684a9ad5b4e47b8bda71ae3f5edcec13e",
+  "generatedAt": "2026-09-10T03:36:10.000Z",
   "latest": "2026-09-10",
   "days": [
     {
@@ -16,7 +16,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-04T07:40:00.000Z",
-      "recordHash": "d8246d63760503397695eb6ba7ebda7da7ed58c0974f0734dea059955ff9b56a",
+      "recordHash": "6469838e5027c91f5db6992d09ec47d5e6cb7a1a7a4c5142b51a0b60c18aff12",
       "dataOrigin": "DEMO_REPLAY",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -56,7 +56,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-08T06:56:19.000Z",
-      "recordHash": "966b13b44d67f19bac768b1381316c972f5aeb30ef8599f883e555aa8614aaf3",
+      "recordHash": "5c8f7d011cae07bec1e5a0b7d4835b06e1db925dbb31d63ee1ec4c3bacddfd47",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -106,7 +106,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-08T23:38:58.000Z",
-      "recordHash": "607ca0f2b74309dedc14d398b8d7c8550f0420ce0535b06d3de822fc31bac710",
+      "recordHash": "19c611ca6ba75fdf288e592c31d885ebbeb7863dfafa1eeebf5a88bd117a9275",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -129,8 +129,8 @@
       "dataQuality": "INSUFFICIENT",
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
-      "publishedAt": "2026-09-10T01:12:57.000Z",
-      "recordHash": "31fed7c1d96f98e5aee0d3e33c2c33f933ecbcdfb342f234607fb9e1c059fac4",
+      "publishedAt": "2026-09-10T03:36:10.000Z",
+      "recordHash": "ec4613b86914a3c59a0b7641c93c84c229b4f1d6d21fd6a1b6840eb94c9662e6",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
@@ -138,30 +138,30 @@
         {
           "recordType": "PREOPEN_PREDICTION",
           "asOf": "2026-09-09T23:37:26.854Z",
-          "revision": 1,
+          "revision": 2,
           "dataQuality": "PARTIAL",
           "trainingEligible": false,
-          "snapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42"
+          "snapshotHash": "5d29c130e75052f94f0f19b1576f085565fb4e1d0f95377ca62cdf2cc5f6ad65"
         },
         {
           "recordType": "FIRST_HOUR_FEEDBACK",
           "asOf": "2026-09-10T10:12:57+09:00",
-          "revision": 1,
+          "revision": 2,
           "dataQuality": "INSUFFICIENT",
           "trainingEligible": false,
-          "snapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42"
+          "snapshotHash": "5d29c130e75052f94f0f19b1576f085565fb4e1d0f95377ca62cdf2cc5f6ad65"
         }
       ],
       "preopenReport": {
         "title": "오늘 장전 급등 후보",
         "tradingDate": "2026-09-10",
-        "fileName": "nova-preopen-2026-09-10-602cd5e35de4.md",
-        "path": "data/2026/09/10/reports/nova-preopen-2026-09-10-602cd5e35de4.md",
-        "sha256": "602cd5e35de407e985b366f472edf813ef877bf1b54b391a83b3a5b6a3364aa2",
-        "generatedFromSnapshotHash": "b0b97993eca580aea47488080edbc525c670d301eb828301c343d54db1a46d42",
+        "fileName": "nova-preopen-2026-09-10-87f612c6810a.md",
+        "path": "data/2026/09/10/reports/nova-preopen-2026-09-10-87f612c6810a.md",
+        "sha256": "87f612c6810ab0d2fde32193307bdca3e5b88790de6943bb76f62ce80aab88be",
+        "generatedFromSnapshotHash": "5d29c130e75052f94f0f19b1576f085565fb4e1d0f95377ca62cdf2cc5f6ad65",
         "mediaType": "text/markdown",
         "rendererVersion": "nova-morning-markdown-v2",
-        "predictionRevision": 1
+        "predictionRevision": 2
       }
     }
   ]
