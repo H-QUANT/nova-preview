@@ -6,8 +6,8 @@
   "dataQuality": "INSUFFICIENT",
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
-  "publishedAt": "2026-09-10T03:36:10.000Z",
-  "recordHash": "a833a9c40bd46f00d5bcd2b94d724d5154996333481366c2befe69bd67914eed",
+  "publishedAt": "2026-09-10T06:40:26.000Z",
+  "recordHash": "3f0ade7e74968f1289d564d37ffafbbd78b785bd1d755c1ebcf1af2207b556c8",
   "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
   "sourceIntegrity": "VERIFIED",
   "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
@@ -27,6 +27,14 @@
       "dataQuality": "INSUFFICIENT",
       "trainingEligible": false,
       "snapshotHash": "5d29c130e75052f94f0f19b1576f085565fb4e1d0f95377ca62cdf2cc5f6ad65"
+    },
+    {
+      "recordType": "END_OF_DAY",
+      "asOf": "2026-09-10T15:40:26+09:00",
+      "revision": 1,
+      "dataQuality": "PARTIAL",
+      "trainingEligible": false,
+      "snapshotHash": "5d29c130e75052f94f0f19b1576f085565fb4e1d0f95377ca62cdf2cc5f6ad65"
     }
   ],
   "preopenReport": {
@@ -40,10 +48,8 @@
     "rendererVersion": "nova-morning-markdown-v2",
     "predictionRevision": 2
   },
-  "sourceCommit": "7240c2cf0c582990e3dd6b05fed0ecb700586eea",
-  "missingStages": [
-    "END_OF_DAY"
-  ],
+  "sourceCommit": "250a186aea0c1f899b9b1b48eb2b999c4445bcaf",
+  "missingStages": [],
   "reports": [
     {
       "title": "오늘 장전 급등 후보",
