@@ -1,6 +1,6 @@
 {
   "schemaVersion": "nova-public-dashboard-v1",
-  "projectionVersion": "3.3.0",
+  "projectionVersion": "3.4.0",
   "workspace": "H-QUANT",
   "product": "H-QUANT NOVA",
   "tradingDate": "2026-09-08",
@@ -8,8 +8,8 @@
   "publication": {
     "publishedAt": "2026-09-08T06:56:19.000Z",
     "mode": "PUBLIC_AFTER_CLOSE",
-    "sourceCommit": "9ec4fb0bc6b563e8dbeb0049b82284d58aa930c8",
-    "recordHash": "75ca2dd791ee742c8ca1dea8a5bbc49f7412acce379e84f190968b9523c01c1e",
+    "sourceCommit": "5413e17da67bb4eb0f8ddf2af629f3fc7310549e",
+    "recordHash": "d0915779ff30f1f35d068dc563943aae03759b0ca48707e507fce153daa41976",
     "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "VERIFIED"
   },

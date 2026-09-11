@@ -1,6 +1,6 @@
 {
   "schemaVersion": "nova-public-dashboard-v1",
-  "projectionVersion": "3.3.0",
+  "projectionVersion": "3.4.0",
   "workspace": "H-QUANT",
   "product": "H-QUANT NOVA",
   "tradingDate": "2026-09-10",
@@ -8,8 +8,8 @@
   "publication": {
     "publishedAt": "2026-09-10T06:40:26.000Z",
     "mode": "PUBLIC_AFTER_CLOSE",
-    "sourceCommit": "9ec4fb0bc6b563e8dbeb0049b82284d58aa930c8",
-    "recordHash": "82634b5bfa543ae3a5083a898fefeabbbc4ebac97034673de65c455911b4b982",
+    "sourceCommit": "5413e17da67bb4eb0f8ddf2af629f3fc7310549e",
+    "recordHash": "a5bca5d6971586cc7ec8970f96f7cdc7dff16bb16e59bfbd1f2b4263d87a966b",
     "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "VERIFIED"
   },
@@ -658,7 +658,42 @@
     "asOf": "2026-09-10T15:40:26+09:00",
     "summary": "KOSPI는 6,956.02로 1.36% 하락해 전일 7,000선 회복분을 일부 반납한 반면 KOSDAQ은 833.71로 0.40% 상승해 시장 내부의 방향이 엇갈렸습니다. 국제유가 100달러 상회와 미국 장기금리 4.8%대 부담이 대형주 위험선호를 압박했지만 일부 반도체와 중소형 성장주는 상대적으로 견조했습니다. 장전 추천군에서는 SK하이닉스와 한미반도체가 상대적으로 버틴 반면 S-Oil·삼성전기·LS ELECTRIC은 약세 방향이 확인되어 종목 선택의 분산이 컸습니다. 검증된 전체 세션 라인 시계열과 일부 종목의 확정 종가가 부족해 해당 수치는 추정하지 않았습니다.",
     "regime": "LARGE_CAP_RISK_OFF_KOSDAQ_RELATIVE_RESILIENCE",
-    "global": [],
+    "global": [
+      {
+        "key": "NASDAQ",
+        "label": "NASDAQ Composite",
+        "value": 26253.34,
+        "displayValue": null,
+        "changePercent": -0.64,
+        "previousClose": null,
+        "sessionLabel": "미국 정규장 2026-09-09",
+        "sessionStart": "2026-09-09T09:30:00-04:00",
+        "sessionEnd": "2026-09-09T16:00:00-04:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "SOX",
+        "label": "PHLX Semiconductor Index",
+        "value": 11931.3,
+        "displayValue": null,
+        "changePercent": 0.37,
+        "previousClose": null,
+        "sessionLabel": "미국 정규장 2026-09-09",
+        "sessionStart": "2026-09-09T09:30:00-04:00",
+        "sessionEnd": "2026-09-09T16:00:00-04:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      }
+    ],
     "korea": [
       {
         "key": "KOSPI",
@@ -697,7 +732,77 @@
         ]
       }
     ],
-    "compact": [],
+    "compact": [
+      {
+        "key": "SP500",
+        "label": "S&P 500",
+        "value": 7636.46,
+        "displayValue": null,
+        "changePercent": -0.48,
+        "previousClose": null,
+        "sessionLabel": "미국 정규장 2026-09-09",
+        "sessionStart": "2026-09-09T09:30:00-04:00",
+        "sessionEnd": "2026-09-09T16:00:00-04:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "BRENT",
+        "label": "Brent crude",
+        "value": 101.21,
+        "displayValue": null,
+        "changePercent": 3.4,
+        "previousClose": null,
+        "sessionLabel": "Reuters 2026-09-09 정산가",
+        "sessionStart": "2026-09-09T00:00:00+00:00",
+        "sessionEnd": "2026-09-09T23:59:59+00:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "US10Y",
+        "label": "US 10Y Treasury yield",
+        "value": 4.835,
+        "displayValue": null,
+        "changePercent": null,
+        "previousClose": null,
+        "sessionLabel": "미국 야간 시장 맥락, 2026-09-10 09:29 KST 관측",
+        "sessionStart": "2026-09-09T09:30:00-04:00",
+        "sessionEnd": "2026-09-09T16:00:00-04:00",
+        "observedAt": "2026-09-10T09:29:00+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE",
+          "POINT_OBSERVATION_ONLY"
+        ]
+      },
+      {
+        "key": "NXT_PREMARKET",
+        "label": "NXT 프리마켓 시가총액 변화",
+        "value": 0.51,
+        "displayValue": null,
+        "changePercent": 0.51,
+        "previousClose": null,
+        "sessionLabel": "NXT 프리마켓 08:00~08:50, 08:10 관측",
+        "sessionStart": "2026-09-10T08:00:00+09:00",
+        "sessionEnd": "2026-09-10T08:50:00+09:00",
+        "observedAt": "2026-09-09T23:37:26.854Z",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      }
+    ],
     "themes": [
       "KOSPI 약세와 KOSDAQ 상대 강세가 동시에 나타난 시장 내부 차별화가 두드러졌습니다.",
       "국제유가와 미국 장기금리 부담 속에서도 일부 반도체 종목은 상대적으로 견조했습니다."
