@@ -6,24 +6,27 @@
   "tradingDate": "2026-09-11",
   "marketTimezone": "Asia/Seoul",
   "publication": {
-    "publishedAt": "2026-09-10T23:43:17.381Z",
+    "publishedAt": "2026-09-11T01:16:19.000Z",
     "mode": "PUBLIC_INTRADAY_RESEARCH",
-    "sourceCommit": "96d667c242ed08613129940daf5f15bd540a8867",
-    "recordHash": "f0d62b61084b9290110a819f8aff65d145b926a8d524947079be53eea2431634",
+    "sourceCommit": "9ec4fb0bc6b563e8dbeb0049b82284d58aa930c8",
+    "recordHash": "88ecef11f17036a8a220c0007b71e1e410cebc9e85818868c47b06094efebc13",
     "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "VERIFIED"
   },
   "dataQuality": {
     "state": "INSUFFICIENT",
     "percent": null,
-    "stageCompletionPercent": 33.33333333333333,
+    "stageCompletionPercent": 66.66666666666666,
     "trainingEligible": false,
     "notes": [
       "WHOLE_MARKET_METRICS_UNAVAILABLE",
       "CURRENT_PREMARKET_INDIVIDUAL_DATA_UNAVAILABLE",
       "PREMARKET_SAME_TIME_BASELINE_UNAVAILABLE",
       "PREMARKET_ACCELERATION_SERIES_UNAVAILABLE",
-      "WHOLE_MARKET_CROSS_SECTION_INCOMPLETE"
+      "WHOLE_MARKET_CROSS_SECTION_INCOMPLETE",
+      "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
+      "INTRADAY_MINUTE_BARS_UNAVAILABLE",
+      "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED"
     ]
   },
   "model": {
@@ -248,7 +251,7 @@
     ]
   },
   "firstHour": {
-    "evaluatedAt": null,
+    "evaluatedAt": "2026-09-11T10:16:00+09:00",
     "metrics": {
       "hitRateAt5": null,
       "precisionAt5": null,
@@ -261,23 +264,205 @@
       "gapTrapRate": null
     },
     "evaluation": {
-      "metricVersion": "LEGACY_UNVERIFIED",
+      "metricVersion": "FirstHourEvidence-v0.2",
       "referenceScope": "OBSERVED_SUBSET",
-      "venue": null,
+      "venue": "KRX_KOSPI_KOSDAQ_COMMON_STOCKS",
       "wholeMarketCertified": false,
       "referenceInstrumentCount": null,
-      "requestedSymbolCount": null,
-      "measuredOutcomeCount": null,
-      "issuedRecommendationCount": null,
-      "evaluatedRecommendationCount": null,
+      "requestedSymbolCount": 6,
+      "measuredOutcomeCount": 0,
+      "issuedRecommendationCount": 0,
+      "evaluatedRecommendationCount": 0,
       "recommendationCoverage": null
     },
     "actualTopFive": [],
-    "outcomes": []
+    "outcomes": [
+      {
+        "symbol": "131290",
+        "name": "티에스이",
+        "market": "KOSDAQ",
+        "dataQuality": "INSUFFICIENT",
+        "priceDataQuality": "UNVERIFIED_MINUTE_BARS",
+        "turnoverBaselineMode": null,
+        "actualRank": null,
+        "entryVwap": null,
+        "openGapPercent": null,
+        "mfe60": null,
+        "mae60": null,
+        "return60": null,
+        "relativeTurnover60": null,
+        "closeLocation60": null,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": null,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "010950",
+        "name": "S-Oil",
+        "market": "KOSPI",
+        "dataQuality": "INSUFFICIENT",
+        "priceDataQuality": "UNVERIFIED_MINUTE_BARS",
+        "turnoverBaselineMode": null,
+        "actualRank": null,
+        "entryVwap": null,
+        "openGapPercent": null,
+        "mfe60": null,
+        "mae60": null,
+        "return60": null,
+        "relativeTurnover60": null,
+        "closeLocation60": null,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": null,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "108490",
+        "name": "로보티즈",
+        "market": "KOSDAQ",
+        "dataQuality": "INSUFFICIENT",
+        "priceDataQuality": "UNVERIFIED_MINUTE_BARS",
+        "turnoverBaselineMode": null,
+        "actualRank": null,
+        "entryVwap": null,
+        "openGapPercent": null,
+        "mfe60": null,
+        "mae60": null,
+        "return60": null,
+        "relativeTurnover60": null,
+        "closeLocation60": null,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": null,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "096770",
+        "name": "SK이노베이션",
+        "market": "KOSPI",
+        "dataQuality": "INSUFFICIENT",
+        "priceDataQuality": "UNVERIFIED_MINUTE_BARS",
+        "turnoverBaselineMode": null,
+        "actualRank": null,
+        "entryVwap": null,
+        "openGapPercent": null,
+        "mfe60": null,
+        "mae60": null,
+        "return60": null,
+        "relativeTurnover60": null,
+        "closeLocation60": null,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": null,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "042700",
+        "name": "한미반도체",
+        "market": "KOSPI",
+        "dataQuality": "INSUFFICIENT",
+        "priceDataQuality": "UNVERIFIED_MINUTE_BARS",
+        "turnoverBaselineMode": null,
+        "actualRank": null,
+        "entryVwap": null,
+        "openGapPercent": null,
+        "mfe60": null,
+        "mae60": null,
+        "return60": null,
+        "relativeTurnover60": null,
+        "closeLocation60": null,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": null,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "036930",
+        "name": "주성엔지니어링",
+        "market": "KOSDAQ",
+        "dataQuality": "INSUFFICIENT",
+        "priceDataQuality": "UNVERIFIED_MINUTE_BARS",
+        "turnoverBaselineMode": null,
+        "actualRank": null,
+        "entryVwap": null,
+        "openGapPercent": null,
+        "mfe60": null,
+        "mae60": null,
+        "return60": null,
+        "relativeTurnover60": null,
+        "closeLocation60": null,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": null,
+        "isActionableSurge": null
+      }
+    ]
   },
   "endOfDay": null,
   "feedback": {
-    "records": [],
+    "records": [
+      {
+        "symbol": "131290",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
+          "MINUTE_BAR_SOURCE_UNAVAILABLE",
+          "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED"
+        ],
+        "explanation": "위험 제외 후보이지만 09:00~10:00 전체 시장 급등 상위군과 09:01~09:03 분봉 원천을 충분히 검증하지 못해 위험 제외 성공·실패 여부와 성과 지표를 추정하지 않았습니다.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "010950",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
+          "MINUTE_BAR_SOURCE_UNAVAILABLE",
+          "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED"
+        ],
+        "explanation": "관찰 후보이지만 09:00~10:00 전체 시장 급등 상위군과 09:01~09:03 분봉 원천을 충분히 검증하지 못해 장전 정유 가설의 유지 여부와 성과 지표를 추정하지 않았습니다.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "108490",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
+          "MINUTE_BAR_SOURCE_UNAVAILABLE",
+          "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED"
+        ],
+        "explanation": "관찰 후보이지만 09:00~10:00 전체 시장 급등 상위군과 09:01~09:03 분봉 원천을 충분히 검증하지 못해 장전 로봇 가설의 유지 여부와 성과 지표를 추정하지 않았습니다.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "096770",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
+          "MINUTE_BAR_SOURCE_UNAVAILABLE",
+          "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED"
+        ],
+        "explanation": "관찰 후보이지만 09:00~10:00 전체 시장 급등 상위군과 09:01~09:03 분봉 원천을 충분히 검증하지 못해 장전 에너지 가설의 유지 여부와 성과 지표를 추정하지 않았습니다.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "042700",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
+          "MINUTE_BAR_SOURCE_UNAVAILABLE",
+          "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED"
+        ],
+        "explanation": "관찰 후보이지만 09:00~10:00 전체 시장 급등 상위군과 09:01~09:03 분봉 원천을 충분히 검증하지 못해 장전 반도체 장비 가설의 유지 여부와 성과 지표를 추정하지 않았습니다.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "036930",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
+          "MINUTE_BAR_SOURCE_UNAVAILABLE",
+          "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED"
+        ],
+        "explanation": "관찰 후보이지만 09:00~10:00 전체 시장 급등 상위군과 09:01~09:03 분봉 원천을 충분히 검증하지 못해 장전 반도체 장비 가설의 유지 여부와 성과 지표를 추정하지 않았습니다.",
+        "eligibleForTraining": false
+      }
+    ],
     "proposedFeatureChanges": []
   },
   "stages": [
@@ -288,161 +473,37 @@
       "dataQuality": "INSUFFICIENT",
       "trainingEligible": false,
       "snapshotHash": "89e9ea740bef5210ed9377b7a655198dcb76ff4a30ddd800aa2803f38520e237"
+    },
+    {
+      "recordType": "FIRST_HOUR_FEEDBACK",
+      "asOf": "2026-09-11T10:16:00+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "89e9ea740bef5210ed9377b7a655198dcb76ff4a30ddd800aa2803f38520e237"
     }
   ],
   "sourceManifest": {
     "complete": false,
     "missingStages": [
-      "FIRST_HOUR_FEEDBACK",
       "END_OF_DAY"
     ],
     "integrity": "VERIFIED"
   },
   "marketPulse": {
-    "asOf": "2026-09-11T08:42:07+09:00",
-    "summary": "전일 KOSPI는 외국인의 대규모 순매도 속에서 0.25% 하락했지만 7000선을 지켰고, KOSDAQ은 기관 매수에 힘입어 0.79% 상승해 중소형 성장주의 상대 강도가 이어졌다. 간밤 미국에서는 나스닥과 S&P500이 각각 0.65%, 0.58% 하락했고 유가 급등과 10년물 금리 상승이 기술주에 부담을 줬다. 브렌트유 107.63달러와 WTI 102.48달러의 급등으로 정유·에너지에는 상대적 촉매가 생겼지만, 반도체는 미국 기술주 약세와 전일 국내 리밸런싱 종료 이후 수급 지속성을 확인해야 한다. 오늘은 과도한 갭을 추격하기보다 개장 후 전일 종가와 VWAP 유지, 섹터 breadth, 거래대금 지속성을 함께 확인하는 것이 중요하다.",
-    "regime": "SELECTIVE_RISK_ON_HIGH_VOLATILITY",
-    "global": [
-      {
-        "key": "NASDAQ",
-        "label": "NASDAQ Composite",
-        "value": 26081.73,
-        "displayValue": "26,081.73",
-        "changePercent": -0.65,
-        "previousClose": null,
-        "sessionLabel": "미국 정규장 · 2026-09-10",
-        "sessionStart": "2026-09-10T09:30:00-04:00",
-        "sessionEnd": "2026-09-10T16:00:00-04:00",
-        "observedAt": "2026-09-10T16:00:00-04:00",
-        "intervalMinutes": null,
-        "points": [],
-        "dataQualityReasons": [
-          "검증 가능한 장중 시계열을 확보하지 못해 종가와 등락률만 저장하고 차트 포인트는 비워 두었다.",
-          "INTRADAY_SERIES_UNAVAILABLE"
-        ]
-      },
-      {
-        "key": "SP500",
-        "label": "S&P 500",
-        "value": 7591.75,
-        "displayValue": "7,591.75",
-        "changePercent": -0.58,
-        "previousClose": null,
-        "sessionLabel": "미국 정규장 · 2026-09-10",
-        "sessionStart": "2026-09-10T09:30:00-04:00",
-        "sessionEnd": "2026-09-10T16:00:00-04:00",
-        "observedAt": "2026-09-10T16:00:00-04:00",
-        "intervalMinutes": null,
-        "points": [],
-        "dataQualityReasons": [
-          "검증 가능한 장중 시계열을 확보하지 못해 종가와 등락률만 저장하고 차트 포인트는 비워 두었다.",
-          "INTRADAY_SERIES_UNAVAILABLE"
-        ]
-      }
-    ],
-    "korea": [
-      {
-        "key": "KOSPI",
-        "label": "KOSPI",
-        "value": 7033.92,
-        "displayValue": "7,033.92",
-        "changePercent": -0.25,
-        "previousClose": 7051.64,
-        "sessionLabel": "KRX 정규장 · 2026-09-10",
-        "sessionStart": "2026-09-10T09:00:00+09:00",
-        "sessionEnd": "2026-09-10T15:30:00+09:00",
-        "observedAt": "2026-09-10T15:30:00+09:00",
-        "intervalMinutes": null,
-        "points": [],
-        "dataQualityReasons": [
-          "전 거래일의 종가와 등락률은 검증했지만 완전한 장중 시계열을 확보하지 못해 차트 포인트를 저장하지 않았다.",
-          "INTRADAY_SERIES_UNAVAILABLE"
-        ]
-      },
-      {
-        "key": "KOSDAQ",
-        "label": "KOSDAQ",
-        "value": 836.92,
-        "displayValue": "836.92",
-        "changePercent": 0.79,
-        "previousClose": 830.37,
-        "sessionLabel": "KRX 정규장 · 2026-09-10",
-        "sessionStart": "2026-09-10T09:00:00+09:00",
-        "sessionEnd": "2026-09-10T15:30:00+09:00",
-        "observedAt": "2026-09-10T15:30:00+09:00",
-        "intervalMinutes": null,
-        "points": [],
-        "dataQualityReasons": [
-          "전 거래일의 종가와 등락률은 검증했지만 완전한 장중 시계열을 확보하지 못해 차트 포인트를 저장하지 않았다.",
-          "INTRADAY_SERIES_UNAVAILABLE"
-        ]
-      }
-    ],
-    "compact": [
-      {
-        "key": "DOW",
-        "label": "Dow Jones Industrial Average",
-        "value": 52064.1,
-        "displayValue": "52,064.10",
-        "changePercent": -0.6,
-        "previousClose": null,
-        "sessionLabel": "미국 정규장 · 2026-09-10",
-        "sessionStart": "2026-09-10T09:30:00-04:00",
-        "sessionEnd": "2026-09-10T16:00:00-04:00",
-        "observedAt": "2026-09-10T16:00:00-04:00",
-        "intervalMinutes": null,
-        "points": [],
-        "dataQualityReasons": [
-          "검증 가능한 장중 시계열을 확보하지 못해 종가와 등락률만 저장하고 차트 포인트는 비워 두었다.",
-          "INTRADAY_SERIES_UNAVAILABLE"
-        ]
-      },
-      {
-        "key": "RUSSELL2000",
-        "label": "Russell 2000",
-        "value": 2890.95,
-        "displayValue": "2,890.95",
-        "changePercent": -1,
-        "previousClose": null,
-        "sessionLabel": "미국 정규장 · 2026-09-10",
-        "sessionStart": "2026-09-10T09:30:00-04:00",
-        "sessionEnd": "2026-09-10T16:00:00-04:00",
-        "observedAt": "2026-09-10T16:00:00-04:00",
-        "intervalMinutes": null,
-        "points": [],
-        "dataQualityReasons": [
-          "검증 가능한 장중 시계열을 확보하지 못해 종가와 등락률만 저장하고 차트 포인트는 비워 두었다.",
-          "INTRADAY_SERIES_UNAVAILABLE"
-        ]
-      },
-      {
-        "key": "WTI",
-        "label": "WTI Crude Oil",
-        "value": 102.48,
-        "displayValue": "$102.48",
-        "changePercent": null,
-        "previousClose": null,
-        "sessionLabel": "NYMEX 정산 · 2026-09-10",
-        "sessionStart": "2026-09-10T09:00:00-04:00",
-        "sessionEnd": "2026-09-10T14:30:00-04:00",
-        "observedAt": "2026-09-10T14:30:00-04:00",
-        "intervalMinutes": null,
-        "points": [],
-        "dataQualityReasons": [
-          "로이터가 확인한 정산값만 저장했으며 검증 가능한 분봉 시계열은 확보하지 못해 차트 포인트를 생성하지 않았다.",
-          "INTRADAY_SERIES_UNAVAILABLE"
-        ]
-      }
-    ],
+    "asOf": "2026-09-11T10:16:00+09:00",
+    "summary": "2026년 9월 11일 09:00~10:00 KOSPI·KOSDAQ의 전체 장중 시계열과 종목 단면을 독립적으로 검증할 수 있는 원천을 확보하지 못해 지수 방향과 주도·약세 섹터를 확정하지 않았습니다. 장전 관찰군인 정유·에너지, 로봇, 반도체 장비 종목도 후보별 분봉을 검증하지 못해 장전 판단의 유지 또는 훼손 여부를 판정하지 않았습니다. 따라서 첫 시간 평가는 데이터 제한 상태로 두고 검증 가능한 분봉·거래대금 원천이 확보되기 전에는 성과 라벨을 추정하지 않습니다.",
+    "regime": "DATA_LIMITED_NEUTRAL",
+    "global": [],
+    "korea": [],
+    "compact": [],
     "themes": [
-      "브렌트유와 WTI 급등으로 정유·에너지 업종의 상대 강도가 부각될 가능성이 있지만 유가 헤드라인 반전 위험을 함께 본다.",
-      "로봇 업종은 허깅페이스향 액추에이터 공급 확대 기대가 이어져 로보티즈 중심의 선택적 수급 지속 여부를 확인한다.",
-      "반도체 장비는 전일 강한 거래대금을 기록했지만 미국 기술주 약세와 리밸런싱 종료 이후 수급 연속성이 핵심 변수다."
+      "정유·에너지 관찰 가설은 첫 시간 검증 데이터 부족으로 판정을 보류합니다.",
+      "로봇·반도체 장비 관찰 가설은 첫 시간 검증 데이터 부족으로 판정을 보류합니다."
     ],
     "avoidConditions": [
-      "장전 거래대금이 검증되지 않은 상태에서 8% 이상 과도한 시초가 갭이 발생하면 추격하지 않고 정규장 수급 확인을 우선한다.",
-      "초기 VWAP과 전일 종가를 동시에 이탈한 종목은 촉매가 강하더라도 장전 가설이 훼손된 것으로 보고 우선순위를 낮춘다.",
-      "섹터 대장만 상승하고 같은 업종의 거래대금과 상승 종목 수가 확산되지 않으면 단일 종목 쏠림으로 보고 보수적으로 대응한다."
+      "시점이 고정되지 않은 웹 시세만으로 첫 1시간 급등 종목 순위를 추정하지 않습니다.",
+      "분봉 원천과 타임스탬프 의미가 검증되지 않으면 VWAP·MFE·MAE·수익률을 계산하지 않습니다."
     ]
   },
   "morningBrief": {
