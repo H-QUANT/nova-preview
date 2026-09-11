@@ -4,8 +4,8 @@
   "visibility": "STAGE_GATED_PUBLIC_RESEARCH",
   "marketTimezone": "Asia/Seoul",
   "sourceRepository": "H-QUANT/explosion-ops",
-  "sourceCommit": "35768dcda159a2975442784910be8a88546bcfaf",
-  "generatedAt": "2026-09-11T06:47:01.000Z",
+  "sourceCommit": "7e3b6a1467740189a244128e7b54c6d1a6f306af",
+  "generatedAt": "2026-09-11T07:40:00.000Z",
   "latest": "2026-09-11",
   "days": [
     {
@@ -16,7 +16,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-04T07:40:00.000Z",
-      "recordHash": "93d891c500ad870b1ac379fc9b746e8e533d2e2b17412d655aed23888d8b0941",
+      "recordHash": "127cd68429d666395c683c8832968e51162f08197b6d5ea91ddec354c025aa21",
       "dataOrigin": "DEMO_REPLAY",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -56,7 +56,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-08T06:56:19.000Z",
-      "recordHash": "5ca057849654a2b3c741ffb85822d14312e600f31214c3604610c9b1ffbb825d",
+      "recordHash": "2c9e9ebedbde9d086f6d7f01c9a3ef582e13f13ae2a4c2ab8348bc4991aa0d54",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -106,7 +106,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-08T23:38:58.000Z",
-      "recordHash": "bc9f25fd4569a3e300f9136ad7c21385493ad60c900e1a7994752cad88c938ac",
+      "recordHash": "e8cc8bb5a6b5d3bfa0ec9e2c29e4db532a448d1d7e76898734d2f14e4fd6fd1c",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -130,7 +130,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-10T06:40:26.000Z",
-      "recordHash": "7bafc7542de17b1698b1727d38be40432081d0c0108c837acdaa254e7ec7f109",
+      "recordHash": "3384a2f9e17573a21220937ce8fb68493d08f6256485adffd722a0f811ff5724",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -176,20 +176,20 @@
       "tradingDate": "2026-09-11",
       "dashboardPath": "data/2026/09/11/dashboard.json",
       "manifestPath": "data/2026/09/11/manifest.json",
-      "dataQuality": "INSUFFICIENT",
+      "dataQuality": "FAILED",
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
-      "publishedAt": "2026-09-11T06:47:01.000Z",
-      "recordHash": "c8c49d7562798f9f6de8e3718a61f4624c9ed50b64a030cc044bb13b4469658b",
+      "publishedAt": "2026-09-11T07:40:00.000Z",
+      "recordHash": "7fe77297902b4152a79044c448431abd102bb6cdb94a0b79abd2ca02f4db45cd",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
-      "sourceIntegrity": "VERIFIED",
-      "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
+      "sourceIntegrity": "FAILED",
+      "publicationMode": "PUBLIC_AFTER_CLOSE",
       "stages": [
         {
           "recordType": "PREOPEN_PREDICTION",
           "asOf": "2026-09-11T08:42:07+09:00",
           "revision": 1,
-          "dataQuality": "INSUFFICIENT",
+          "dataQuality": "FAILED",
           "trainingEligible": false,
           "snapshotHash": "89e9ea740bef5210ed9377b7a655198dcb76ff4a30ddd800aa2803f38520e237"
         },
@@ -197,7 +197,7 @@
           "recordType": "FIRST_HOUR_FEEDBACK",
           "asOf": "2026-09-11T10:16:00+09:00",
           "revision": 1,
-          "dataQuality": "INSUFFICIENT",
+          "dataQuality": "FAILED",
           "trainingEligible": false,
           "snapshotHash": "89e9ea740bef5210ed9377b7a655198dcb76ff4a30ddd800aa2803f38520e237"
         },
@@ -205,22 +205,20 @@
           "recordType": "END_OF_DAY",
           "asOf": "2026-09-11T15:47:01+09:00",
           "revision": 1,
-          "dataQuality": "INSUFFICIENT",
+          "dataQuality": "FAILED",
           "trainingEligible": false,
           "snapshotHash": "89e9ea740bef5210ed9377b7a655198dcb76ff4a30ddd800aa2803f38520e237"
+        },
+        {
+          "recordType": "WEEKLY_MODEL_REVIEW",
+          "asOf": "2026-09-11T16:40:00+09:00",
+          "revision": 1,
+          "dataQuality": "FAILED",
+          "trainingEligible": false,
+          "snapshotHash": "6a1ea7969a20f43f0f23e2a1c3fca29e356ee46ea65dd686b09d7d662dd90035"
         }
       ],
-      "preopenReport": {
-        "title": "오늘 장전 급등 후보",
-        "tradingDate": "2026-09-11",
-        "fileName": "nova-preopen-2026-09-11-6892fcfa5571.md",
-        "path": "data/2026/09/11/reports/nova-preopen-2026-09-11-6892fcfa5571.md",
-        "sha256": "6892fcfa55716c20b696587859bad9f1e775012421ab6e68a850349bbd8b9412",
-        "generatedFromSnapshotHash": "89e9ea740bef5210ed9377b7a655198dcb76ff4a30ddd800aa2803f38520e237",
-        "mediaType": "text/markdown",
-        "rendererVersion": "nova-morning-markdown-v2",
-        "predictionRevision": 1
-      }
+      "preopenReport": null
     }
   ]
 }
