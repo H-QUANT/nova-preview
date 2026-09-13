@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "nova-public-day-manifest-v1",
+  "tradingDate": "2026-09-14",
+  "dashboardPath": "data/2026/09/14/dashboard.json",
+  "manifestPath": "data/2026/09/14/manifest.json",
+  "dataQuality": "INSUFFICIENT",
+  "trainingEligible": false,
+  "modelVersion": "ExplosionScore-v0.1",
+  "publishedAt": "2026-09-13T23:36:04.087Z",
+  "recordHash": "6a1b25b2525c7af1158210b0afe26ea967bb4494d5248b623af834da310db0ce",
+  "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
+  "sourceIntegrity": "VERIFIED",
+  "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
+  "stages": [
+    {
+      "recordType": "PREOPEN_PREDICTION",
+      "asOf": "2026-09-14T08:35:27+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "ee378d9bb142182b2da9cab2210e6c699edac8e08f9569f7f168cf5414c8e423"
+    }
+  ],
+  "preopenReport": {
+    "title": "오늘 장전 급등 후보",
+    "tradingDate": "2026-09-14",
+    "fileName": "nova-preopen-2026-09-14-d329bd8aea36.md",
+    "path": "data/2026/09/14/reports/nova-preopen-2026-09-14-d329bd8aea36.md",
+    "sha256": "d329bd8aea36d37b6d84cb7c7de0b959bd92cf4a734d86a321de2fc126460c19",
+    "generatedFromSnapshotHash": "ee378d9bb142182b2da9cab2210e6c699edac8e08f9569f7f168cf5414c8e423",
+    "mediaType": "text/markdown",
+    "rendererVersion": "nova-morning-markdown-v2",
+    "predictionRevision": 1
+  },
+  "sourceCommit": "c928cead27b63c7612ced23e3a8b4b3ffbb07b19",
+  "missingStages": [
+    "FIRST_HOUR_FEEDBACK",
+    "END_OF_DAY"
+  ],
+  "reports": [
+    {
+      "title": "오늘 장전 급등 후보",
+      "tradingDate": "2026-09-14",
+      "fileName": "nova-preopen-2026-09-14-d329bd8aea36.md",
+      "path": "data/2026/09/14/reports/nova-preopen-2026-09-14-d329bd8aea36.md",
+      "sha256": "d329bd8aea36d37b6d84cb7c7de0b959bd92cf4a734d86a321de2fc126460c19",
+      "generatedFromSnapshotHash": "ee378d9bb142182b2da9cab2210e6c699edac8e08f9569f7f168cf5414c8e423",
+      "mediaType": "text/markdown",
+      "rendererVersion": "nova-morning-markdown-v2",
+      "predictionRevision": 1
+    }
+  ]
+}

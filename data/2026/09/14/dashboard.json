@@ -1,0 +1,444 @@
+{
+  "schemaVersion": "nova-public-dashboard-v1",
+  "projectionVersion": "3.4.0",
+  "workspace": "H-QUANT",
+  "product": "H-QUANT NOVA",
+  "tradingDate": "2026-09-14",
+  "marketTimezone": "Asia/Seoul",
+  "publication": {
+    "publishedAt": "2026-09-13T23:36:04.087Z",
+    "mode": "PUBLIC_INTRADAY_RESEARCH",
+    "sourceCommit": "c928cead27b63c7612ced23e3a8b4b3ffbb07b19",
+    "recordHash": "6a1b25b2525c7af1158210b0afe26ea967bb4494d5248b623af834da310db0ce",
+    "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
+    "sourceIntegrity": "VERIFIED"
+  },
+  "dataQuality": {
+    "state": "INSUFFICIENT",
+    "percent": null,
+    "stageCompletionPercent": 33.33333333333333,
+    "trainingEligible": false,
+    "notes": [
+      "WHOLE_MARKET_METRICS_UNAVAILABLE",
+      "CURRENT_PREMARKET_INDIVIDUAL_DATA_UNAVAILABLE",
+      "PREMARKET_SAME_TIME_BASELINE_UNAVAILABLE",
+      "PREMARKET_ACCELERATION_SERIES_UNAVAILABLE",
+      "WHOLE_MARKET_CROSS_SECTION_INCOMPLETE"
+    ]
+  },
+  "model": {
+    "championVersion": "ExplosionScore-v0.1",
+    "challengerVersion": null,
+    "promotionStatus": null,
+    "scoringConfigHash": "dca4021103be8a91f30602f6dcd26ced0fff5894",
+    "scoreSemantics": "UNCALIBRATED_RANKING_SCORE"
+  },
+  "prediction": {
+    "snapshotAt": "2026-09-14T08:35:27+09:00",
+    "snapshotHash": "ee378d9bb142182b2da9cab2210e6c699edac8e08f9569f7f168cf5414c8e423",
+    "status": "FROZEN",
+    "candidatePolicyVersion": "ExplosionScore-v0.1",
+    "recommended": [],
+    "riskRejected": [],
+    "watchlist": []
+  },
+  "firstHour": {
+    "evaluatedAt": null,
+    "metrics": {
+      "hitRateAt5": null,
+      "precisionAt5": null,
+      "ndcgAt5": null,
+      "observedSubsetHitRateAt5": null,
+      "observedSubsetNdcgAt5": null,
+      "actionablePrecisionAt5": null,
+      "meanMfeRecommended": null,
+      "medianMaeRecommended": null,
+      "gapTrapRate": null
+    },
+    "evaluation": {
+      "metricVersion": "LEGACY_UNVERIFIED",
+      "referenceScope": "OBSERVED_SUBSET",
+      "venue": null,
+      "wholeMarketCertified": false,
+      "referenceInstrumentCount": null,
+      "requestedSymbolCount": null,
+      "measuredOutcomeCount": null,
+      "issuedRecommendationCount": null,
+      "evaluatedRecommendationCount": null,
+      "recommendationCoverage": null
+    },
+    "actualTopFive": [],
+    "outcomes": []
+  },
+  "endOfDay": null,
+  "feedback": {
+    "records": [],
+    "proposedFeatureChanges": []
+  },
+  "stages": [
+    {
+      "recordType": "PREOPEN_PREDICTION",
+      "asOf": "2026-09-14T08:35:27+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "ee378d9bb142182b2da9cab2210e6c699edac8e08f9569f7f168cf5414c8e423"
+    }
+  ],
+  "sourceManifest": {
+    "complete": false,
+    "missingStages": [
+      "FIRST_HOUR_FEEDBACK",
+      "END_OF_DAY"
+    ],
+    "integrity": "VERIFIED"
+  },
+  "marketPulse": {
+    "asOf": "2026-09-14T08:35:27+09:00",
+    "summary": "직전 국내 정규장에서 KOSPI와 KOSDAQ이 각각 1% 후반 하락한 뒤 미국 금요일 정규장은 나스닥과 반도체 지수가 반등했지만, 월요일 아시아 거래에서 브렌트유가 다시 107달러대로 상승하고 미국 금리 인상 기대가 높아져 국내 개장 전 위험 선호는 제한적인 상태다.",
+    "regime": "RISK_OFF_MACRO_PRESSURE_WITH_US_TECH_REBOUND",
+    "global": [
+      {
+        "key": "NASDAQ",
+        "label": "NASDAQ Composite",
+        "value": 26333.04,
+        "displayValue": "26,333.04",
+        "changePercent": 0.96,
+        "previousClose": 26081.72,
+        "sessionLabel": "미국 2026-09-11 정규장",
+        "sessionStart": "2026-09-11T09:30:00-04:00",
+        "sessionEnd": "2026-09-11T16:00:00-04:00",
+        "observedAt": "2026-09-14T08:35:27+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "검증 가능한 미국 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "SOX",
+        "label": "PHLX Semiconductor Index",
+        "value": 11842.5,
+        "displayValue": "11,842.5",
+        "changePercent": 1.97,
+        "previousClose": 11614.2,
+        "sessionLabel": "미국 2026-09-11 정규장",
+        "sessionStart": "2026-09-11T09:30:00-04:00",
+        "sessionEnd": "2026-09-11T16:00:00-04:00",
+        "observedAt": "2026-09-14T08:35:27+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "검증 가능한 반도체 지수 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      }
+    ],
+    "korea": [
+      {
+        "key": "KOSPI",
+        "label": "KOSPI",
+        "value": 6909.91,
+        "displayValue": "6,909.91",
+        "changePercent": -1.76,
+        "previousClose": 7033.92,
+        "sessionLabel": "한국 2026-09-11 정규장",
+        "sessionStart": "2026-09-11T09:00:00+09:00",
+        "sessionEnd": "2026-09-11T15:30:00+09:00",
+        "observedAt": "2026-09-14T08:35:27+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "검증 가능한 국내 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "KOSDAQ",
+        "label": "KOSDAQ",
+        "value": 820.64,
+        "displayValue": "820.64",
+        "changePercent": -1.95,
+        "previousClose": 836.92,
+        "sessionLabel": "한국 2026-09-11 정규장",
+        "sessionStart": "2026-09-11T09:00:00+09:00",
+        "sessionEnd": "2026-09-11T15:30:00+09:00",
+        "observedAt": "2026-09-14T08:35:27+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "검증 가능한 국내 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      }
+    ],
+    "compact": [
+      {
+        "key": "SP500",
+        "label": "S&P 500",
+        "value": 7656.98,
+        "displayValue": "7,656.98",
+        "changePercent": 0.86,
+        "previousClose": 7591.7,
+        "sessionLabel": "미국 2026-09-11 정규장",
+        "sessionStart": "2026-09-11T09:30:00-04:00",
+        "sessionEnd": "2026-09-11T16:00:00-04:00",
+        "observedAt": "2026-09-14T08:35:27+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "검증 가능한 미국 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "DOW",
+        "label": "Dow Jones Industrial Average",
+        "value": 52573.29,
+        "displayValue": "52,573.29",
+        "changePercent": 0.98,
+        "previousClose": 52064.1,
+        "sessionLabel": "미국 2026-09-11 정규장",
+        "sessionStart": "2026-09-11T09:30:00-04:00",
+        "sessionEnd": "2026-09-11T16:00:00-04:00",
+        "observedAt": "2026-09-14T08:35:27+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "검증 가능한 미국 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "RUSSELL2000",
+        "label": "Russell 2000",
+        "value": 2903.94,
+        "displayValue": "2,903.94",
+        "changePercent": 0.4,
+        "previousClose": null,
+        "sessionLabel": "미국 2026-09-11 정규장",
+        "sessionStart": "2026-09-11T09:30:00-04:00",
+        "sessionEnd": "2026-09-11T16:00:00-04:00",
+        "observedAt": "2026-09-14T08:35:27+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "직전 종가와 정규장 전체 시계열을 함께 검증하지 못해 이전 종가와 차트 배열을 비웠다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "VIX",
+        "label": "CBOE Volatility Index",
+        "value": 15.88,
+        "displayValue": "15.88",
+        "changePercent": null,
+        "previousClose": null,
+        "sessionLabel": "미국 2026-09-11 정규장 종가 관측",
+        "sessionStart": "2026-09-11T09:30:00-04:00",
+        "sessionEnd": "2026-09-11T16:00:00-04:00",
+        "observedAt": "2026-09-14T08:35:27+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "등락률과 정규장 전체 시계열을 함께 검증하지 못해 해당 값과 차트 배열을 비웠다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      }
+    ],
+    "themes": [
+      "미국 금요일 정규장에서 나스닥과 SOX가 반등해 국내 반도체 낙폭 회복 가능성은 열려 있지만, 국내 직전 거래일의 외국인·기관 동반 매도는 확인이 필요한 부담 요인이다.",
+      "월요일 아시아 거래에서 브렌트유가 107달러대로 다시 상승해 정유·에너지에는 가격 민감 재료가 있지만, 인플레이션과 금리 상승 압력은 시장 전체의 밸류에이션 부담을 키운다."
+    ],
+    "avoidConditions": [
+      "당일 개별 종목의 장전 거래대금과 증가 가속도를 검증하지 못한 상태에서는 갭 상승만으로 급등 후보를 확정하지 않는다.",
+      "미국 금리 상승과 유가 재급등이 동시에 이어지며 국내 대형주 수급이 회복되지 않으면 장전 위험 선호 확대를 가정하지 않는다."
+    ]
+  },
+  "morningBrief": {
+    "asOf": "2026-09-14T08:35:27+09:00",
+    "modelVersion": "ExplosionScore-v0.1",
+    "dataQuality": "INSUFFICIENT",
+    "limitations": [
+      "08시 35분 기준 NXT 공식 장전 개별 종목의 당일 거래대금과 체결 강도를 신뢰 가능한 공개 경로로 검증하지 못했다.",
+      "동시간 대비 장전 거래대금 비율과 다중 시점 거래대금 증가 가속도를 검증하지 못해 해당 값을 추정하거나 보간하지 않았다.",
+      "KOSPI·KOSDAQ 보통주 전체의 최신 20거래일 교차단면 분포와 유통주식 데이터를 완전하게 확보하지 못해 점수 정규화를 수행하지 않았다.",
+      "미국 및 국내 지수는 검증된 종가와 등락률만 저장했고 정규장 전체의 검증 가능한 시계열을 확보하지 못해 차트 포인트를 합성하지 않았다."
+    ],
+    "market": {
+      "asOf": "2026-09-14T08:35:27+09:00",
+      "summary": "직전 국내 정규장에서 KOSPI와 KOSDAQ이 각각 1% 후반 하락한 뒤 미국 금요일 정규장은 나스닥과 반도체 지수가 반등했지만, 월요일 아시아 거래에서 브렌트유가 다시 107달러대로 상승하고 미국 금리 인상 기대가 높아져 국내 개장 전 위험 선호는 제한적인 상태다.",
+      "regime": "RISK_OFF_MACRO_PRESSURE_WITH_US_TECH_REBOUND",
+      "global": [
+        {
+          "key": "NASDAQ",
+          "label": "NASDAQ Composite",
+          "value": 26333.04,
+          "displayValue": "26,333.04",
+          "changePercent": 0.96,
+          "previousClose": 26081.72,
+          "sessionLabel": "미국 2026-09-11 정규장",
+          "sessionStart": "2026-09-11T09:30:00-04:00",
+          "sessionEnd": "2026-09-11T16:00:00-04:00",
+          "observedAt": "2026-09-14T08:35:27+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "검증 가능한 미국 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "SOX",
+          "label": "PHLX Semiconductor Index",
+          "value": 11842.5,
+          "displayValue": "11,842.5",
+          "changePercent": 1.97,
+          "previousClose": 11614.2,
+          "sessionLabel": "미국 2026-09-11 정규장",
+          "sessionStart": "2026-09-11T09:30:00-04:00",
+          "sessionEnd": "2026-09-11T16:00:00-04:00",
+          "observedAt": "2026-09-14T08:35:27+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "검증 가능한 반도체 지수 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        }
+      ],
+      "korea": [
+        {
+          "key": "KOSPI",
+          "label": "KOSPI",
+          "value": 6909.91,
+          "displayValue": "6,909.91",
+          "changePercent": -1.76,
+          "previousClose": 7033.92,
+          "sessionLabel": "한국 2026-09-11 정규장",
+          "sessionStart": "2026-09-11T09:00:00+09:00",
+          "sessionEnd": "2026-09-11T15:30:00+09:00",
+          "observedAt": "2026-09-14T08:35:27+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "검증 가능한 국내 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "KOSDAQ",
+          "label": "KOSDAQ",
+          "value": 820.64,
+          "displayValue": "820.64",
+          "changePercent": -1.95,
+          "previousClose": 836.92,
+          "sessionLabel": "한국 2026-09-11 정규장",
+          "sessionStart": "2026-09-11T09:00:00+09:00",
+          "sessionEnd": "2026-09-11T15:30:00+09:00",
+          "observedAt": "2026-09-14T08:35:27+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "검증 가능한 국내 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        }
+      ],
+      "compact": [
+        {
+          "key": "SP500",
+          "label": "S&P 500",
+          "value": 7656.98,
+          "displayValue": "7,656.98",
+          "changePercent": 0.86,
+          "previousClose": 7591.7,
+          "sessionLabel": "미국 2026-09-11 정규장",
+          "sessionStart": "2026-09-11T09:30:00-04:00",
+          "sessionEnd": "2026-09-11T16:00:00-04:00",
+          "observedAt": "2026-09-14T08:35:27+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "검증 가능한 미국 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "DOW",
+          "label": "Dow Jones Industrial Average",
+          "value": 52573.29,
+          "displayValue": "52,573.29",
+          "changePercent": 0.98,
+          "previousClose": 52064.1,
+          "sessionLabel": "미국 2026-09-11 정규장",
+          "sessionStart": "2026-09-11T09:30:00-04:00",
+          "sessionEnd": "2026-09-11T16:00:00-04:00",
+          "observedAt": "2026-09-14T08:35:27+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "검증 가능한 미국 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "RUSSELL2000",
+          "label": "Russell 2000",
+          "value": 2903.94,
+          "displayValue": "2,903.94",
+          "changePercent": 0.4,
+          "previousClose": null,
+          "sessionLabel": "미국 2026-09-11 정규장",
+          "sessionStart": "2026-09-11T09:30:00-04:00",
+          "sessionEnd": "2026-09-11T16:00:00-04:00",
+          "observedAt": "2026-09-14T08:35:27+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "직전 종가와 정규장 전체 시계열을 함께 검증하지 못해 이전 종가와 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "VIX",
+          "label": "CBOE Volatility Index",
+          "value": 15.88,
+          "displayValue": "15.88",
+          "changePercent": null,
+          "previousClose": null,
+          "sessionLabel": "미국 2026-09-11 정규장 종가 관측",
+          "sessionStart": "2026-09-11T09:30:00-04:00",
+          "sessionEnd": "2026-09-11T16:00:00-04:00",
+          "observedAt": "2026-09-14T08:35:27+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "등락률과 정규장 전체 시계열을 함께 검증하지 못해 해당 값과 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        }
+      ],
+      "themes": [
+        "미국 금요일 정규장에서 나스닥과 SOX가 반등해 국내 반도체 낙폭 회복 가능성은 열려 있지만, 국내 직전 거래일의 외국인·기관 동반 매도는 확인이 필요한 부담 요인이다.",
+        "월요일 아시아 거래에서 브렌트유가 107달러대로 다시 상승해 정유·에너지에는 가격 민감 재료가 있지만, 인플레이션과 금리 상승 압력은 시장 전체의 밸류에이션 부담을 키운다."
+      ],
+      "avoidConditions": [
+        "당일 개별 종목의 장전 거래대금과 증가 가속도를 검증하지 못한 상태에서는 갭 상승만으로 급등 후보를 확정하지 않는다.",
+        "미국 금리 상승과 유가 재급등이 동시에 이어지며 국내 대형주 수급이 회복되지 않으면 장전 위험 선호 확대를 가정하지 않는다."
+      ]
+    }
+  },
+  "preopenReport": {
+    "title": "오늘 장전 급등 후보",
+    "tradingDate": "2026-09-14",
+    "fileName": "nova-preopen-2026-09-14-d329bd8aea36.md",
+    "path": "data/2026/09/14/reports/nova-preopen-2026-09-14-d329bd8aea36.md",
+    "sha256": "d329bd8aea36d37b6d84cb7c7de0b959bd92cf4a734d86a321de2fc126460c19",
+    "generatedFromSnapshotHash": "ee378d9bb142182b2da9cab2210e6c699edac8e08f9569f7f168cf5414c8e423",
+    "mediaType": "text/markdown",
+    "rendererVersion": "nova-morning-markdown-v2",
+    "predictionRevision": 1
+  }
+}
