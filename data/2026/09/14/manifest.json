@@ -7,10 +7,10 @@
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
   "publishedAt": "2026-09-14T06:50:07.000Z",
-  "recordHash": "2424c292c1d63bcd21cc28fc8119b6bd50a3fa1f35210fd37048d6e3f55cb69c",
+  "recordHash": "63455c943ab9928604354834858ecf3dcfd4af881f1a698e3ac247f83fc6d7b1",
   "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
   "sourceIntegrity": "VERIFIED",
-  "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
+  "publicationMode": "PUBLIC_AFTER_CLOSE",
   "stages": [
     {
       "recordType": "PREOPEN_PREDICTION",
