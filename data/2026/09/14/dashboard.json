@@ -6,17 +6,17 @@
   "tradingDate": "2026-09-14",
   "marketTimezone": "Asia/Seoul",
   "publication": {
-    "publishedAt": "2026-09-14T01:12:24.000Z",
+    "publishedAt": "2026-09-14T06:50:07.000Z",
     "mode": "PUBLIC_INTRADAY_RESEARCH",
-    "sourceCommit": "7524cc7da685c46e596851976f293707de67598b",
-    "recordHash": "fab11ef3e5ba607bf8b632ddcd4fd4a319f6b01453e2ff5321a05cc3054fe370",
+    "sourceCommit": "665473422c8cf8641183e62ad6f3a4084e4440ec",
+    "recordHash": "2424c292c1d63bcd21cc28fc8119b6bd50a3fa1f35210fd37048d6e3f55cb69c",
     "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "VERIFIED"
   },
   "dataQuality": {
     "state": "INSUFFICIENT",
     "percent": null,
-    "stageCompletionPercent": 66.66666666666666,
+    "stageCompletionPercent": 100,
     "trainingEligible": false,
     "notes": [
       "WHOLE_MARKET_METRICS_UNAVAILABLE",
@@ -27,7 +27,11 @@
       "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
       "INTRADAY_MINUTE_BARS_UNAVAILABLE",
       "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED",
-      "NO_PREOPEN_RECOMMENDATIONS_ISSUED"
+      "NO_PREOPEN_RECOMMENDATIONS_ISSUED",
+      "PREOPEN_RECOMMENDATION_SET_EMPTY",
+      "FIRST_HOUR_EVIDENCE_INSUFFICIENT",
+      "EOD_FINAL_CLOSE_VALUES_NOT_YET_CROSS_VERIFIED",
+      "WHOLE_MARKET_EOD_REFERENCE_INCOMPLETE"
     ]
   },
   "model": {
@@ -74,7 +78,11 @@
     "actualTopFive": [],
     "outcomes": []
   },
-  "endOfDay": null,
+  "endOfDay": {
+    "status": "INSUFFICIENT_EOD_EVIDENCE",
+    "summary": "오늘 PREOPEN은 장전 핵심 개별 수급과 전체시장 교차단면을 검증하지 못해 추천·위험제외·관찰 종목을 발행하지 않았고, FIRST_HOUR도 전체시장 기준군과 분봉 timestamp 의미를 인증하지 못해 성과 지표를 계산하지 않았습니다. 15:50 기준 공개 원천에서 장중 KOSPI가 6,700 부근까지 밀리고 외국인 매도가 이어진 위험회피 흐름은 확인했지만 15:30 정규장 확정 KOSPI·KOSDAQ 종가와 종목별 확정 종가·고가·거래대금을 동일 시점의 신뢰 가능한 원천으로 교차검증하지 못했습니다. 따라서 종가 성과와 급등 누락 라벨을 추정하지 않고 비워 두며 학습 비적격으로 남깁니다.",
+    "observedAt": "2026-09-14T15:50:07+09:00"
+  },
   "feedback": {
     "records": [],
     "proposedFeatureChanges": []
@@ -95,19 +103,25 @@
       "dataQuality": "INSUFFICIENT",
       "trainingEligible": false,
       "snapshotHash": "ee378d9bb142182b2da9cab2210e6c699edac8e08f9569f7f168cf5414c8e423"
+    },
+    {
+      "recordType": "END_OF_DAY",
+      "asOf": "2026-09-14T15:50:07+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "ee378d9bb142182b2da9cab2210e6c699edac8e08f9569f7f168cf5414c8e423"
     }
   ],
   "sourceManifest": {
-    "complete": false,
-    "missingStages": [
-      "END_OF_DAY"
-    ],
+    "complete": true,
+    "missingStages": [],
     "integrity": "VERIFIED"
   },
   "marketPulse": {
-    "asOf": "2026-09-14T10:10:00+09:00",
-    "summary": "09:34 기준 KOSPI는 6,707.13(-2.93%), KOSDAQ은 805.84(-1.80%)로 동반 약세였습니다. 외국인과 기관의 동반 순매도가 지수 하락을 주도했고 반도체 대형주가 큰 폭으로 밀려 위험회피 성격이 강했습니다. 일부 개별 호재 종목은 급등했지만 전체 시장의 09:00~10:00 급등 Top 5를 완전하게 검증하지 못해 성과 순위는 확정하지 않습니다.",
-    "regime": "RISK_OFF_BROAD_SELL_OFF",
+    "asOf": "2026-09-14T15:50:07+09:00",
+    "summary": "정규장 중 KOSPI가 6,700 부근까지 밀리고 외국인 매도가 이어진 위험회피 흐름은 확인됐습니다. 다만 15:30 확정 KOSPI·KOSDAQ 종가를 신뢰 가능한 복수 원천으로 아직 교차검증하지 못해 지수 종가 수치는 기록하지 않습니다. 오늘 EOD는 확인된 위험회피 흐름과 데이터 제한만 보존합니다.",
+    "regime": "EOD_DATA_LIMITED_RISK_OFF",
     "global": [
       {
         "key": "NASDAQ",
@@ -275,12 +289,12 @@
       }
     ],
     "themes": [
-      "외국인·기관 동반 매도와 반도체 대형주 약세가 첫 시간 위험회피 흐름을 주도했습니다.",
-      "인피니트헬스케어는 09:39 기준 주주환원 공시 영향으로 상한가를 기록했으나 전체시장 Top 5 인증에는 사용하지 않았습니다."
+      "중동 불확실성과 유가·금리 부담 속에서 국내 증시는 장중 위험회피 흐름이 이어졌습니다.",
+      "14:17 기준 KOSPI는 6,700선 부근에서 등락했고 외국인 매도가 지속된 것으로 보도됐습니다."
     ],
     "avoidConditions": [
-      "전체 KOSPI·KOSDAQ 보통주 reference universe가 인증되지 않은 상태에서 일부 웹 기사만으로 급등 Top 5 순위를 추정하지 않습니다.",
-      "분봉 timestamp 의미가 인증되지 않으면 VWAP·MFE·MAE·첫 시간 수익률을 계산하지 않습니다."
+      "15:30 확정 종가가 교차검증되기 전에는 장중 또는 지연 값을 종가로 사용하지 않습니다.",
+      "전체시장 확정 종가 급등 상위군을 검증하지 못하면 missed-surge 라벨을 생성하지 않습니다."
     ]
   },
   "morningBrief": {
