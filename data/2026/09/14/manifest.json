@@ -6,8 +6,8 @@
   "dataQuality": "INSUFFICIENT",
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
-  "publishedAt": "2026-09-13T23:36:04.087Z",
-  "recordHash": "6a1b25b2525c7af1158210b0afe26ea967bb4494d5248b623af834da310db0ce",
+  "publishedAt": "2026-09-14T01:12:24.000Z",
+  "recordHash": "e9e05933b57b99c9d21c57f6a3f809fb0c27f4d322fecfad526d64c425be1061",
   "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
   "sourceIntegrity": "VERIFIED",
   "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
@@ -15,6 +15,14 @@
     {
       "recordType": "PREOPEN_PREDICTION",
       "asOf": "2026-09-14T08:35:27+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "ee378d9bb142182b2da9cab2210e6c699edac8e08f9569f7f168cf5414c8e423"
+    },
+    {
+      "recordType": "FIRST_HOUR_FEEDBACK",
+      "asOf": "2026-09-14T10:10:00+09:00",
       "revision": 1,
       "dataQuality": "INSUFFICIENT",
       "trainingEligible": false,
@@ -32,9 +40,8 @@
     "rendererVersion": "nova-morning-markdown-v2",
     "predictionRevision": 1
   },
-  "sourceCommit": "c928cead27b63c7612ced23e3a8b4b3ffbb07b19",
+  "sourceCommit": "845cf7c672874f1e19670ffb746247cf7a4c4e5b",
   "missingStages": [
-    "FIRST_HOUR_FEEDBACK",
     "END_OF_DAY"
   ],
   "reports": [
