@@ -1,24 +1,24 @@
 {
   "schemaVersion": "nova-public-day-manifest-v1",
-  "tradingDate": "2026-09-09",
-  "dashboardPath": "data/2026/09/09/dashboard.json",
-  "manifestPath": "data/2026/09/09/manifest.json",
+  "tradingDate": "2026-09-15",
+  "dashboardPath": "data/2026/09/15/dashboard.json",
+  "manifestPath": "data/2026/09/15/manifest.json",
   "dataQuality": "FAILED",
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
-  "publishedAt": "2026-09-08T23:38:58.000Z",
-  "recordHash": "bfedbeb5cee92d76d5966027c95cd02a49a983a031e87e417bb0c420a5b9d7ea",
+  "publishedAt": "2026-09-14T23:55:53.428Z",
+  "recordHash": "04407f40850ab9bc7adee59fe7acdfa2f3631cc59489ad20391889fd04b62627",
   "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
   "sourceIntegrity": "FAILED",
-  "publicationMode": "PUBLIC_AFTER_CLOSE",
+  "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
   "stages": [
     {
       "recordType": "PREOPEN_PREDICTION",
-      "asOf": "2026-09-09T08:36:11+09:00",
+      "asOf": "2026-09-15T08:55:53+09:00",
       "revision": 1,
       "dataQuality": "FAILED",
       "trainingEligible": false,
-      "snapshotHash": "68b0133998acf2547d390de68043291987405776f6d1f7363ef3da792ba29532"
+      "snapshotHash": "ebd11fc8bbb007df7bbcc9d9f43a6724deb4793cf6faf8bad8f0db3b4dac8255"
     }
   ],
   "preopenReport": null,

@@ -4,9 +4,9 @@
   "visibility": "STAGE_GATED_PUBLIC_RESEARCH",
   "marketTimezone": "Asia/Seoul",
   "sourceRepository": "H-QUANT/explosion-ops",
-  "sourceCommit": "665473422c8cf8641183e62ad6f3a4084e4440ec",
-  "generatedAt": "2026-09-14T06:50:07.000Z",
-  "latest": "2026-09-14",
+  "sourceCommit": "56cfe5f2661d8c675db89ff506064801e79f6296",
+  "generatedAt": "2026-09-14T23:55:53.428Z",
+  "latest": "2026-09-15",
   "days": [
     {
       "tradingDate": "2026-09-04",
@@ -16,7 +16,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-04T07:40:00.000Z",
-      "recordHash": "64f272989193cbc480be6ae22d1890390dae802495c016b5bb544dacfc4599aa",
+      "recordHash": "0a41cc18ccca65985f043beba54c46b9171c44c25897373670d351c5fe64f639",
       "dataOrigin": "DEMO_REPLAY",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -56,7 +56,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-08T06:56:19.000Z",
-      "recordHash": "02509335b6579fd9571068872a757de8a68f129a69c79b95b43716bbeea0a00f",
+      "recordHash": "4f8a81bec4d6f8fb15ec1f1d360f5d392eccf64360d5399fec094e90b0f73178",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -106,7 +106,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-08T23:38:58.000Z",
-      "recordHash": "dec15958805fa37f097e946676c9a9a7ab4dec8ee2260e7d0b7ace5b8ceb46bf",
+      "recordHash": "bfedbeb5cee92d76d5966027c95cd02a49a983a031e87e417bb0c420a5b9d7ea",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -130,7 +130,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-10T06:40:26.000Z",
-      "recordHash": "220145cfc5e6f5b64c93ccd593fcf89fdfcba091018405ae9ff26b622320968e",
+      "recordHash": "67ecbfe8382a68422b0556541cfee4bfbef6a3864481999d117f43feef9f74b5",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -180,7 +180,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-11T07:40:00.000Z",
-      "recordHash": "c7d7b0cb23ea158b3b046f5bbd3afdcd4b32e1f18457606819fcf835cb242812",
+      "recordHash": "b74e3b0215f8cb863ce8ea87d9241271b55ed9f75f6e657dd293bf984b54baec",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -228,7 +228,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-14T06:50:07.000Z",
-      "recordHash": "63455c943ab9928604354834858ecf3dcfd4af881f1a698e3ac247f83fc6d7b1",
+      "recordHash": "6ca841565ba13e8f9c56d0926d990062a3059323e78d3771433ed1ef7d7a0f96",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -269,6 +269,30 @@
         "rendererVersion": "nova-morning-markdown-v2",
         "predictionRevision": 1
       }
+    },
+    {
+      "tradingDate": "2026-09-15",
+      "dashboardPath": "data/2026/09/15/dashboard.json",
+      "manifestPath": "data/2026/09/15/manifest.json",
+      "dataQuality": "FAILED",
+      "trainingEligible": false,
+      "modelVersion": "ExplosionScore-v0.1",
+      "publishedAt": "2026-09-14T23:55:53.428Z",
+      "recordHash": "04407f40850ab9bc7adee59fe7acdfa2f3631cc59489ad20391889fd04b62627",
+      "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
+      "sourceIntegrity": "FAILED",
+      "publicationMode": "PUBLIC_INTRADAY_RESEARCH",
+      "stages": [
+        {
+          "recordType": "PREOPEN_PREDICTION",
+          "asOf": "2026-09-15T08:55:53+09:00",
+          "revision": 1,
+          "dataQuality": "FAILED",
+          "trainingEligible": false,
+          "snapshotHash": "ebd11fc8bbb007df7bbcc9d9f43a6724deb4793cf6faf8bad8f0db3b4dac8255"
+        }
+      ],
+      "preopenReport": null
     }
   ]
 }

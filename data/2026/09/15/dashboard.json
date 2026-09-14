@@ -3,13 +3,13 @@
   "projectionVersion": "3.4.0",
   "workspace": "H-QUANT",
   "product": "H-QUANT NOVA",
-  "tradingDate": "2026-09-09",
+  "tradingDate": "2026-09-15",
   "marketTimezone": "Asia/Seoul",
   "publication": {
-    "publishedAt": "2026-09-08T23:38:58.000Z",
-    "mode": "PUBLIC_AFTER_CLOSE",
+    "publishedAt": "2026-09-14T23:55:53.428Z",
+    "mode": "PUBLIC_INTRADAY_RESEARCH",
     "sourceCommit": "56cfe5f2661d8c675db89ff506064801e79f6296",
-    "recordHash": "bfedbeb5cee92d76d5966027c95cd02a49a983a031e87e417bb0c420a5b9d7ea",
+    "recordHash": "04407f40850ab9bc7adee59fe7acdfa2f3631cc59489ad20391889fd04b62627",
     "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "FAILED"
   },
@@ -19,13 +19,14 @@
     "stageCompletionPercent": 33.33333333333333,
     "trainingEligible": false,
     "notes": [
+      "MANIFEST_HASH_MISMATCH:0830-preopen-prediction.json",
       "SNAPSHOT_PAYLOAD_HASH_MISMATCH",
       "SOURCE_INTEGRITY_FAILURE",
       "WHOLE_MARKET_METRICS_UNAVAILABLE",
+      "CURRENT_PREMARKET_INDIVIDUAL_DATA_UNAVAILABLE",
       "PREMARKET_SAME_TIME_BASELINE_UNAVAILABLE",
       "PREMARKET_ACCELERATION_SERIES_UNAVAILABLE",
-      "WHOLE_MARKET_CROSS_SECTION_INCOMPLETE",
-      "MARKET_BRIEF_INTRADAY_SERIES_PARTIAL"
+      "WHOLE_MARKET_CROSS_SECTION_INCOMPLETE"
     ]
   },
   "model": {
@@ -36,10 +37,10 @@
     "scoreSemantics": "UNCALIBRATED_RANKING_SCORE"
   },
   "prediction": {
-    "snapshotAt": "2026-09-09T08:36:11+09:00",
-    "snapshotHash": "68b0133998acf2547d390de68043291987405776f6d1f7363ef3da792ba29532",
+    "snapshotAt": "2026-09-15T08:55:53+09:00",
+    "snapshotHash": "ebd11fc8bbb007df7bbcc9d9f43a6724deb4793cf6faf8bad8f0db3b4dac8255",
     "status": "QUARANTINED",
-    "candidatePolicyVersion": null,
+    "candidatePolicyVersion": "ExplosionScore-v0.1",
     "recommended": [],
     "riskRejected": [],
     "watchlist": []
@@ -80,11 +81,11 @@
   "stages": [
     {
       "recordType": "PREOPEN_PREDICTION",
-      "asOf": "2026-09-09T08:36:11+09:00",
+      "asOf": "2026-09-15T08:55:53+09:00",
       "revision": 1,
       "dataQuality": "FAILED",
       "trainingEligible": false,
-      "snapshotHash": "68b0133998acf2547d390de68043291987405776f6d1f7363ef3da792ba29532"
+      "snapshotHash": "ebd11fc8bbb007df7bbcc9d9f43a6724deb4793cf6faf8bad8f0db3b4dac8255"
     }
   ],
   "sourceManifest": {
