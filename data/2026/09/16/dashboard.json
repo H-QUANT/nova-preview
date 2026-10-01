@@ -1,0 +1,364 @@
+{
+  "schemaVersion": "nova-public-dashboard-v1",
+  "projectionVersion": "3.4.0",
+  "workspace": "H-QUANT",
+  "product": "H-QUANT NOVA",
+  "tradingDate": "2026-09-16",
+  "marketTimezone": "Asia/Seoul",
+  "publication": {
+    "publishedAt": "2026-09-16T01:12:10.000Z",
+    "mode": "PUBLIC_AFTER_CLOSE",
+    "sourceCommit": "7e94694a9c33c39b903983dad8c3cbabdf0d70fd",
+    "recordHash": "69c864700be9130b06a6b6e2705b97755deac4bfe71d34450eaa5759671dd85f",
+    "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
+    "sourceIntegrity": "VERIFIED"
+  },
+  "dataQuality": {
+    "state": "INSUFFICIENT",
+    "percent": null,
+    "stageCompletionPercent": 66.66666666666666,
+    "trainingEligible": false,
+    "notes": [
+      "WHOLE_MARKET_METRICS_UNAVAILABLE",
+      "CURRENT_PREMARKET_INDIVIDUAL_DATA_UNAVAILABLE",
+      "PREMARKET_SAME_TIME_BASELINE_UNAVAILABLE",
+      "PREMARKET_ACCELERATION_SERIES_UNAVAILABLE",
+      "WHOLE_MARKET_CROSS_SECTION_INCOMPLETE",
+      "WHOLE_MARKET_REFERENCE_UNCERTIFIED",
+      "INTRADAY_MINUTE_BARS_UNAVAILABLE",
+      "PROVIDER_TIMESTAMP_SEMANTICS_UNCERTIFIED",
+      "NO_PREOPEN_RECOMMENDATIONS_ISSUED"
+    ]
+  },
+  "model": {
+    "championVersion": "ExplosionScore-v0.1",
+    "challengerVersion": null,
+    "promotionStatus": null,
+    "scoringConfigHash": "dca4021103be8a91f30602f6dcd26ced0fff5894",
+    "scoreSemantics": "UNCALIBRATED_RANKING_SCORE"
+  },
+  "prediction": {
+    "snapshotAt": "2026-09-16T08:52:00+09:00",
+    "snapshotHash": "fff60e4c94ca439e89ebdcbd42822cd27384a75647bba7a416cf92ddfe9a61b9",
+    "status": "FROZEN",
+    "candidatePolicyVersion": "ExplosionScore-v0.1",
+    "recommended": [],
+    "riskRejected": [],
+    "watchlist": []
+  },
+  "firstHour": {
+    "evaluatedAt": "2026-09-16T10:10:00+09:00",
+    "metrics": {
+      "hitRateAt5": null,
+      "precisionAt5": null,
+      "ndcgAt5": null,
+      "observedSubsetHitRateAt5": null,
+      "observedSubsetNdcgAt5": null,
+      "actionablePrecisionAt5": null,
+      "meanMfeRecommended": null,
+      "medianMaeRecommended": null,
+      "gapTrapRate": null
+    },
+    "evaluation": {
+      "metricVersion": "FirstHourEvidence-v0.2",
+      "referenceScope": "OBSERVED_SUBSET",
+      "venue": "KRX_KOSPI_KOSDAQ_COMMON_STOCKS",
+      "wholeMarketCertified": false,
+      "referenceInstrumentCount": null,
+      "requestedSymbolCount": 0,
+      "measuredOutcomeCount": 0,
+      "issuedRecommendationCount": 0,
+      "evaluatedRecommendationCount": 0,
+      "recommendationCoverage": null
+    },
+    "actualTopFive": [],
+    "outcomes": []
+  },
+  "endOfDay": null,
+  "feedback": {
+    "records": [],
+    "proposedFeatureChanges": []
+  },
+  "stages": [
+    {
+      "recordType": "PREOPEN_PREDICTION",
+      "asOf": "2026-09-16T08:52:00+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "fff60e4c94ca439e89ebdcbd42822cd27384a75647bba7a416cf92ddfe9a61b9"
+    },
+    {
+      "recordType": "FIRST_HOUR_FEEDBACK",
+      "asOf": "2026-09-16T10:10:00+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "fff60e4c94ca439e89ebdcbd42822cd27384a75647bba7a416cf92ddfe9a61b9"
+    }
+  ],
+  "sourceManifest": {
+    "complete": false,
+    "missingStages": [
+      "END_OF_DAY"
+    ],
+    "integrity": "VERIFIED"
+  },
+  "marketPulse": {
+    "asOf": "2026-09-16T10:10:00+09:00",
+    "summary": "09:37 기준 KOSPI는 6,675.46(+0.73%)로 하락 출발 후 상승 전환한 반면 KOSDAQ은 806.88(-0.68%)로 약세였습니다. FOMC 결과를 앞둔 경계 속에서 대형 반도체와 일부 시총 상위주의 반등이 KOSPI를 지지했지만, 전체 종목 급등 순위와 분봉 원천은 인증되지 않아 추천 성과 평가는 비워 둡니다.",
+    "regime": "FOMC_WAIT_KOSPI_REBOUND_KOSDAQ_WEAK",
+    "global": [
+      {
+        "key": "NASDAQ",
+        "label": "NASDAQ Composite",
+        "value": 25981.57,
+        "displayValue": "25,981.57",
+        "changePercent": -0.78,
+        "previousClose": null,
+        "sessionLabel": "미국 2026-09-15 정규장",
+        "sessionStart": "2026-09-15T09:30:00-04:00",
+        "sessionEnd": "2026-09-15T16:00:00-04:00",
+        "observedAt": "2026-09-16T08:52:00+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "검증 가능한 미국 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      },
+      {
+        "key": "SOX",
+        "label": "PHLX Semiconductor Index",
+        "value": null,
+        "displayValue": "+0.4%",
+        "changePercent": 0.4,
+        "previousClose": null,
+        "sessionLabel": "미국 2026-09-15 정규장",
+        "sessionStart": "2026-09-15T09:30:00-04:00",
+        "sessionEnd": "2026-09-15T16:00:00-04:00",
+        "observedAt": "2026-09-16T08:52:00+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "종가 절대값과 전체 시계열을 함께 검증하지 못해 등락률만 기록했다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      }
+    ],
+    "korea": [
+      {
+        "key": "KOSPI",
+        "label": "KOSPI",
+        "value": 6675.46,
+        "displayValue": "6,675.46",
+        "changePercent": 0.73,
+        "previousClose": 6627.26,
+        "sessionLabel": "한국 2026-09-16 정규장 09:37 관측",
+        "sessionStart": "2026-09-16T09:00:00+09:00",
+        "sessionEnd": "2026-09-16T15:30:00+09:00",
+        "observedAt": "2026-09-16T09:37:00+09:00",
+        "intervalMinutes": null,
+        "points": [
+          {
+            "time": "2026-09-16T09:00:00+09:00",
+            "value": 6611.24
+          },
+          {
+            "time": "2026-09-16T09:37:00+09:00",
+            "value": 6675.46
+          }
+        ],
+        "dataQualityReasons": [
+          "개장값과 09:37 기사 시점의 두 검증 관측점만 저장했으며 중간 값을 보간하지 않았습니다."
+        ]
+      },
+      {
+        "key": "KOSDAQ",
+        "label": "KOSDAQ",
+        "value": 806.88,
+        "displayValue": "806.88",
+        "changePercent": -0.68,
+        "previousClose": 812.41,
+        "sessionLabel": "한국 2026-09-16 정규장 09:37 관측",
+        "sessionStart": "2026-09-16T09:00:00+09:00",
+        "sessionEnd": "2026-09-16T15:30:00+09:00",
+        "observedAt": "2026-09-16T09:37:00+09:00",
+        "intervalMinutes": null,
+        "points": [
+          {
+            "time": "2026-09-16T09:02:00+09:00",
+            "value": 807.73
+          },
+          {
+            "time": "2026-09-16T09:37:00+09:00",
+            "value": 806.88
+          }
+        ],
+        "dataQualityReasons": [
+          "09:02와 09:37의 두 검증 관측점만 저장했으며 정규장 전체 시계열로 해석하지 않습니다."
+        ]
+      }
+    ],
+    "compact": [
+      {
+        "key": "US10Y_HIGH",
+        "label": "US 10Y Treasury Yield Intraday High",
+        "value": 5.041,
+        "displayValue": "5.041%",
+        "changePercent": null,
+        "previousClose": null,
+        "sessionLabel": "미국 2026-09-15 관측",
+        "sessionStart": null,
+        "sessionEnd": null,
+        "observedAt": "2026-09-16T08:52:00+09:00",
+        "intervalMinutes": null,
+        "points": [],
+        "dataQualityReasons": [
+          "Reuters가 보도한 당일 장중 고점이며 종가 시계열로 해석하지 않는다.",
+          "INTRADAY_SERIES_UNAVAILABLE"
+        ]
+      }
+    ],
+    "themes": [
+      "FOMC 결과 대기 속 KOSPI는 저가매수와 대형 반도체 반등으로 상승 전환했습니다.",
+      "KOSDAQ은 같은 시각 약세를 유지해 대형주 중심의 시장 내부 차별화가 나타났습니다."
+    ],
+    "avoidConditions": [
+      "전체 시장 reference universe와 인증된 종목 분봉이 없는 상태에서 일부 기사만으로 급등 Top 5 또는 후보 성과를 추정하지 않습니다.",
+      "09:00~10:00 원천 데이터 의미가 인증되지 않으면 VWAP·MFE·MAE·수익률을 계산하지 않습니다."
+    ]
+  },
+  "morningBrief": {
+    "asOf": "2026-09-16T08:52:00+09:00",
+    "modelVersion": "ExplosionScore-v0.1",
+    "dataQuality": "INSUFFICIENT",
+    "limitations": [
+      "08시 52분 기준 당일 개별 종목의 공식 장전 거래대금과 체결 강도를 신뢰 가능한 공개 경로로 완전하게 검증하지 못했다.",
+      "동시간 대비 장전 거래대금 비율과 다중 시점 거래대금 증가 가속도를 검증하지 못해 해당 값을 추정하거나 보간하지 않았다.",
+      "KOSPI·KOSDAQ 보통주 전체의 최신 교차단면과 유통주식 데이터를 완전하게 확보하지 못해 추천 점수 정규화를 수행하지 않았다.",
+      "지수와 거시 변수는 검증된 종가·등락률·공개 관측값만 저장하고 검증되지 않은 시계열 포인트는 합성하지 않았다."
+    ],
+    "market": {
+      "asOf": "2026-09-16T08:52:00+09:00",
+      "summary": "미국 증시는 유가 급등과 5%를 넘나든 10년물 금리, 연준의 금리 인상 경계로 약세를 이어갔고 국내 전일 KOSPI도 외국인·기관 매도 속에 하락했다. 개별 종목의 당일 장전 수급을 검증하지 못해 후보 추천은 비워 두고 확인된 시장 위험과 전일 지수 흐름만 반영한다.",
+      "regime": "RISK_OFF_HIGH_YIELD_OIL_FED_TIGHTENING",
+      "global": [
+        {
+          "key": "NASDAQ",
+          "label": "NASDAQ Composite",
+          "value": 25981.57,
+          "displayValue": "25,981.57",
+          "changePercent": -0.78,
+          "previousClose": null,
+          "sessionLabel": "미국 2026-09-15 정규장",
+          "sessionStart": "2026-09-15T09:30:00-04:00",
+          "sessionEnd": "2026-09-15T16:00:00-04:00",
+          "observedAt": "2026-09-16T08:52:00+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "검증 가능한 미국 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "SOX",
+          "label": "PHLX Semiconductor Index",
+          "value": null,
+          "displayValue": "+0.4%",
+          "changePercent": 0.4,
+          "previousClose": null,
+          "sessionLabel": "미국 2026-09-15 정규장",
+          "sessionStart": "2026-09-15T09:30:00-04:00",
+          "sessionEnd": "2026-09-15T16:00:00-04:00",
+          "observedAt": "2026-09-16T08:52:00+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "종가 절대값과 전체 시계열을 함께 검증하지 못해 등락률만 기록했다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        }
+      ],
+      "korea": [
+        {
+          "key": "KOSPI",
+          "label": "KOSPI",
+          "value": 6627.26,
+          "displayValue": "6,627.26",
+          "changePercent": -0.85,
+          "previousClose": null,
+          "sessionLabel": "한국 2026-09-15 정규장",
+          "sessionStart": "2026-09-15T09:00:00+09:00",
+          "sessionEnd": "2026-09-15T15:30:00+09:00",
+          "observedAt": "2026-09-16T08:52:00+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "검증 가능한 국내 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        },
+        {
+          "key": "KOSDAQ",
+          "label": "KOSDAQ",
+          "value": 812.41,
+          "displayValue": "812.41",
+          "changePercent": 0.7,
+          "previousClose": null,
+          "sessionLabel": "한국 2026-09-15 정규장",
+          "sessionStart": "2026-09-15T09:00:00+09:00",
+          "sessionEnd": "2026-09-15T15:30:00+09:00",
+          "observedAt": "2026-09-16T08:52:00+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "검증 가능한 국내 정규장 전체 시계열 포인트를 확보하지 못해 차트 배열을 비웠다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        }
+      ],
+      "compact": [
+        {
+          "key": "US10Y_HIGH",
+          "label": "US 10Y Treasury Yield Intraday High",
+          "value": 5.041,
+          "displayValue": "5.041%",
+          "changePercent": null,
+          "previousClose": null,
+          "sessionLabel": "미국 2026-09-15 관측",
+          "sessionStart": null,
+          "sessionEnd": null,
+          "observedAt": "2026-09-16T08:52:00+09:00",
+          "intervalMinutes": null,
+          "points": [],
+          "dataQualityReasons": [
+            "Reuters가 보도한 당일 장중 고점이며 종가 시계열로 해석하지 않는다.",
+            "INTRADAY_SERIES_UNAVAILABLE"
+          ]
+        }
+      ],
+      "themes": [
+        "미국 장기금리 5%대와 연준 금리 인상 경계가 성장주 밸류에이션에 부담을 주는 환경이다.",
+        "유가 상승과 중동 공급 불안이 물가와 금리 경로를 동시에 압박하고 있어 에너지 민감도를 주의한다.",
+        "국내 전일 KOSPI는 외국인과 기관의 동반 매도로 약세였지만 KOSDAQ은 반등해 시장 내부 차별화가 이어졌다."
+      ],
+      "avoidConditions": [
+        "당일 장전 개별 종목 거래대금과 체결 강도가 검증되지 않은 상태에서는 급등 후보 점수를 임의로 만들지 않는다.",
+        "연준 결정과 유가 급변 전후에는 갭 확대와 변동성 상승이 나타날 수 있어 확인되지 않은 추격 진입을 피한다."
+      ]
+    }
+  },
+  "preopenReport": {
+    "title": "오늘 장전 급등 후보",
+    "tradingDate": "2026-09-16",
+    "fileName": "nova-preopen-2026-09-16-28781632f49b.md",
+    "path": "data/2026/09/16/reports/nova-preopen-2026-09-16-28781632f49b.md",
+    "sha256": "28781632f49b61239582b9eae6a0b27d96034d2d06bd9c1ab62eb858d7ac1529",
+    "generatedFromSnapshotHash": "fff60e4c94ca439e89ebdcbd42822cd27384a75647bba7a416cf92ddfe9a61b9",
+    "mediaType": "text/markdown",
+    "rendererVersion": "nova-morning-markdown-v2",
+    "predictionRevision": 1
+  }
+}
