@@ -8,8 +8,8 @@
   "publication": {
     "publishedAt": "2026-09-16T01:12:10.000Z",
     "mode": "PUBLIC_AFTER_CLOSE",
-    "sourceCommit": "3b79c78235c33b88e6b7fbf5742a54251247ac04",
-    "recordHash": "edbdead4b62456a5fca537aed1c7937b64dda7eb2d2603ed3e962b19c1db9a28",
+    "sourceCommit": "0bb49c3fb48fb94b90cb3520fad7c4a4084f7a55",
+    "recordHash": "88d948ec6294fb29eb650c9402d37634e434148ea84b669f6cd6b1b1a4247bf2",
     "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
     "sourceIntegrity": "VERIFIED"
   },

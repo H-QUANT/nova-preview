@@ -3,7 +3,7 @@
   "mode": "PUBLIC_RESEARCH_PREVIEW",
   "publicationPolicy": "PUSH_IMMEDIATE_DAILY_STAGES_WITH_SCHEDULED_VERIFY",
   "sourceRepository": "H-QUANT/explosion-ops",
-  "sourceCommit": "3b79c78235c33b88e6b7fbf5742a54251247ac04",
-  "generatedAt": "2026-10-02T11:06:15+09:00",
+  "sourceCommit": "0bb49c3fb48fb94b90cb3520fad7c4a4084f7a55",
+  "generatedAt": "2026-10-02T11:10:07+09:00",
   "liveTrading": false
 }
