@@ -7,7 +7,7 @@
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
   "publishedAt": "2026-09-08T23:38:58.000Z",
-  "recordHash": "4496d79171125fbbbdcd79a726bc849fda62ee372a34904a6bb390864ab53125",
+  "recordHash": "b2f23fc13fc380e332866015d16a620cf8c54194ba43e789905c1f063331fec8",
   "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
   "sourceIntegrity": "FAILED",
   "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -22,7 +22,7 @@
     }
   ],
   "preopenReport": null,
-  "sourceCommit": "1a1729b255ba0d67981f783c28b992a3c70f07c0",
+  "sourceCommit": "3b79c78235c33b88e6b7fbf5742a54251247ac04",
   "missingStages": [
     "FIRST_HOUR_FEEDBACK",
     "END_OF_DAY"
