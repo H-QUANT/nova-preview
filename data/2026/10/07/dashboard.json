@@ -1,0 +1,1217 @@
+{
+  "schemaVersion": "nova-public-dashboard-v1",
+  "projectionVersion": "3.4.0",
+  "workspace": "H-QUANT",
+  "product": "H-QUANT NOVA",
+  "tradingDate": "2026-10-07",
+  "marketTimezone": "Asia/Seoul",
+  "publication": {
+    "publishedAt": "2026-10-07T13:50:10.720Z",
+    "mode": "PUBLIC_AFTER_CLOSE",
+    "sourceCommit": "991b81727bb22271d1620b5c06e339fb8937bf70",
+    "recordHash": "9f5952eba4de91569ac018ea7984431b6906df532b4f3f71fd3c27951349ed4a",
+    "dataOrigin": "LIVE_RESEARCH",
+    "sourceIntegrity": "VERIFIED"
+  },
+  "dataQuality": {
+    "state": "INSUFFICIENT",
+    "percent": null,
+    "stageCompletionPercent": 100,
+    "trainingEligible": false,
+    "notes": [
+      "WHOLE_MARKET_METRICS_UNAVAILABLE",
+      "WHOLE_MARKET_REFERENCE_UNVERIFIED",
+      "PROVIDER_MINUTE_BUCKET_SEMANTICS_UNVERIFIED",
+      "HISTORICAL_FIRST_HOUR_BASELINE_INCOMPLETE",
+      "SCHEDULE_DELAY",
+      "LESS_THAN_FIVE_VALID_OUTCOMES",
+      "PARTIAL_MARKET_DATA_FAILURES",
+      "CRITICAL_SYMBOL_OUTCOME_MISSING",
+      "RECOMMENDATION_OUTCOME_INCOMPLETE",
+      "OFFICIAL_KRX_SAME_DAY_RECONCILIATION_INCOMPLETE",
+      "BROKER_CONTRACT_NOT_VERIFIED"
+    ]
+  },
+  "model": {
+    "championVersion": "ExplosionScore-v0.1",
+    "challengerVersion": null,
+    "promotionStatus": null,
+    "scoringConfigHash": "dca4021103be8a91f30602f6dcd26ced0fff5894",
+    "scoreSemantics": "UNCALIBRATED_RANKING_SCORE"
+  },
+  "prediction": {
+    "snapshotAt": "2026-10-07T08:40:32.4391388+09:00",
+    "snapshotHash": "7a9421e540387569e5e6cde7a5b1e6e54778f11aca9106cf58bc777679a5d89e",
+    "status": "FROZEN",
+    "candidatePolicyVersion": "BalancedDiscovery-v0.2",
+    "recommended": [
+      {
+        "symbol": "034020",
+        "name": "두산에너빌리티",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "STRONG_MATERIAL, FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, TURNOVER_ACCELERATION, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 1,
+        "explosionProbability": 79.2402,
+        "tradeability": 87.1428,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 65.8757,
+        "gap": 2.3313,
+        "reasonCodes": [
+          "STRONG_MATERIAL",
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "TURNOVER_ACCELERATION",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 14.72,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 9.0086,
+          "SectorLeadership": 7.0345,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      },
+      {
+        "symbol": "009150",
+        "name": "삼성전기",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "STRONG_MATERIAL, FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 2,
+        "explosionProbability": 77.7642,
+        "tradeability": 86.4691,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 64.1489,
+        "gap": 0.7761,
+        "reasonCodes": [
+          "STRONG_MATERIAL",
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 14.72,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 6.2408,
+          "SectorLeadership": 7.8621,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      }
+    ],
+    "riskRejected": [
+      {
+        "symbol": "196170",
+        "name": "알테오젠",
+        "market": "KOSDAQ",
+        "sector": "우량기업부",
+        "primaryCatalyst": "STRONG_MATERIAL, FRESH_CATALYST, RELATIVE_TURNOVER_SURGE",
+        "primaryRisk": "FINANCING_OVERHANG",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 8,
+        "explosionProbability": 72.8211,
+        "tradeability": 84.9832,
+        "dataConfidence": 95.4,
+        "riskPenalty": 7.6585,
+        "finalRankScore": 51.3804,
+        "gap": 2.5,
+        "reasonCodes": [
+          "STRONG_MATERIAL",
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE"
+        ],
+        "riskCodes": [
+          "FINANCING_OVERHANG"
+        ],
+        "contributions": {
+          "MaterialStrength": 14.72,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 6.8516,
+          "SectorLeadership": 5.5172,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": -7.6585
+        }
+      },
+      {
+        "symbol": "019170",
+        "name": "신풍제약",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "RELATIVE_TURNOVER_SURGE, TURNOVER_ACCELERATION, SECTOR_LEADER",
+        "primaryRisk": "EXCESSIVE_GAP, LOW_LIQUIDITY",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 39,
+        "explosionProbability": 68.7623,
+        "tradeability": 50.6256,
+        "dataConfidence": 95.4,
+        "riskPenalty": 12.5032,
+        "finalRankScore": 20.7068,
+        "gap": 13.6505,
+        "reasonCodes": [
+          "RELATIVE_TURNOVER_SURGE",
+          "TURNOVER_ACCELERATION",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [
+          "EXCESSIVE_GAP",
+          "LOW_LIQUIDITY"
+        ],
+        "contributions": {
+          "MaterialStrength": 7.2,
+          "FreshCatalystAge": 3.2,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 10,
+          "SectorLeadership": 7.4483,
+          "FloatElasticity": 2.5899,
+          "GapRisk": -8.9255,
+          "OtherRisk": -3.5777
+        }
+      }
+    ],
+    "watchlist": [
+      {
+        "symbol": "052690",
+        "name": "한전기술",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, TURNOVER_ACCELERATION, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 3,
+        "explosionProbability": 71.3328,
+        "tradeability": 85.7674,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0.2073,
+        "finalRankScore": 58.1587,
+        "gap": 3.9596,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "TURNOVER_ACCELERATION",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 10,
+          "SectorLeadership": 6.7586,
+          "FloatElasticity": 0.9115,
+          "GapRisk": 0,
+          "OtherRisk": -0.2073
+        }
+      },
+      {
+        "symbol": "062040",
+        "name": "산일전기",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "STRONG_MATERIAL, FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, TURNOVER_ACCELERATION, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 4,
+        "explosionProbability": 79.0353,
+        "tradeability": 78.5866,
+        "dataConfidence": 95.4,
+        "riskPenalty": 1.1344,
+        "finalRankScore": 58.1196,
+        "gap": 5.5319,
+        "reasonCodes": [
+          "STRONG_MATERIAL",
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "TURNOVER_ACCELERATION",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 14.72,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 8.4182,
+          "SectorLeadership": 6.8966,
+          "FloatElasticity": 0.9,
+          "GapRisk": -0.5319,
+          "OtherRisk": -0.6025
+        }
+      },
+      {
+        "symbol": "003670",
+        "name": "포스코퓨처엠",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "STRONG_MATERIAL, FRESH_CATALYST, RELATIVE_TURNOVER_SURGE",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 5,
+        "explosionProbability": 69.6283,
+        "tradeability": 83.0121,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0.7016,
+        "finalRankScore": 54.4396,
+        "gap": 0.2445,
+        "reasonCodes": [
+          "STRONG_MATERIAL",
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 14.72,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 5.9912,
+          "SectorLeadership": 4.2759,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": -0.7016
+        }
+      },
+      {
+        "symbol": "010120",
+        "name": "LS ELECTRIC",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "RELATIVE_TURNOVER_SURGE, TURNOVER_ACCELERATION, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 6,
+        "explosionProbability": 65.6996,
+        "tradeability": 85.3712,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0.3054,
+        "finalRankScore": 53.2031,
+        "gap": 4.5977,
+        "reasonCodes": [
+          "RELATIVE_TURNOVER_SURGE",
+          "TURNOVER_ACCELERATION",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 7.2,
+          "FreshCatalystAge": 3.2,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 9.938,
+          "SectorLeadership": 7.1724,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": -0.3054
+        }
+      },
+      {
+        "symbol": "298040",
+        "name": "효성중공업",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "RELATIVE_TURNOVER_SURGE, TURNOVER_ACCELERATION, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 7,
+        "explosionProbability": 63.3184,
+        "tradeability": 85.5386,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0.0529,
+        "finalRankScore": 51.6174,
+        "gap": 2.7431,
+        "reasonCodes": [
+          "RELATIVE_TURNOVER_SURGE",
+          "TURNOVER_ACCELERATION",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 7.2,
+          "FreshCatalystAge": 3.2,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 10,
+          "SectorLeadership": 6.4828,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": -0.0529
+        }
+      },
+      {
+        "symbol": "042700",
+        "name": "한미반도체",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "STRONG_MATERIAL, FRESH_CATALYST, RELATIVE_TURNOVER_SURGE",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 9,
+        "explosionProbability": 69.2621,
+        "tradeability": 77.5714,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 51.2561,
+        "gap": -1.4388,
+        "reasonCodes": [
+          "STRONG_MATERIAL",
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 14.72,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 11.1985,
+          "TurnoverAcceleration": 5.72,
+          "SectorLeadership": 4.8276,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      },
+      {
+        "symbol": "000660",
+        "name": "SK하이닉스",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 10,
+        "explosionProbability": 66.1216,
+        "tradeability": 77.901,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 49.14,
+        "gap": -1.8613,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 9.6188,
+          "TurnoverAcceleration": 6.2378,
+          "SectorLeadership": 8,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      },
+      {
+        "symbol": "066570",
+        "name": "LG전자",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 11,
+        "explosionProbability": 64.6968,
+        "tradeability": 77.763,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 47.9959,
+        "gap": -0.4301,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 5.5172,
+          "SectorLeadership": 5.7931,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      },
+      {
+        "symbol": "000500",
+        "name": "가온전선",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "RELATIVE_TURNOVER_SURGE, TURNOVER_ACCELERATION, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 12,
+        "explosionProbability": 66.2465,
+        "tradeability": 78.7663,
+        "dataConfidence": 95.4,
+        "riskPenalty": 1.8578,
+        "finalRankScore": 47.9219,
+        "gap": 6.2691,
+        "reasonCodes": [
+          "RELATIVE_TURNOVER_SURGE",
+          "TURNOVER_ACCELERATION",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 7.2,
+          "FreshCatalystAge": 3.2,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 10,
+          "SectorLeadership": 7.3103,
+          "FloatElasticity": 0.9,
+          "GapRisk": -1.2691,
+          "OtherRisk": -0.5886
+        }
+      },
+      {
+        "symbol": "011070",
+        "name": "LG이노텍",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 13,
+        "explosionProbability": 58.4885,
+        "tradeability": 85.9479,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0.055,
+        "finalRankScore": 47.9022,
+        "gap": 0.4658,
+        "reasonCodes": [
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 7.2,
+          "FreshCatalystAge": 3.2,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 5.9294,
+          "SectorLeadership": 5.931,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": -0.055
+        }
+      }
+    ]
+  },
+  "firstHour": {
+    "evaluatedAt": "2026-10-07T16:09:58.7456514+09:00",
+    "metrics": {
+      "hitRateAt5": null,
+      "precisionAt5": null,
+      "ndcgAt5": null,
+      "observedSubsetHitRateAt5": null,
+      "observedSubsetNdcgAt5": null,
+      "actionablePrecisionAt5": null,
+      "meanMfeRecommended": null,
+      "medianMaeRecommended": null,
+      "gapTrapRate": null
+    },
+    "evaluation": {
+      "metricVersion": "FirstHourEvidence-v0.3-kis-market-rank",
+      "referenceScope": "OBSERVED_SUBSET",
+      "venue": "J",
+      "wholeMarketCertified": false,
+      "referenceInstrumentCount": 2549,
+      "requestedSymbolCount": 39,
+      "measuredOutcomeCount": 0,
+      "issuedRecommendationCount": 2,
+      "evaluatedRecommendationCount": 0,
+      "recommendationCoverage": 0
+    },
+    "actualTopFive": [],
+    "outcomes": [
+      {
+        "symbol": "034020",
+        "name": "두산에너빌리티",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 83417.1566,
+        "openGapPercent": 2.454,
+        "mfe60": 1.0583,
+        "mae60": -2.0585,
+        "return60": -1.8188,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.0769,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "009150",
+        "name": "삼성전기",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 1682452.4744,
+        "openGapPercent": 0,
+        "mfe60": 0,
+        "mae60": -2.9987,
+        "return60": -1.81,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.4878,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "052690",
+        "name": "한전기술",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 132722.4484,
+        "openGapPercent": 4.4255,
+        "mfe60": 0.5858,
+        "mae60": -2.3526,
+        "return60": -2.0512,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.1026,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "062040",
+        "name": "산일전기",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 242223.3486,
+        "openGapPercent": 5.3191,
+        "mfe60": 2.1784,
+        "mae60": -3.6014,
+        "return60": -2.7757,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.1429,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "003670",
+        "name": "포스코퓨처엠",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 198602.2014,
+        "openGapPercent": -0.7335,
+        "mfe60": 0,
+        "mae60": -5.1874,
+        "return60": -3.425,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.3804,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "010120",
+        "name": "LS ELECTRIC",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 221844.7235,
+        "openGapPercent": 4.3678,
+        "mfe60": 2.3238,
+        "mae60": -4.4377,
+        "return60": -4.2123,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.0333,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "298040",
+        "name": "효성중공업",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 2797322.0069,
+        "openGapPercent": 2.7075,
+        "mfe60": 0.7392,
+        "mae60": -4.5516,
+        "return60": -4.5158,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.0068,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "196170",
+        "name": "알테오젠",
+        "market": "KOSDAQ",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 262907.3391,
+        "openGapPercent": 1.9231,
+        "mfe60": 0.9862,
+        "mae60": -1.4862,
+        "return60": -0.9157,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.2308,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "042700",
+        "name": "한미반도체",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 272446.1386,
+        "openGapPercent": -1.6187,
+        "mfe60": 0.9374,
+        "mae60": -0.8978,
+        "return60": -0.1638,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.4,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "000660",
+        "name": "SK하이닉스",
+        "market": "KOSPI",
+        "dataQuality": "FAILED",
+        "priceDataQuality": "FAILED",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": null,
+        "openGapPercent": null,
+        "mfe60": null,
+        "mae60": null,
+        "return60": null,
+        "relativeTurnover60": null,
+        "closeLocation60": null,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "066570",
+        "name": "LG전자",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 234706.8533,
+        "openGapPercent": -0.4301,
+        "mfe60": 0,
+        "mae60": -4.3488,
+        "return60": -3.9227,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.1429,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "000500",
+        "name": "가온전선",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 344036.8838,
+        "openGapPercent": 7.3394,
+        "mfe60": 4.4946,
+        "mae60": -8.2947,
+        "return60": -7.5681,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.0568,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "011070",
+        "name": "LG이노텍",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 641598.5989,
+        "openGapPercent": 0.1553,
+        "mfe60": 0.0626,
+        "mae60": -2.4312,
+        "return60": -1.496,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.375,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "019170",
+        "name": "신풍제약",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 10883.5688,
+        "openGapPercent": 0,
+        "mfe60": 0.4266,
+        "mae60": -5.3619,
+        "return60": -4.9025,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.0794,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "005930",
+        "name": "삼성전자",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 271541.3083,
+        "openGapPercent": -0.9191,
+        "mfe60": 2.9309,
+        "mae60": -0.1993,
+        "return60": 1.642,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.5882,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "402340",
+        "name": "SK스퀘어",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 1152515.8701,
+        "openGapPercent": -1.292,
+        "mfe60": 3.6862,
+        "mae60": -1.086,
+        "return60": 2.2112,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.6909,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "036930",
+        "name": "주성엔지니어링",
+        "market": "KOSDAQ",
+        "dataQuality": "FAILED",
+        "priceDataQuality": "FAILED",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": null,
+        "openGapPercent": null,
+        "mfe60": null,
+        "mae60": null,
+        "return60": null,
+        "relativeTurnover60": null,
+        "closeLocation60": null,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "042510",
+        "name": "라온시큐어",
+        "market": "KOSDAQ",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 14784.3819,
+        "openGapPercent": 4.1022,
+        "mfe60": 14.7157,
+        "mae60": -0.706,
+        "return60": 6.9372,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.4956,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "010170",
+        "name": "대한광통신",
+        "market": "KOSDAQ",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 19065.9114,
+        "openGapPercent": 2.2666,
+        "mfe60": 4.2174,
+        "mae60": -3.7025,
+        "return60": -3.3878,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.0397,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "069540",
+        "name": "빛과전자",
+        "market": "KOSDAQ",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 5304.883,
+        "openGapPercent": 2.1956,
+        "mfe60": 12.9148,
+        "mae60": -0.2806,
+        "return60": 1.039,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.1,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "012210",
+        "name": "삼미금속",
+        "market": "KOSDAQ",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 12685.6158,
+        "openGapPercent": 2.0276,
+        "mfe60": 9.0211,
+        "mae60": -3.0398,
+        "return60": 9.0211,
+        "relativeTurnover60": null,
+        "closeLocation60": 1,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      }
+    ]
+  },
+  "endOfDay": {
+    "status": null,
+    "summary": null,
+    "observedAt": "2026-10-07T22:50:00.5537748+09:00"
+  },
+  "feedback": {
+    "records": [
+      {
+        "symbol": "034020",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "009150",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "052690",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "062040",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "003670",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "010120",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "298040",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "196170",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "042700",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "000660",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "066570",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "000500",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "011070",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "019170",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "005930",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "402340",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "036930",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "042510",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "010170",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "069540",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "012210",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      }
+    ],
+    "proposedFeatureChanges": []
+  },
+  "stages": [
+    {
+      "recordType": "PREOPEN_PREDICTION",
+      "asOf": "2026-10-07T08:40:32.4391388+09:00",
+      "revision": 1,
+      "dataQuality": "GOOD",
+      "trainingEligible": false,
+      "snapshotHash": "7a9421e540387569e5e6cde7a5b1e6e54778f11aca9106cf58bc777679a5d89e"
+    },
+    {
+      "recordType": "FIRST_HOUR_FEEDBACK",
+      "asOf": "2026-10-07T16:09:58.7456514+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "7a9421e540387569e5e6cde7a5b1e6e54778f11aca9106cf58bc777679a5d89e"
+    },
+    {
+      "recordType": "END_OF_DAY",
+      "asOf": "2026-10-07T22:50:00.5537748+09:00",
+      "revision": 1,
+      "dataQuality": "PARTIAL",
+      "trainingEligible": false,
+      "snapshotHash": "7a9421e540387569e5e6cde7a5b1e6e54778f11aca9106cf58bc777679a5d89e"
+    }
+  ],
+  "sourceManifest": {
+    "complete": true,
+    "missingStages": [],
+    "integrity": "VERIFIED"
+  },
+  "marketPulse": null,
+  "morningBrief": {
+    "asOf": "2026-10-07T08:40:32.4391388+09:00",
+    "modelVersion": "ExplosionScore-v0.1",
+    "dataQuality": "GOOD",
+    "limitations": [],
+    "market": null
+  },
+  "preopenReport": {
+    "title": "오늘 장전 급등 후보",
+    "tradingDate": "2026-10-07",
+    "fileName": "nova-preopen-2026-10-07-81bb1379c1e1.md",
+    "path": "data/2026/10/07/reports/nova-preopen-2026-10-07-81bb1379c1e1.md",
+    "sha256": "81bb1379c1e108fdd2c55d82248210aeae908b7494bd40d47223e1d3d6f6b374",
+    "generatedFromSnapshotHash": "7a9421e540387569e5e6cde7a5b1e6e54778f11aca9106cf58bc777679a5d89e",
+    "mediaType": "text/markdown",
+    "rendererVersion": "nova-morning-markdown-v2",
+    "predictionRevision": 1
+  }
+}

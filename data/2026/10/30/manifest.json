@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "nova-public-day-manifest-v1",
+  "tradingDate": "2026-10-30",
+  "dashboardPath": "data/2026/10/30/dashboard.json",
+  "manifestPath": "data/2026/10/30/manifest.json",
+  "dataQuality": "INSUFFICIENT",
+  "trainingEligible": false,
+  "modelVersion": "ExplosionScore-v0.1",
+  "publishedAt": "2026-10-30T07:45:22.461Z",
+  "recordHash": "960a3034fb477eb7728845cb1a54f1d2c279ab6274293f25254309a3a4db2862",
+  "dataOrigin": "LIVE_RESEARCH",
+  "sourceIntegrity": "VERIFIED",
+  "publicationMode": "PUBLIC_AFTER_CLOSE",
+  "stages": [
+    {
+      "recordType": "WEEKLY_MODEL_REVIEW",
+      "asOf": "2026-10-30T16:45:22+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "d3a0bb30e44f6b85bf88bb740264eeeafe2fee14069dbf4f0d702ef373fa5e84"
+    }
+  ],
+  "preopenReport": null,
+  "sourceCommit": "991b81727bb22271d1620b5c06e339fb8937bf70",
+  "missingStages": [
+    "PREOPEN_PREDICTION",
+    "FIRST_HOUR_FEEDBACK",
+    "END_OF_DAY"
+  ],
+  "reports": []
+}

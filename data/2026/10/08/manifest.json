@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "nova-public-day-manifest-v1",
+  "tradingDate": "2026-10-08",
+  "dashboardPath": "data/2026/10/08/dashboard.json",
+  "manifestPath": "data/2026/10/08/manifest.json",
+  "dataQuality": "INSUFFICIENT",
+  "trainingEligible": false,
+  "modelVersion": "ExplosionScore-v0.1",
+  "publishedAt": "2026-10-08T13:57:54.604Z",
+  "recordHash": "15cf1c063f0dd50f62dc8438b35542f8cc99609ee55191d125c5230fe1f837b9",
+  "dataOrigin": "LIVE_RESEARCH",
+  "sourceIntegrity": "VERIFIED",
+  "publicationMode": "PUBLIC_AFTER_CLOSE",
+  "stages": [
+    {
+      "recordType": "PREOPEN_PREDICTION",
+      "asOf": "2026-10-08T08:37:37.3487507+09:00",
+      "revision": 1,
+      "dataQuality": "GOOD",
+      "trainingEligible": false,
+      "snapshotHash": "ccdecfb375b51c2c2a5d9b8ef3cc3a7a043472ea170d6543d4516f7aa5ba3351"
+    },
+    {
+      "recordType": "FIRST_HOUR_FEEDBACK",
+      "asOf": "2026-10-08T16:16:34.1429708+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "ccdecfb375b51c2c2a5d9b8ef3cc3a7a043472ea170d6543d4516f7aa5ba3351"
+    },
+    {
+      "recordType": "END_OF_DAY",
+      "asOf": "2026-10-08T22:57:40.2865722+09:00",
+      "revision": 1,
+      "dataQuality": "PARTIAL",
+      "trainingEligible": false,
+      "snapshotHash": "ccdecfb375b51c2c2a5d9b8ef3cc3a7a043472ea170d6543d4516f7aa5ba3351"
+    }
+  ],
+  "preopenReport": {
+    "title": "오늘 장전 급등 후보",
+    "tradingDate": "2026-10-08",
+    "fileName": "nova-preopen-2026-10-08-dbc05f7fbc34.md",
+    "path": "data/2026/10/08/reports/nova-preopen-2026-10-08-dbc05f7fbc34.md",
+    "sha256": "dbc05f7fbc3495bf9a347cbdc5abe61f17dbc67d097f4515eaee59685d113456",
+    "generatedFromSnapshotHash": "ccdecfb375b51c2c2a5d9b8ef3cc3a7a043472ea170d6543d4516f7aa5ba3351",
+    "mediaType": "text/markdown",
+    "rendererVersion": "nova-morning-markdown-v2",
+    "predictionRevision": 1
+  },
+  "sourceCommit": "991b81727bb22271d1620b5c06e339fb8937bf70",
+  "missingStages": [],
+  "reports": [
+    {
+      "title": "오늘 장전 급등 후보",
+      "tradingDate": "2026-10-08",
+      "fileName": "nova-preopen-2026-10-08-dbc05f7fbc34.md",
+      "path": "data/2026/10/08/reports/nova-preopen-2026-10-08-dbc05f7fbc34.md",
+      "sha256": "dbc05f7fbc3495bf9a347cbdc5abe61f17dbc67d097f4515eaee59685d113456",
+      "generatedFromSnapshotHash": "ccdecfb375b51c2c2a5d9b8ef3cc3a7a043472ea170d6543d4516f7aa5ba3351",
+      "mediaType": "text/markdown",
+      "rendererVersion": "nova-morning-markdown-v2",
+      "predictionRevision": 1
+    }
+  ]
+}

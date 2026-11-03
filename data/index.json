@@ -4,9 +4,9 @@
   "visibility": "STAGE_GATED_PUBLIC_RESEARCH",
   "marketTimezone": "Asia/Seoul",
   "sourceRepository": "H-QUANT/explosion-ops",
-  "sourceCommit": "74cfa5425e5e635afbc9a3cfb8ab99e59cab1860",
-  "generatedAt": "2026-09-18T07:48:00.000Z",
-  "latest": "2026-09-18",
+  "sourceCommit": "991b81727bb22271d1620b5c06e339fb8937bf70",
+  "generatedAt": "2026-10-30T07:45:22.461Z",
+  "latest": "2026-10-30",
   "days": [
     {
       "tradingDate": "2026-09-04",
@@ -16,7 +16,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-04T07:40:00.000Z",
-      "recordHash": "834723c2f956270ee2e2651c5861cfdddba0420ec52a145dd55e6220da7a22ac",
+      "recordHash": "37476f2717c640304d527de29b135e186ad8eed6959c23ec0ca3d30aca637442",
       "dataOrigin": "DEMO_REPLAY",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -56,7 +56,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-08T06:56:19.000Z",
-      "recordHash": "4b44bf5f9e947f3fdcb22f0a1a7ccb7ddf1bb3fc8311388a46ab20dfcb2a2f51",
+      "recordHash": "86c653daf4c8c199889313e8adcbaa5aae0a8b8c235919ed0ea8631611c4ff9d",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -106,7 +106,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-08T23:38:58.000Z",
-      "recordHash": "89590b76cf797648324acdb4a63e9c11981a78d1820e9fc1a41448c1e7e45205",
+      "recordHash": "817107e91811c3d104e3588fe170d198200065610ceab06ea203b50d7bc1e9be",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -130,7 +130,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-10T06:40:26.000Z",
-      "recordHash": "572d269f0dc1a1169569eb6061ec56d2ba6956ed62f92975f89f80f607bbe1e5",
+      "recordHash": "68ceaefddda61dd3e60b564714ced6f51daae51c074ff2b03de7e41afa9c2681",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -180,7 +180,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-11T07:40:00.000Z",
-      "recordHash": "cfb105f8cf4c7faeff8770cd225a167860e519577d12e73444c5312ff6c6a826",
+      "recordHash": "fcd10d571d68f0a48cc10068114cf01e3e766a2863dcc1d4dc2f6bd284ce950c",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -228,7 +228,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-14T06:50:07.000Z",
-      "recordHash": "9e7dd9d6aee4d484ef39e650f402d662af572dc208a89fb50ef4b5dc274ccd17",
+      "recordHash": "898471f77a98a0e3df75d75a76841c2e759a927a4f4f0e1ca97c449916cc7013",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -278,7 +278,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-14T23:55:53.428Z",
-      "recordHash": "399bd3eb3e41a3f02e2a4d13418c7bc1d535a2b7b48b91ef2304f3164f3cedbc",
+      "recordHash": "c76c7f7ba34fe5434ec217435fbfa3b8c20d6182539d8e589c6d257d4f31293d",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "FAILED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -302,7 +302,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-16T01:12:10.000Z",
-      "recordHash": "d7a273972a2ebf4d9d3b25ee32bef35afcd4d5ca8da9ac3c103b52f729d64ab8",
+      "recordHash": "c5f36664057f937c30ee4ffa6a014202ee457e410a91ddb9590a3ce4398405a3",
       "dataOrigin": "TEMP_CHATGPT_DATA_PROVIDER",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -344,7 +344,7 @@
       "trainingEligible": false,
       "modelVersion": "ExplosionScore-v0.1",
       "publishedAt": "2026-09-18T07:48:00.000Z",
-      "recordHash": "cad6b81b9c506b886d084bada1b1265f21b0602e912d19e855539c3915625575",
+      "recordHash": "210feed0d96d4248b436c72c040b166dd8b708aff0ef3b1c32ac62a2fabd7b19",
       "dataOrigin": "LIVE_RESEARCH",
       "sourceIntegrity": "VERIFIED",
       "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -356,6 +356,154 @@
           "dataQuality": "INSUFFICIENT",
           "trainingEligible": false,
           "snapshotHash": "01974ffbb5aa34d3be198af3337c2cd9ea4c9b3be8e6064aacddda5a544b9546"
+        }
+      ],
+      "preopenReport": null
+    },
+    {
+      "tradingDate": "2026-10-07",
+      "dashboardPath": "data/2026/10/07/dashboard.json",
+      "manifestPath": "data/2026/10/07/manifest.json",
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "modelVersion": "ExplosionScore-v0.1",
+      "publishedAt": "2026-10-07T13:50:10.720Z",
+      "recordHash": "9f5952eba4de91569ac018ea7984431b6906df532b4f3f71fd3c27951349ed4a",
+      "dataOrigin": "LIVE_RESEARCH",
+      "sourceIntegrity": "VERIFIED",
+      "publicationMode": "PUBLIC_AFTER_CLOSE",
+      "stages": [
+        {
+          "recordType": "PREOPEN_PREDICTION",
+          "asOf": "2026-10-07T08:40:32.4391388+09:00",
+          "revision": 1,
+          "dataQuality": "GOOD",
+          "trainingEligible": false,
+          "snapshotHash": "7a9421e540387569e5e6cde7a5b1e6e54778f11aca9106cf58bc777679a5d89e"
+        },
+        {
+          "recordType": "FIRST_HOUR_FEEDBACK",
+          "asOf": "2026-10-07T16:09:58.7456514+09:00",
+          "revision": 1,
+          "dataQuality": "INSUFFICIENT",
+          "trainingEligible": false,
+          "snapshotHash": "7a9421e540387569e5e6cde7a5b1e6e54778f11aca9106cf58bc777679a5d89e"
+        },
+        {
+          "recordType": "END_OF_DAY",
+          "asOf": "2026-10-07T22:50:00.5537748+09:00",
+          "revision": 1,
+          "dataQuality": "PARTIAL",
+          "trainingEligible": false,
+          "snapshotHash": "7a9421e540387569e5e6cde7a5b1e6e54778f11aca9106cf58bc777679a5d89e"
+        }
+      ],
+      "preopenReport": {
+        "title": "오늘 장전 급등 후보",
+        "tradingDate": "2026-10-07",
+        "fileName": "nova-preopen-2026-10-07-81bb1379c1e1.md",
+        "path": "data/2026/10/07/reports/nova-preopen-2026-10-07-81bb1379c1e1.md",
+        "sha256": "81bb1379c1e108fdd2c55d82248210aeae908b7494bd40d47223e1d3d6f6b374",
+        "generatedFromSnapshotHash": "7a9421e540387569e5e6cde7a5b1e6e54778f11aca9106cf58bc777679a5d89e",
+        "mediaType": "text/markdown",
+        "rendererVersion": "nova-morning-markdown-v2",
+        "predictionRevision": 1
+      }
+    },
+    {
+      "tradingDate": "2026-10-08",
+      "dashboardPath": "data/2026/10/08/dashboard.json",
+      "manifestPath": "data/2026/10/08/manifest.json",
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "modelVersion": "ExplosionScore-v0.1",
+      "publishedAt": "2026-10-08T13:57:54.604Z",
+      "recordHash": "15cf1c063f0dd50f62dc8438b35542f8cc99609ee55191d125c5230fe1f837b9",
+      "dataOrigin": "LIVE_RESEARCH",
+      "sourceIntegrity": "VERIFIED",
+      "publicationMode": "PUBLIC_AFTER_CLOSE",
+      "stages": [
+        {
+          "recordType": "PREOPEN_PREDICTION",
+          "asOf": "2026-10-08T08:37:37.3487507+09:00",
+          "revision": 1,
+          "dataQuality": "GOOD",
+          "trainingEligible": false,
+          "snapshotHash": "ccdecfb375b51c2c2a5d9b8ef3cc3a7a043472ea170d6543d4516f7aa5ba3351"
+        },
+        {
+          "recordType": "FIRST_HOUR_FEEDBACK",
+          "asOf": "2026-10-08T16:16:34.1429708+09:00",
+          "revision": 1,
+          "dataQuality": "INSUFFICIENT",
+          "trainingEligible": false,
+          "snapshotHash": "ccdecfb375b51c2c2a5d9b8ef3cc3a7a043472ea170d6543d4516f7aa5ba3351"
+        },
+        {
+          "recordType": "END_OF_DAY",
+          "asOf": "2026-10-08T22:57:40.2865722+09:00",
+          "revision": 1,
+          "dataQuality": "PARTIAL",
+          "trainingEligible": false,
+          "snapshotHash": "ccdecfb375b51c2c2a5d9b8ef3cc3a7a043472ea170d6543d4516f7aa5ba3351"
+        }
+      ],
+      "preopenReport": {
+        "title": "오늘 장전 급등 후보",
+        "tradingDate": "2026-10-08",
+        "fileName": "nova-preopen-2026-10-08-dbc05f7fbc34.md",
+        "path": "data/2026/10/08/reports/nova-preopen-2026-10-08-dbc05f7fbc34.md",
+        "sha256": "dbc05f7fbc3495bf9a347cbdc5abe61f17dbc67d097f4515eaee59685d113456",
+        "generatedFromSnapshotHash": "ccdecfb375b51c2c2a5d9b8ef3cc3a7a043472ea170d6543d4516f7aa5ba3351",
+        "mediaType": "text/markdown",
+        "rendererVersion": "nova-morning-markdown-v2",
+        "predictionRevision": 1
+      }
+    },
+    {
+      "tradingDate": "2026-10-23",
+      "dashboardPath": "data/2026/10/23/dashboard.json",
+      "manifestPath": "data/2026/10/23/manifest.json",
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "modelVersion": "ExplosionScore-v0.1",
+      "publishedAt": "2026-10-23T07:46:54.000Z",
+      "recordHash": "546d57afd3862635915ad3150a48317c85ccf9d3899c4805ddf8f0b92de6f9a2",
+      "dataOrigin": "LIVE_RESEARCH",
+      "sourceIntegrity": "VERIFIED",
+      "publicationMode": "PUBLIC_AFTER_CLOSE",
+      "stages": [
+        {
+          "recordType": "WEEKLY_MODEL_REVIEW",
+          "asOf": "2026-10-23T16:46:54+09:00",
+          "revision": 1,
+          "dataQuality": "INSUFFICIENT",
+          "trainingEligible": false,
+          "snapshotHash": "99d085f544f6ba1bf61cc6ffcc790b1141ba8330426e42c450809d5a7ee88ee1"
+        }
+      ],
+      "preopenReport": null
+    },
+    {
+      "tradingDate": "2026-10-30",
+      "dashboardPath": "data/2026/10/30/dashboard.json",
+      "manifestPath": "data/2026/10/30/manifest.json",
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "modelVersion": "ExplosionScore-v0.1",
+      "publishedAt": "2026-10-30T07:45:22.461Z",
+      "recordHash": "960a3034fb477eb7728845cb1a54f1d2c279ab6274293f25254309a3a4db2862",
+      "dataOrigin": "LIVE_RESEARCH",
+      "sourceIntegrity": "VERIFIED",
+      "publicationMode": "PUBLIC_AFTER_CLOSE",
+      "stages": [
+        {
+          "recordType": "WEEKLY_MODEL_REVIEW",
+          "asOf": "2026-10-30T16:45:22+09:00",
+          "revision": 1,
+          "dataQuality": "INSUFFICIENT",
+          "trainingEligible": false,
+          "snapshotHash": "d3a0bb30e44f6b85bf88bb740264eeeafe2fee14069dbf4f0d702ef373fa5e84"
         }
       ],
       "preopenReport": null
