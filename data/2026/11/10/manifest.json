@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "nova-public-day-manifest-v1",
+  "tradingDate": "2026-11-10",
+  "dashboardPath": "data/2026/11/10/dashboard.json",
+  "manifestPath": "data/2026/11/10/manifest.json",
+  "dataQuality": "INSUFFICIENT",
+  "trainingEligible": false,
+  "modelVersion": "ExplosionScore-v0.1",
+  "publishedAt": "2026-11-10T08:20:16.349Z",
+  "recordHash": "5da1b9d089012f1c2f05fa134452fad95b647e98c08733eca2168c312ed9cc25",
+  "dataOrigin": "LIVE_RESEARCH",
+  "sourceIntegrity": "VERIFIED",
+  "publicationMode": "PUBLIC_AFTER_CLOSE",
+  "stages": [
+    {
+      "recordType": "PREOPEN_PREDICTION",
+      "asOf": "2026-11-10T08:33:46.4336902+09:00",
+      "revision": 1,
+      "dataQuality": "GOOD",
+      "trainingEligible": false,
+      "snapshotHash": "e16da13e2890421ebd2c86582b70c84d3c0a429eca43dee728195e60c8362a2c"
+    },
+    {
+      "recordType": "FIRST_HOUR_FEEDBACK",
+      "asOf": "2026-11-10T17:19:55.1204169+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "e16da13e2890421ebd2c86582b70c84d3c0a429eca43dee728195e60c8362a2c"
+    }
+  ],
+  "preopenReport": {
+    "title": "오늘 장전 급등 후보",
+    "tradingDate": "2026-11-10",
+    "fileName": "nova-preopen-2026-11-10-4ec19a2f1045.md",
+    "path": "data/2026/11/10/reports/nova-preopen-2026-11-10-4ec19a2f1045.md",
+    "sha256": "4ec19a2f1045c3b91f293459e668914e7292061d49d6b412e46c3e3981ce4350",
+    "generatedFromSnapshotHash": "e16da13e2890421ebd2c86582b70c84d3c0a429eca43dee728195e60c8362a2c",
+    "mediaType": "text/markdown",
+    "rendererVersion": "nova-morning-markdown-v2",
+    "predictionRevision": 1
+  },
+  "sourceCommit": "42cfed367a82444f4d7471eef09599da1a9675b9",
+  "missingStages": [
+    "END_OF_DAY"
+  ],
+  "reports": [
+    {
+      "title": "오늘 장전 급등 후보",
+      "tradingDate": "2026-11-10",
+      "fileName": "nova-preopen-2026-11-10-4ec19a2f1045.md",
+      "path": "data/2026/11/10/reports/nova-preopen-2026-11-10-4ec19a2f1045.md",
+      "sha256": "4ec19a2f1045c3b91f293459e668914e7292061d49d6b412e46c3e3981ce4350",
+      "generatedFromSnapshotHash": "e16da13e2890421ebd2c86582b70c84d3c0a429eca43dee728195e60c8362a2c",
+      "mediaType": "text/markdown",
+      "rendererVersion": "nova-morning-markdown-v2",
+      "predictionRevision": 1
+    }
+  ]
+}
