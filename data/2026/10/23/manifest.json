@@ -7,7 +7,7 @@
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
   "publishedAt": "2026-10-23T07:46:54.000Z",
-  "recordHash": "a8259d13abe00530d0e9de04866ac2382f697fe20bac43afbf0aa05544ff7143",
+  "recordHash": "085e1433a7843b61067f3f5c9d8e3f9535bc0f9ffa8cfbda78e5523011875ea8",
   "dataOrigin": "LIVE_RESEARCH",
   "sourceIntegrity": "VERIFIED",
   "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -22,7 +22,7 @@
     }
   ],
   "preopenReport": null,
-  "sourceCommit": "0b1444ad938d148a825e5bb3ce491f46ed86c40e",
+  "sourceCommit": "ee54ed7f7d21238008ed0e768871a5f41ddf9bf6",
   "missingStages": [
     "PREOPEN_PREDICTION",
     "FIRST_HOUR_FEEDBACK",

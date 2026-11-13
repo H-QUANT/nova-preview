@@ -6,8 +6,8 @@
   "dataQuality": "FAILED",
   "trainingEligible": false,
   "modelVersion": "ExplosionScore-v0.1",
-  "publishedAt": "2026-11-13T07:51:11.922Z",
-  "recordHash": "a47f93889b4fe990755645f5ce46090fcba7efdc5c56759c3718cd65899f8d85",
+  "publishedAt": "2026-11-13T14:53:08.111Z",
+  "recordHash": "8009fc0b6c44184a7f1273475475d322e2ac6214f34d8cf3986a1dae06a3d935",
   "dataOrigin": "LIVE_RESEARCH",
   "sourceIntegrity": "FAILED",
   "publicationMode": "PUBLIC_AFTER_CLOSE",
@@ -29,6 +29,14 @@
       "snapshotHash": "31e938c9754476c9ae587d5a72740db2e6961c01e455999a7741734b42a6773c"
     },
     {
+      "recordType": "END_OF_DAY",
+      "asOf": "2026-11-13T23:52:58.4404798+09:00",
+      "revision": 1,
+      "dataQuality": "FAILED",
+      "trainingEligible": false,
+      "snapshotHash": "31e938c9754476c9ae587d5a72740db2e6961c01e455999a7741734b42a6773c"
+    },
+    {
       "recordType": "WEEKLY_MODEL_REVIEW",
       "asOf": "2026-11-13T16:49:02+09:00",
       "revision": 1,
@@ -38,9 +46,7 @@
     }
   ],
   "preopenReport": null,
-  "sourceCommit": "0b1444ad938d148a825e5bb3ce491f46ed86c40e",
-  "missingStages": [
-    "END_OF_DAY"
-  ],
+  "sourceCommit": "ee54ed7f7d21238008ed0e768871a5f41ddf9bf6",
+  "missingStages": [],
   "reports": []
 }
