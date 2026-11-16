@@ -8,10 +8,10 @@
   "realTraining": false,
   "realDeployment": false,
   "networkRequestsAllowed": false,
-  "buildSource": "ee54ed7f7d21238008ed0e768871a5f41ddf9bf6",
+  "buildSource": "5ad02eeeadbc7797bdb17485de0b691e7d696d03",
   "runtime": "Pinned React 18.3.1 packages",
   "publicPath": "/nova-preview/studio/",
-  "sourceCommit": "ee54ed7f7d21238008ed0e768871a5f41ddf9bf6",
+  "sourceCommit": "5ad02eeeadbc7797bdb17485de0b691e7d696d03",
   "htmlSha256": "2ef31f722c96b4e24575f041b859e6b9fa8689a6a5d31ea97bf5297ec8efdedd",
   "publicationMode": "ISOLATED_SYNTHETIC_UI_DEMO"
 }
