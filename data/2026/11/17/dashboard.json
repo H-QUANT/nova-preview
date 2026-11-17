@@ -1,0 +1,489 @@
+{
+  "schemaVersion": "nova-public-dashboard-v1",
+  "projectionVersion": "3.4.0",
+  "workspace": "H-QUANT",
+  "product": "H-QUANT NOVA",
+  "tradingDate": "2026-11-17",
+  "marketTimezone": "Asia/Seoul",
+  "publication": {
+    "publishedAt": "2026-11-16T23:33:59.102Z",
+    "mode": "PUBLIC_AFTER_CLOSE",
+    "sourceCommit": "39092a2ac3ee00b61983dd25aff4d657018aa251",
+    "recordHash": "300e5edcbcd7439072fca7b55cfd10a97acaf602e17e0c994001ffd81208bf0c",
+    "dataOrigin": "LIVE_RESEARCH",
+    "sourceIntegrity": "VERIFIED"
+  },
+  "dataQuality": {
+    "state": "INSUFFICIENT",
+    "percent": null,
+    "stageCompletionPercent": 33.33333333333333,
+    "trainingEligible": false,
+    "notes": [
+      "WHOLE_MARKET_METRICS_UNAVAILABLE"
+    ]
+  },
+  "model": {
+    "championVersion": "ExplosionScore-v0.1",
+    "challengerVersion": null,
+    "promotionStatus": null,
+    "scoringConfigHash": "dca4021103be8a91f30602f6dcd26ced0fff5894",
+    "scoreSemantics": "UNCALIBRATED_RANKING_SCORE"
+  },
+  "prediction": {
+    "snapshotAt": "2026-11-17T08:33:58.9881127+09:00",
+    "snapshotHash": "5a0bd1c18da6837787ad71132866832e7a795e9856bdd686a83a5b4975cc99b6",
+    "status": "FROZEN",
+    "candidatePolicyVersion": "BalancedDiscovery-v0.2",
+    "recommended": [],
+    "riskRejected": [
+      {
+        "symbol": "005500",
+        "name": "삼진제약",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, TURNOVER_ACCELERATION, SECTOR_LEADER",
+        "primaryRisk": "LOW_LIQUIDITY",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 23,
+        "explosionProbability": 74.1408,
+        "tradeability": 59.1403,
+        "dataConfidence": 95.4,
+        "riskPenalty": 7.7892,
+        "finalRankScore": 34.0409,
+        "gap": 7.9404,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "TURNOVER_ACCELERATION",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [
+          "LOW_LIQUIDITY"
+        ],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 10,
+          "SectorLeadership": 7.3103,
+          "FloatElasticity": 3.0593,
+          "GapRisk": -2.9404,
+          "OtherRisk": -4.8487
+        }
+      }
+    ],
+    "watchlist": [
+      {
+        "symbol": "034020",
+        "name": "두산에너빌리티",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "STRONG_MATERIAL, FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 1,
+        "explosionProbability": 67.2733,
+        "tradeability": 77.8425,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 49.9583,
+        "gap": -3.5635,
+        "reasonCodes": [
+          "STRONG_MATERIAL",
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 14.72,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 9.0715,
+          "TurnoverAcceleration": 5.9816,
+          "SectorLeadership": 5.6552,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      },
+      {
+        "symbol": "180640",
+        "name": "한진칼",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 2,
+        "explosionProbability": 60.0064,
+        "tradeability": 85.5733,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0.1914,
+        "finalRankScore": 48.796,
+        "gap": 0.6961,
+        "reasonCodes": [
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 7.2,
+          "FreshCatalystAge": 3.2,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 6.5522,
+          "SectorLeadership": 7.0345,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": -0.1914
+        }
+      },
+      {
+        "symbol": "005930",
+        "name": "삼성전자",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 3,
+        "explosionProbability": 64.3173,
+        "tradeability": 78.4529,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 48.1377,
+        "gap": -3.2012,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 9.7041,
+          "TurnoverAcceleration": 6.1262,
+          "SectorLeadership": 7.8621,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      },
+      {
+        "symbol": "006400",
+        "name": "삼성SDI",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 4,
+        "explosionProbability": 64.7045,
+        "tradeability": 77.598,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 47.8998,
+        "gap": -0.3243,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 10.5923,
+          "TurnoverAcceleration": 6.0302,
+          "SectorLeadership": 7.1724,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      },
+      {
+        "symbol": "000660",
+        "name": "SK하이닉스",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 5,
+        "explosionProbability": 64.0215,
+        "tradeability": 77.9776,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 47.626,
+        "gap": -3.125,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 9.377,
+          "TurnoverAcceleration": 6.1358,
+          "SectorLeadership": 8,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      },
+      {
+        "symbol": "009150",
+        "name": "삼성전기",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 6,
+        "explosionProbability": 63.3704,
+        "tradeability": 77.6266,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 46.9294,
+        "gap": -4.3312,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 9.8631,
+          "TurnoverAcceleration": 6.2126,
+          "SectorLeadership": 7.4483,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      },
+      {
+        "symbol": "190510",
+        "name": "나무가",
+        "market": "KOSDAQ",
+        "sector": "우량기업부",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, TURNOVER_ACCELERATION, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 7,
+        "explosionProbability": 73.8487,
+        "tradeability": 70.8957,
+        "dataConfidence": 95.4,
+        "riskPenalty": 3.5169,
+        "finalRankScore": 46.4303,
+        "gap": 2.1751,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "TURNOVER_ACCELERATION",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 7.6448,
+          "SectorLeadership": 7.5862,
+          "FloatElasticity": 3.0673,
+          "GapRisk": 0,
+          "OtherRisk": -3.5169
+        }
+      },
+      {
+        "symbol": "402340",
+        "name": "SK스퀘어",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 8,
+        "explosionProbability": 60.9545,
+        "tradeability": 77.3855,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0,
+        "finalRankScore": 45.0001,
+        "gap": -3.9244,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 8.8445,
+          "TurnoverAcceleration": 6.095,
+          "SectorLeadership": 6.8966,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": 0
+        }
+      },
+      {
+        "symbol": "007660",
+        "name": "이수페타시스",
+        "market": "KOSPI",
+        "sector": "KOSPI",
+        "primaryCatalyst": "FRESH_CATALYST, RELATIVE_TURNOVER_SURGE, SECTOR_LEADER",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 9,
+        "explosionProbability": 63.0766,
+        "tradeability": 74.4082,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0.713,
+        "finalRankScore": 44.0622,
+        "gap": -1.9632,
+        "reasonCodes": [
+          "FRESH_CATALYST",
+          "RELATIVE_TURNOVER_SURGE",
+          "SECTOR_LEADER"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 9.28,
+          "FreshCatalystAge": 6.56,
+          "PremarketRelativeTurnover": 12,
+          "TurnoverAcceleration": 5.981,
+          "SectorLeadership": 6.2069,
+          "FloatElasticity": 0.9,
+          "GapRisk": 0,
+          "OtherRisk": -0.713
+        }
+      },
+      {
+        "symbol": "328130",
+        "name": "루닛",
+        "market": "KOSDAQ",
+        "sector": "기술성장기업부",
+        "primaryCatalyst": "RELATIVE_TURNOVER_SURGE",
+        "primaryRisk": "공개 위험코드 없음",
+        "reason": null,
+        "validCondition": "09:03 VWAP 유지, 거래대금 가속도 양수, 섹터 동조 유지",
+        "invalidCondition": "첫 눌림 저점 이탈 또는 거래대금 감소와 함께 VWAP 하회",
+        "rank": 10,
+        "explosionProbability": 54.9402,
+        "tradeability": 82.2853,
+        "dataConfidence": 95.4,
+        "riskPenalty": 0.9637,
+        "finalRankScore": 42.1645,
+        "gap": 0.8844,
+        "reasonCodes": [
+          "RELATIVE_TURNOVER_SURGE"
+        ],
+        "riskCodes": [],
+        "contributions": {
+          "MaterialStrength": 7.2,
+          "FreshCatalystAge": 3.2,
+          "PremarketRelativeTurnover": 10.8847,
+          "TurnoverAcceleration": 6.2282,
+          "SectorLeadership": 5.3793,
+          "FloatElasticity": 2.0216,
+          "GapRisk": 0,
+          "OtherRisk": -0.9637
+        }
+      }
+    ]
+  },
+  "firstHour": {
+    "evaluatedAt": null,
+    "metrics": {
+      "hitRateAt5": null,
+      "precisionAt5": null,
+      "ndcgAt5": null,
+      "observedSubsetHitRateAt5": null,
+      "observedSubsetNdcgAt5": null,
+      "actionablePrecisionAt5": null,
+      "meanMfeRecommended": null,
+      "medianMaeRecommended": null,
+      "gapTrapRate": null
+    },
+    "evaluation": {
+      "metricVersion": "LEGACY_UNVERIFIED",
+      "referenceScope": "OBSERVED_SUBSET",
+      "venue": null,
+      "wholeMarketCertified": false,
+      "referenceInstrumentCount": null,
+      "requestedSymbolCount": null,
+      "measuredOutcomeCount": null,
+      "issuedRecommendationCount": null,
+      "evaluatedRecommendationCount": null,
+      "recommendationCoverage": null
+    },
+    "actualTopFive": [],
+    "outcomes": []
+  },
+  "endOfDay": null,
+  "feedback": {
+    "records": [],
+    "proposedFeatureChanges": []
+  },
+  "stages": [
+    {
+      "recordType": "PREOPEN_PREDICTION",
+      "asOf": "2026-11-17T08:33:58.9881127+09:00",
+      "revision": 1,
+      "dataQuality": "GOOD",
+      "trainingEligible": false,
+      "snapshotHash": "5a0bd1c18da6837787ad71132866832e7a795e9856bdd686a83a5b4975cc99b6"
+    }
+  ],
+  "sourceManifest": {
+    "complete": false,
+    "missingStages": [
+      "FIRST_HOUR_FEEDBACK",
+      "END_OF_DAY"
+    ],
+    "integrity": "VERIFIED"
+  },
+  "marketPulse": null,
+  "morningBrief": {
+    "asOf": "2026-11-17T08:33:58.9881127+09:00",
+    "modelVersion": "ExplosionScore-v0.1",
+    "dataQuality": "GOOD",
+    "limitations": [],
+    "market": null
+  },
+  "preopenReport": {
+    "title": "오늘 장전 급등 후보",
+    "tradingDate": "2026-11-17",
+    "fileName": "nova-preopen-2026-11-17-0ec8be8c1094.md",
+    "path": "data/2026/11/17/reports/nova-preopen-2026-11-17-0ec8be8c1094.md",
+    "sha256": "0ec8be8c10940f12e27f4becdc9c944cfe43305696ed553e66cf02a3cb938857",
+    "generatedFromSnapshotHash": "5a0bd1c18da6837787ad71132866832e7a795e9856bdd686a83a5b4975cc99b6",
+    "mediaType": "text/markdown",
+    "rendererVersion": "nova-morning-markdown-v2",
+    "predictionRevision": 1
+  }
+}
