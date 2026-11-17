@@ -6,20 +6,29 @@
   "tradingDate": "2026-11-17",
   "marketTimezone": "Asia/Seoul",
   "publication": {
-    "publishedAt": "2026-11-16T23:33:59.102Z",
+    "publishedAt": "2026-11-17T09:06:18.203Z",
     "mode": "PUBLIC_AFTER_CLOSE",
-    "sourceCommit": "39092a2ac3ee00b61983dd25aff4d657018aa251",
-    "recordHash": "300e5edcbcd7439072fca7b55cfd10a97acaf602e17e0c994001ffd81208bf0c",
+    "sourceCommit": "c1603c9850c8b997a7bd1bb29b534ffbcf205178",
+    "recordHash": "2c5d87a62c543f04b6e1328db7c8695c2c0ab128e0fa30ddf370e7f74dea2e27",
     "dataOrigin": "LIVE_RESEARCH",
     "sourceIntegrity": "VERIFIED"
   },
   "dataQuality": {
     "state": "INSUFFICIENT",
     "percent": null,
-    "stageCompletionPercent": 33.33333333333333,
+    "stageCompletionPercent": 66.66666666666666,
     "trainingEligible": false,
     "notes": [
-      "WHOLE_MARKET_METRICS_UNAVAILABLE"
+      "WHOLE_MARKET_METRICS_UNAVAILABLE",
+      "PREOPEN_BROKER_LIVE_CONTRACT_NOT_VERIFIED",
+      "PREOPEN_BROKER_LIMITATIONS_PRESENT_OR_MISSING",
+      "BROKER_LIVE_CONTRACT_NOT_VERIFIED",
+      "BROKER_CAPABILITY_LIMITATIONS_PRESENT",
+      "WHOLE_MARKET_REFERENCE_UNVERIFIED",
+      "SCHEDULE_DELAY",
+      "LESS_THAN_FIVE_VALID_OUTCOMES",
+      "PARTIAL_MARKET_DATA_FAILURES",
+      "RECOMMENDATION_OUTCOME_INCOMPLETE"
     ]
   },
   "model": {
@@ -417,7 +426,7 @@
     ]
   },
   "firstHour": {
-    "evaluatedAt": null,
+    "evaluatedAt": "2026-11-17T18:05:59.8364405+09:00",
     "metrics": {
       "hitRateAt5": null,
       "precisionAt5": null,
@@ -430,23 +439,417 @@
       "gapTrapRate": null
     },
     "evaluation": {
-      "metricVersion": "LEGACY_UNVERIFIED",
+      "metricVersion": "FirstHourEvidence-v0.3-kis-market-rank",
       "referenceScope": "OBSERVED_SUBSET",
-      "venue": null,
+      "venue": "J",
       "wholeMarketCertified": false,
-      "referenceInstrumentCount": null,
-      "requestedSymbolCount": null,
-      "measuredOutcomeCount": null,
-      "issuedRecommendationCount": null,
-      "evaluatedRecommendationCount": null,
-      "recommendationCoverage": null
+      "referenceInstrumentCount": 2553,
+      "requestedSymbolCount": 36,
+      "measuredOutcomeCount": 0,
+      "issuedRecommendationCount": 0,
+      "evaluatedRecommendationCount": 0,
+      "recommendationCoverage": 0
     },
     "actualTopFive": [],
-    "outcomes": []
+    "outcomes": [
+      {
+        "symbol": "034020",
+        "name": "두산에너빌리티",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 43287.7399,
+        "openGapPercent": -2.8953,
+        "mfe60": 1.1834,
+        "mae60": -0.5492,
+        "return60": -0.0872,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.2667,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "180640",
+        "name": "한진칼",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 214763.0487,
+        "openGapPercent": 1.1601,
+        "mfe60": 0.6924,
+        "mae60": -4.7788,
+        "return60": -2.9163,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.3404,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "005930",
+        "name": "삼성전자",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 191437.0202,
+        "openGapPercent": -2.7439,
+        "mfe60": 1.4172,
+        "mae60": -0.3328,
+        "return60": 0.9209,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.7164,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "006400",
+        "name": "삼성SDI",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 471202.7844,
+        "openGapPercent": 0.5405,
+        "mfe60": 0.1692,
+        "mae60": -3.2264,
+        "return60": -2.4836,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.2188,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "000660",
+        "name": "SK하이닉스",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 1103911.8057,
+        "openGapPercent": -1.9643,
+        "mfe60": 1.9103,
+        "mae60": -0.6261,
+        "return60": 1.095,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.6786,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "009150",
+        "name": "삼성전기",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 761845.0391,
+        "openGapPercent": -3.0573,
+        "mfe60": 3.0393,
+        "mae60": -0.636,
+        "return60": 1.7267,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.6429,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "190510",
+        "name": "나무가",
+        "market": "KOSDAQ",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 18276.6163,
+        "openGapPercent": 1.9629,
+        "mfe60": 0.0732,
+        "mae60": -6.602,
+        "return60": -5.5624,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.1557,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "402340",
+        "name": "SK스퀘어",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 673734.5196,
+        "openGapPercent": -2.0349,
+        "mfe60": 1.9689,
+        "mae60": -1.2964,
+        "return60": 1.5237,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.8636,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "007660",
+        "name": "이수페타시스",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 81102.3322,
+        "openGapPercent": -0.6135,
+        "mfe60": 8.5049,
+        "mae60": -2.4689,
+        "return60": 3.0796,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.5056,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "328130",
+        "name": "루닛",
+        "market": "KOSDAQ",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 15002.8182,
+        "openGapPercent": -0.3401,
+        "mfe60": 6.1134,
+        "mae60": -1.0853,
+        "return60": 4.9136,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.8333,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "005500",
+        "name": "삼진제약",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 19424.4033,
+        "openGapPercent": 1.737,
+        "mfe60": 0,
+        "mae60": -10.9368,
+        "return60": -9.2894,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.1778,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "036930",
+        "name": "주성엔지니어링",
+        "market": "KOSDAQ",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 151969.7815,
+        "openGapPercent": -1.3158,
+        "mfe60": 3.968,
+        "mae60": -0.8355,
+        "return60": 0.8753,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.3562,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "028050",
+        "name": "삼성E&A",
+        "market": "KOSPI",
+        "dataQuality": "PARTIAL",
+        "priceDataQuality": "GOOD",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": 67705.2242,
+        "openGapPercent": 0.731,
+        "mfe60": 3.8325,
+        "mae60": -0.5985,
+        "return60": 1.617,
+        "relativeTurnover60": null,
+        "closeLocation60": 0.5,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      },
+      {
+        "symbol": "263860",
+        "name": "지니언스",
+        "market": "KOSDAQ",
+        "dataQuality": "FAILED",
+        "priceDataQuality": "FAILED",
+        "turnoverBaselineMode": "UNAVAILABLE",
+        "actualRank": null,
+        "entryVwap": null,
+        "openGapPercent": null,
+        "mfe60": null,
+        "mae60": null,
+        "return60": null,
+        "relativeTurnover60": null,
+        "closeLocation60": null,
+        "outcomeScore": null,
+        "turnoverBaselineSamples": 0,
+        "isActionableSurge": null
+      }
+    ]
   },
   "endOfDay": null,
   "feedback": {
-    "records": [],
+    "records": [
+      {
+        "symbol": "034020",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "180640",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "005930",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "006400",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "000660",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "009150",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "190510",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "402340",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "007660",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "328130",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "005500",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "036930",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "028050",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      },
+      {
+        "symbol": "263860",
+        "type": "DATA_FAILURE",
+        "rootCauses": [
+          "DATA_INCOMPLETE"
+        ],
+        "explanation": "분봉 또는 동시간 거래대금 기준선이 불충분하여 판정을 보류합니다. 가격 지표는 별도로 확인하세요.",
+        "eligibleForTraining": false
+      }
+    ],
     "proposedFeatureChanges": []
   },
   "stages": [
@@ -457,12 +860,19 @@
       "dataQuality": "GOOD",
       "trainingEligible": false,
       "snapshotHash": "5a0bd1c18da6837787ad71132866832e7a795e9856bdd686a83a5b4975cc99b6"
+    },
+    {
+      "recordType": "FIRST_HOUR_FEEDBACK",
+      "asOf": "2026-11-17T18:05:59.8364405+09:00",
+      "revision": 1,
+      "dataQuality": "INSUFFICIENT",
+      "trainingEligible": false,
+      "snapshotHash": "5a0bd1c18da6837787ad71132866832e7a795e9856bdd686a83a5b4975cc99b6"
     }
   ],
   "sourceManifest": {
     "complete": false,
     "missingStages": [
-      "FIRST_HOUR_FEEDBACK",
       "END_OF_DAY"
     ],
     "integrity": "VERIFIED"
